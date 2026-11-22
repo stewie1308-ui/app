@@ -1,27 +1,675 @@
 [
-{"id":"h051","t":"Joan of Arc was a teenager","b":"Joan of Arc was about 17 when she helped lift the siege of Orléans in 1429, leading French troops in the Hundred Years' War. She was captured, tried for heresy and burned at the stake in 1431, aged around 19.","q":{"p":"About how old was Joan of Arc when she died?","o":["About 19","About 45","About 30"],"a":0},"rq":{"p":"Which siege did Joan help lift in 1429?","o":["Orléans","Paris","Calais"],"a":0},"why":"She was declared a saint in 1920.","src":"Joan of Arc"},
-{"id":"h052","t":"The Mongols built the largest connected empire","b":"Founded by Genghis Khan in 1206, the Mongol Empire grew to stretch from Korea to eastern Europe. At its height it was the largest contiguous land empire in history, linked by a fast horseback postal relay.","q":{"p":"What was the largest connected land empire ever?","o":["The Mongol Empire","The Roman Empire","The Persian Empire"],"a":0},"rq":{"p":"Who founded the Mongol Empire?","o":["Genghis Khan","Kublai Khan","Attila"],"a":0},"why":"Mounted archers let the Mongols conquer vast distances quickly.","src":"Mongol Empire"},
-{"id":"h053","t":"Machu Picchu was never lost to locals","b":"Machu Picchu was built around 1450 for the Inca ruler Pachacuti. When American explorer Hiram Bingham publicised it in 1911, local farmers were living there and guided him up. It was 'lost' only to the outside world.","q":{"p":"Was Machu Picchu truly lost before 1911?","o":["No, locals knew it","Yes, totally forgotten","It was buried underground"],"a":0},"rq":{"p":"Who was Machu Picchu built for?","o":["The Inca ruler Pachacuti","Spanish conquistadors","Hiram Bingham"],"a":0},"why":"Its remote location kept the Spanish from finding it.","src":"Machu Picchu"},
-{"id":"h054","t":"Easter Island heads have bodies","b":"Many of the famous moai statues on Easter Island (Rapa Nui) look like giant heads, but excavations show some have full torsos buried underground by centuries of soil. Some buried bodies even carry carvings.","q":{"p":"What's hidden below many Easter Island 'heads'?","o":["Buried bodies","Treasure","Tunnels"],"a":0},"rq":{"p":"What buried the moai bodies?","o":["Centuries of soil building up","Ancient builders on purpose","Volcanic lava"],"a":0},"why":"Erosion from the hills slowly buried the statues on slopes.","src":"Moai"},
-{"id":"h055","t":"People danced for days in 1518","b":"In July 1518 in Strasbourg, a woman began dancing in the street and couldn't stop. Over weeks, dozens more joined in. Authorities even hired musicians, thinking more dancing would cure it. The cause is still debated.","q":{"p":"What happened in Strasbourg in 1518?","o":["People danced uncontrollably","A rain of frogs","A giant wave"],"a":0},"rq":{"p":"How did the authorities first respond?","o":["They hired musicians","They banned music","They closed the city"],"a":0},"why":"Historians suggest stress-induced mass hysteria.","src":"Dancing plague of 1518"},
-{"id":"h056","t":"Australia lost a war to emus","b":"In 1932, Australian soldiers with machine guns were sent to cull emus damaging crops in Western Australia. The fast, scattered birds proved very hard to hit, and the operation was called off having failed to solve the problem.","q":{"p":"Who 'won' Australia's 1932 Emu War?","o":["The emus","The soldiers","The farmers"],"a":0},"rq":{"p":"Why were soldiers sent after emus?","o":["They were damaging crops","They were attacking people","For their feathers"],"a":0},"why":"Emus can run about 50 km/h and scatter in all directions.","src":"Emu War"},
-{"id":"h057","t":"A molasses flood hit Boston","b":"In January 1919, a huge tank of molasses burst in Boston. A wave of syrup several metres high rushed through the streets, killing 21 people. Locals claimed the area smelled sweet on hot days for decades.","q":{"p":"What flooded part of Boston in 1919?","o":["Molasses","Beer","Milk"],"a":0},"rq":{"p":"How many people died in the molasses flood?","o":["21","None","Over 1,000"],"a":0},"why":"Molasses is thick and heavy, and trapped people as it cooled.","src":"Great Molasses Flood"},
-{"id":"h058","t":"A stink gave London its sewers","b":"In the hot summer of 1858, the sewage-filled River Thames smelled so bad that Parliament struggled to work. The 'Great Stink' pushed MPs to fund Joseph Bazalgette's sewer network, which still serves London today.","q":{"p":"What pushed Parliament to build London's sewers?","o":["A terrible smell from the Thames","A royal order","A fire"],"a":0},"rq":{"p":"Who engineered London's sewer system?","o":["Joseph Bazalgette","Isambard Kingdom Brunel","Christopher Wren"],"a":0},"why":"The system also helped end London's cholera outbreaks.","src":"Great Stink"},
-{"id":"h059","t":"The 1904 Olympic marathon was chaos","b":"At the 1904 St Louis Olympics, the first man to finish had ridden part of the way in a car and was disqualified. The winner, Thomas Hicks, was kept going by his team with doses of strychnine and brandy, a dangerous mix.","q":{"p":"How did the first finisher of the 1904 marathon cheat?","o":["He rode in a car","He took a shortcut by boat","He started early"],"a":0},"rq":{"p":"What was the real winner given during the race?","o":["Strychnine and brandy","Coffee","Nothing"],"a":0},"why":"There were almost no rules on doping then.","src":"Athletics at the 1904 Summer Olympics – Men's marathon"},
-{"id":"h060","t":"The oldest recorded joke is about a fart","b":"A Sumerian proverb from around 1900 BC is often listed as the oldest recorded joke. It's a quip about something that has never happened since time began, involving a young woman and breaking wind.","q":{"p":"What is the world's oldest recorded joke about?","o":["Breaking wind","A king","A talking animal"],"a":0},"rq":{"p":"Which civilisation recorded it?","o":["Sumerian","Roman","Chinese"],"a":0},"why":"Toilet humour turns out to be ancient.","src":"Sumerian literature","srcUrl":"https://en.wikipedia.org/w/index.php?search=oldest+joke+Sumerian"},
-{"id":"h061","t":"The oldest university may be in Morocco","b":"The University of al-Qarawiyyin in Fez was founded as a mosque and school in 859 by Fatima al-Fihri. UNESCO and Guinness World Records list it as the oldest existing, continually operating educational institution in the world.","q":{"p":"Who founded the University of al-Qarawiyyin?","o":["Fatima al-Fihri","A Roman emperor","An English king"],"a":0},"rq":{"p":"Where is al-Qarawiyyin?","o":["Fez, Morocco","Cairo, Egypt","Baghdad, Iraq"],"a":0},"why":"She used her inheritance to fund it.","src":"University of al-Qarawiyyin","vis":{"type":"timeline","points":[{"label":"al-Qarawiyyin","year":859},{"label":"Oxford teaching","year":1096}]}},
-{"id":"h062","t":"China invented paper money","b":"Merchants in Song dynasty China began using paper notes in the 11th century because heavy iron coins were awkward to carry. The government soon took over printing them, centuries before paper money caught on in Europe.","q":{"p":"Where was paper money first widely used?","o":["China","Italy","Egypt"],"a":0},"rq":{"p":"Why did Chinese merchants want paper money?","o":["Iron coins were too heavy","Gold had run out","Paper was sacred"],"a":0},"why":"Paper was light and printing was already advanced in China.","src":"Banknote"},
-{"id":"h063","t":"Gunpowder came from a search for immortality","b":"Chinese alchemists in the 800s, mixing saltpetre, sulphur and charcoal while searching for an elixir of life, discovered a mixture that burned violently instead. It became gunpowder, first used in fireworks and later in weapons.","q":{"p":"What were the inventors of gunpowder looking for?","o":["An elixir of life","A better firework","A way to mine gold"],"a":0},"rq":{"p":"What three ingredients make black gunpowder?","o":["Saltpetre, sulphur, charcoal","Salt, sugar, coal","Iron, tin, copper"],"a":0},"why":"Saltpetre provides oxygen, letting it burn incredibly fast.","src":"Gunpowder"},
-{"id":"h064","t":"Movable type predates Gutenberg","b":"Around 1040, Chinese inventor Bi Sheng made movable type from baked clay. Korea later printed books with metal movable type, including a surviving 1377 book. Gutenberg's press in Germany came around 1440.","q":{"p":"Who first invented movable type?","o":["Bi Sheng in China","Johannes Gutenberg","William Caxton"],"a":0},"rq":{"p":"What was Bi Sheng's type made of?","o":["Baked clay","Wood","Lead"],"a":0},"why":"Gutenberg's big advance was combining type with a press and oil inks for mass printing.","src":"Movable type","vis":{"type":"timeline","points":[{"label":"Bi Sheng","year":1040},{"label":"Korean metal book","year":1377},{"label":"Gutenberg","year":1440}]}},
-{"id":"h065","t":"Gandhi walked 390 km for salt","b":"In 1930, Mahatma Gandhi led a 24-day march of about 390 km to the sea to make salt, breaking British laws that taxed it. The Salt March drew worldwide attention to India's independence movement.","q":{"p":"What did Gandhi march to the sea to make?","o":["Salt","Paper","Cloth"],"a":0},"rq":{"p":"About how long was the Salt March?","o":["About 390 km","About 39 km","About 3,900 km"],"a":0},"why":"Making salt was a simple act anyone could join.","src":"Salt March"},
-{"id":"h066","t":"The Berlin Wall fell after a press slip","b":"On 9 November 1989, East German spokesman Günter Schabowski announced new travel rules, and when asked when they started, said 'immediately'. He hadn't been briefed properly. Crowds rushed the border, and guards opened the gates.","q":{"p":"What helped trigger the fall of the Berlin Wall?","o":["A confused press announcement","A bombing","A royal visit"],"a":0},"rq":{"p":"What word did Schabowski use for when the rules started?","o":["'Immediately'","'Tomorrow'","'Next year'"],"a":0},"why":"Live TV spread the news before officials could correct it.","src":"Fall of the Berlin Wall"},
-{"id":"h067","t":"Apollo 11's computer had about 4 KB of memory","b":"The Apollo Guidance Computer that helped land astronauts on the Moon had about 2,048 words of working memory, roughly 4 kilobytes. A modern phone has millions of times more.","q":{"p":"Roughly how much working memory did Apollo 11's computer have?","o":["About 4 kilobytes","About 4 gigabytes","About 4 megabytes"],"a":0},"rq":{"p":"What was the Apollo Guidance Computer used for?","o":["Navigating and landing","Cooking food","Filming the landing"],"a":0},"why":"Clever, efficient programs made every bit count.","src":"Apollo Guidance Computer"},
-{"id":"h068","t":"Only one ancient wonder survives","b":"Of the Seven Wonders of the Ancient World, only the Great Pyramid of Giza still stands. The others, including the Lighthouse of Alexandria and the Hanging Gardens of Babylon, were destroyed, or, in the gardens' case, may never have existed.","q":{"p":"Which of the Seven Ancient Wonders still stands?","o":["The Great Pyramid","The Colossus of Rhodes","The Lighthouse of Alexandria"],"a":0},"rq":{"p":"Which wonder may never have existed?","o":["The Hanging Gardens of Babylon","The Great Pyramid","The Temple of Artemis"],"a":0},"why":"Earthquakes, fires and looting took the others.","src":"Seven Wonders of the Ancient World"},
-{"id":"h069","t":"A film star helped invent Wi-Fi's ancestor","b":"In 1942, Hollywood actress Hedy Lamarr and composer George Antheil patented 'frequency hopping', a way to stop enemies jamming radio-guided torpedoes. Similar spread-spectrum ideas later fed into Wi-Fi, Bluetooth and GPS.","q":{"p":"Which actress co-invented frequency hopping?","o":["Hedy Lamarr","Marilyn Monroe","Audrey Hepburn"],"a":0},"rq":{"p":"What was frequency hopping first meant to protect?","o":["Radio-guided torpedoes","Telephone calls","TV broadcasts"],"a":0},"why":"Switching frequencies quickly makes signals hard to jam.","src":"Hedy Lamarr"},
-{"id":"h070","t":"Scotland's national animal is a unicorn","b":"The unicorn has been a Scottish heraldic symbol since the 1100s, standing for purity and power. On the UK royal coat of arms, it faces England's lion. In legend, the unicorn is so wild it has to be chained.","q":{"p":"What is Scotland's national animal?","o":["The unicorn","The red deer","The golden eagle"],"a":0},"rq":{"p":"Which animal faces the unicorn on the royal coat of arms?","o":["A lion","A dragon","An eagle"],"a":0},"why":"Medieval legends made the unicorn a symbol of untamed strength.","src":"Royal coat of arms of the United Kingdom"},
-{"id":"h071","t":"The monarch gets two birthdays","b":"Britain's monarch has an actual birthday and an official one, usually celebrated in June with the Trooping the Colour parade. The tradition took hold in the 1700s, largely because summer weather suits a parade far better.","q":{"p":"Why does the British monarch have an official birthday?","o":["Summer weather suits a parade","A legal mistake","To share with a twin"],"a":0},"rq":{"p":"What parade marks the official birthday?","o":["Trooping the Colour","Changing of the Guard","Lord Mayor's Show"],"a":0},"why":"Ceremonial outdoor events are easier in June.","src":"Official birthday"},
-{"id":"h072","t":"Romans had fast-food counters","b":"Pompeii had dozens of thermopolia, street counters selling hot food and drink. In 2020 archaeologists uncovered one with painted animals, traces of duck, pork and snail, and jars still set into the counter.","q":{"p":"What was a Roman thermopolium?","o":["A hot food counter","A public bath","A temple"],"a":0},"rq":{"p":"Which food traces were found in Pompeii's counter?","o":["Duck, pork and snail","Pizza and pasta","Chocolate"],"a":0},"why":"Many poorer Romans had no kitchen at home.","src":"Thermopolium"},
-{"id":"h073","t":"France used the guillotine until 1977","b":"The guillotine, adopted during the French Revolution in 1792, remained France's method of execution for nearly two centuries. The last execution was in 1977, the same year Star Wars came out. France abolished the death penalty in 1981.","q":{"p":"When was the guillotine last used in France?","o":["1977","1799","1871"],"a":0},"rq":{"p":"When did France abolish the death penalty?","o":["1981","1900","1945"],"a":0},"why":"It was intended as a quicker, more 'humane' method at the time.","src":"Guillotine","vis":{"type":"timeline","points":[{"label":"Adopted","year":1792},{"label":"Last used","year":1977},{"label":"Abolished","year":1981}]}},
-{"id":"h074","t":"Fanta was born in wartime Germany","b":"During the Second World War, Coca-Cola's German branch couldn't get the syrup for Coke. In 1940 it invented a new drink from available leftovers like whey and apple pulp, and called it Fanta, from 'Fantasie'.","q":{"p":"Why was Fanta invented?","o":["Coke syrup couldn't reach wartime Germany","To compete with Pepsi","As a health drink"],"a":0},"rq":{"p":"What word does 'Fanta' come from?","o":["Fantasie (imagination)","Fantastic","Fanfare"],"a":0},"why":"Trade embargoes cut off Coca-Cola's ingredients.","src":"Fanta"},
-{"id":"h075","t":"Jeans got rivets in 1873","b":"Tailor Jacob Davis put copper rivets on work trousers to stop pockets tearing. He partnered with fabric supplier Levi Strauss, and they patented riveted denim in 1873, the birth of blue jeans.","q":{"p":"Why were rivets added to jeans?","o":["To stop pockets tearing","For decoration","To keep them dry"],"a":0},"rq":{"p":"Who first came up with riveted jeans?","o":["Tailor Jacob Davis","Ralph Lauren","Coco Chanel"],"a":0},"why":"Miners needed tough clothes.","src":"Jeans"}
+{
+"id": "h051",
+"t": "Joan of Arc was a teenager",
+"b": "Joan of Arc was about 17 when she helped lift the siege of Orléans in 1429, leading French troops in the Hundred Years' War. She was captured, tried for heresy and burned at the stake in 1431, aged around 19.",
+"q": {
+"p": "About how old was Joan of Arc when she died?",
+"o": [
+"About 19",
+"About 45",
+"About 30"
+],
+"a": 0
+},
+"rq": {
+"p": "Which siege did Joan help lift in 1429?",
+"o": [
+"Orléans",
+"Paris",
+"Calais"
+],
+"a": 0
+},
+"why": "She was declared a saint in 1920.",
+"src": "Joan of Arc"
+},
+{
+"id": "h052",
+"t": "The Mongols built the largest connected empire",
+"b": "Founded by Genghis Khan in 1206, the Mongol Empire grew to stretch from Korea to eastern Europe. At its height it was the largest contiguous land empire in history, linked by a fast horseback postal relay.",
+"q": {
+"p": "What was the largest connected land empire ever?",
+"o": [
+"The Mongol Empire",
+"The Roman Empire",
+"The Persian Empire"
+],
+"a": 0
+},
+"rq": {
+"p": "Who founded the Mongol Empire?",
+"o": [
+"Genghis Khan",
+"Kublai Khan",
+"Attila"
+],
+"a": 0
+},
+"why": "Mounted archers let the Mongols conquer vast distances quickly.",
+"src": "Mongol Empire"
+},
+{
+"id": "h053",
+"t": "Machu Picchu was never lost to locals",
+"b": "Machu Picchu was built around 1450 for the Inca ruler Pachacuti. When American explorer Hiram Bingham publicised it in 1911, local farmers were living there and guided him up. It was 'lost' only to the outside world.",
+"q": {
+"p": "Was Machu Picchu truly lost before 1911?",
+"o": [
+"No, locals knew it",
+"Yes, totally forgotten",
+"It was buried underground"
+],
+"a": 0
+},
+"rq": {
+"p": "Who was Machu Picchu built for?",
+"o": [
+"The Inca ruler Pachacuti",
+"Spanish conquistadors",
+"Hiram Bingham"
+],
+"a": 0
+},
+"why": "Its remote location kept the Spanish from finding it.",
+"src": "Machu Picchu"
+},
+{
+"id": "h054",
+"t": "Easter Island heads have bodies",
+"b": "Many of the famous moai statues on Easter Island (Rapa Nui) look like giant heads, but excavations show some have full torsos buried underground by centuries of soil. Some buried bodies even carry carvings.",
+"q": {
+"p": "What's hidden below many Easter Island 'heads'?",
+"o": [
+"Buried bodies",
+"Treasure",
+"Tunnels"
+],
+"a": 0
+},
+"rq": {
+"p": "What buried the moai bodies?",
+"o": [
+"Centuries of soil building up",
+"Ancient builders on purpose",
+"Volcanic lava"
+],
+"a": 0
+},
+"why": "Erosion from the hills slowly buried the statues on slopes.",
+"src": "Moai"
+},
+{
+"id": "h055",
+"t": "People danced for days in 1518",
+"b": "In July 1518 in Strasbourg, a woman began dancing in the street and couldn't stop. Over weeks, dozens more joined in. Authorities even hired musicians, thinking more dancing would cure it. The cause is still debated.",
+"q": {
+"p": "What happened in Strasbourg in 1518?",
+"o": [
+"People danced uncontrollably",
+"A rain of frogs",
+"A giant wave"
+],
+"a": 0
+},
+"rq": {
+"p": "How did the authorities first respond?",
+"o": [
+"They hired musicians",
+"They banned music",
+"They closed the city"
+],
+"a": 0
+},
+"why": "Historians suggest stress-induced mass hysteria.",
+"src": "Dancing plague of 1518"
+},
+{
+"id": "h056",
+"t": "Australia lost a war to emus",
+"b": "In 1932, Australian soldiers with machine guns were sent to cull emus damaging crops in Western Australia. The fast, scattered birds proved very hard to hit, and the operation was called off having failed to solve the problem.",
+"q": {
+"p": "Who 'won' Australia's 1932 Emu War?",
+"o": [
+"The emus",
+"The soldiers",
+"The farmers"
+],
+"a": 0
+},
+"rq": {
+"p": "Why were soldiers sent after emus?",
+"o": [
+"They were damaging crops",
+"They were attacking people",
+"For their feathers"
+],
+"a": 0
+},
+"why": "Emus can run about 50 km/h and scatter in all directions.",
+"src": "Emu War"
+},
+{
+"id": "h057",
+"t": "A molasses flood hit Boston",
+"b": "In January 1919, a huge tank of molasses burst in Boston. A wave of syrup several metres high rushed through the streets, killing 21 people. Locals claimed the area smelled sweet on hot days for decades.",
+"q": {
+"p": "What flooded part of Boston in 1919?",
+"o": [
+"Molasses",
+"Beer",
+"Milk"
+],
+"a": 0
+},
+"rq": {
+"p": "How many people died in the molasses flood?",
+"o": [
+"21",
+"None",
+"Over 1,000"
+],
+"a": 0
+},
+"why": "Molasses is thick and heavy, and trapped people as it cooled.",
+"src": "Great Molasses Flood"
+},
+{
+"id": "h058",
+"t": "A stink gave London its sewers",
+"b": "In the hot summer of 1858, the sewage-filled River Thames smelled so bad that Parliament struggled to work. The 'Great Stink' pushed MPs to fund Joseph Bazalgette's sewer network, which still serves London today.",
+"q": {
+"p": "What pushed Parliament to build London's sewers?",
+"o": [
+"A terrible smell from the Thames",
+"A royal order",
+"A fire"
+],
+"a": 0
+},
+"rq": {
+"p": "Who engineered London's sewer system?",
+"o": [
+"Joseph Bazalgette",
+"Isambard Kingdom Brunel",
+"Christopher Wren"
+],
+"a": 0
+},
+"why": "The system also helped end London's cholera outbreaks.",
+"src": "Great Stink"
+},
+{
+"id": "h059",
+"t": "The 1904 Olympic marathon was chaos",
+"b": "At the 1904 St Louis Olympics, the first man to finish had ridden part of the way in a car and was disqualified. The winner, Thomas Hicks, was kept going by his team with doses of strychnine and brandy, a dangerous mix.",
+"q": {
+"p": "How did the first finisher of the 1904 marathon cheat?",
+"o": [
+"He rode in a car",
+"He took a shortcut by boat",
+"He started early"
+],
+"a": 0
+},
+"rq": {
+"p": "What was the real winner given during the race?",
+"o": [
+"Strychnine and brandy",
+"Coffee",
+"Nothing"
+],
+"a": 0
+},
+"why": "There were almost no rules on doping then.",
+"src": "Athletics at the 1904 Summer Olympics – Men's marathon"
+},
+{
+"id": "h060",
+"t": "The oldest recorded joke is about a fart",
+"b": "A Sumerian proverb from around 1900 BC is often listed as the oldest recorded joke. It's a quip about something that has never happened since time began, involving a young woman and breaking wind.",
+"q": {
+"p": "What is the world's oldest recorded joke about?",
+"o": [
+"Breaking wind",
+"A king",
+"A talking animal"
+],
+"a": 0
+},
+"rq": {
+"p": "Which civilisation recorded it?",
+"o": [
+"Sumerian",
+"Roman",
+"Chinese"
+],
+"a": 0
+},
+"why": "Toilet humour turns out to be ancient.",
+"src": "Wikipedia: Sumerian literature",
+"srcUrl": "https://en.wikipedia.org/w/index.php?search=oldest+joke+Sumerian"
+},
+{
+"id": "h061",
+"t": "The oldest university may be in Morocco",
+"b": "The University of al-Qarawiyyin in Fez was founded as a mosque and school in 859 by Fatima al-Fihri. UNESCO and Guinness World Records list it as the oldest existing, continually operating educational institution in the world.",
+"q": {
+"p": "Who founded the University of al-Qarawiyyin?",
+"o": [
+"Fatima al-Fihri",
+"A Roman emperor",
+"An English king"
+],
+"a": 0
+},
+"rq": {
+"p": "Where is al-Qarawiyyin?",
+"o": [
+"Fez, Morocco",
+"Cairo, Egypt",
+"Baghdad, Iraq"
+],
+"a": 0
+},
+"why": "She used her inheritance to fund it.",
+"src": "University of al-Qarawiyyin",
+"vis": {
+"type": "timeline",
+"points": [
+{
+"label": "al-Qarawiyyin",
+"year": 859
+},
+{
+"label": "Oxford teaching",
+"year": 1096
+}
+]
+}
+},
+{
+"id": "h062",
+"t": "China invented paper money",
+"b": "Merchants in Song dynasty China began using paper notes in the 11th century because heavy iron coins were awkward to carry. The government soon took over printing them, centuries before paper money caught on in Europe.",
+"q": {
+"p": "Where was paper money first widely used?",
+"o": [
+"China",
+"Italy",
+"Egypt"
+],
+"a": 0
+},
+"rq": {
+"p": "Why did Chinese merchants want paper money?",
+"o": [
+"Iron coins were too heavy",
+"Gold had run out",
+"Paper was sacred"
+],
+"a": 0
+},
+"why": "Paper was light and printing was already advanced in China.",
+"src": "Banknote"
+},
+{
+"id": "h063",
+"t": "Gunpowder came from a search for immortality",
+"b": "Chinese alchemists in the 800s, mixing saltpetre, sulphur and charcoal while searching for an elixir of life, discovered a mixture that burned violently instead. It became gunpowder, first used in fireworks and later in weapons.",
+"q": {
+"p": "What were the inventors of gunpowder looking for?",
+"o": [
+"An elixir of life",
+"A better firework",
+"A way to mine gold"
+],
+"a": 0
+},
+"rq": {
+"p": "What three ingredients make black gunpowder?",
+"o": [
+"Saltpetre, sulphur, charcoal",
+"Salt, sugar, coal",
+"Iron, tin, copper"
+],
+"a": 0
+},
+"why": "Saltpetre provides oxygen, letting it burn incredibly fast.",
+"src": "Gunpowder"
+},
+{
+"id": "h064",
+"t": "Movable type predates Gutenberg",
+"b": "Around 1040, Chinese inventor Bi Sheng made movable type from baked clay. Korea later printed books with metal movable type, including a surviving 1377 book. Gutenberg's press in Germany came around 1440.",
+"q": {
+"p": "Who first invented movable type?",
+"o": [
+"Bi Sheng in China",
+"Johannes Gutenberg",
+"William Caxton"
+],
+"a": 0
+},
+"rq": {
+"p": "What was Bi Sheng's type made of?",
+"o": [
+"Baked clay",
+"Wood",
+"Lead"
+],
+"a": 0
+},
+"why": "Gutenberg's big advance was combining type with a press and oil inks for mass printing.",
+"src": "Movable type",
+"vis": {
+"type": "timeline",
+"points": [
+{
+"label": "Bi Sheng",
+"year": 1040
+},
+{
+"label": "Korean metal book",
+"year": 1377
+},
+{
+"label": "Gutenberg",
+"year": 1440
+}
+]
+}
+},
+{
+"id": "h065",
+"t": "Gandhi walked 390 km for salt",
+"b": "In 1930, Mahatma Gandhi led a 24-day march of about 390 km to the sea to make salt, breaking British laws that taxed it. The Salt March drew worldwide attention to India's independence movement.",
+"q": {
+"p": "What did Gandhi march to the sea to make?",
+"o": [
+"Salt",
+"Paper",
+"Cloth"
+],
+"a": 0
+},
+"rq": {
+"p": "About how long was the Salt March?",
+"o": [
+"About 390 km",
+"About 39 km",
+"About 3,900 km"
+],
+"a": 0
+},
+"why": "Making salt was a simple act anyone could join.",
+"src": "Salt March"
+},
+{
+"id": "h066",
+"t": "The Berlin Wall fell after a press slip",
+"b": "On 9 November 1989, East German spokesman Günter Schabowski announced new travel rules, and when asked when they started, said 'immediately'. He hadn't been briefed properly. Crowds rushed the border, and guards opened the gates.",
+"q": {
+"p": "What helped trigger the fall of the Berlin Wall?",
+"o": [
+"A confused press announcement",
+"A bombing",
+"A royal visit"
+],
+"a": 0
+},
+"rq": {
+"p": "What word did Schabowski use for when the rules started?",
+"o": [
+"'Immediately'",
+"'Tomorrow'",
+"'Next year'"
+],
+"a": 0
+},
+"why": "Live TV spread the news before officials could correct it.",
+"src": "Fall of the Berlin Wall"
+},
+{
+"id": "h067",
+"t": "Apollo 11's computer had about 4 KB of memory",
+"b": "The Apollo Guidance Computer that helped land astronauts on the Moon had about 2,048 words of working memory, roughly 4 kilobytes. A modern phone has millions of times more.",
+"q": {
+"p": "Roughly how much working memory did Apollo 11's computer have?",
+"o": [
+"About 4 kilobytes",
+"About 4 gigabytes",
+"About 4 megabytes"
+],
+"a": 0
+},
+"rq": {
+"p": "What was the Apollo Guidance Computer used for?",
+"o": [
+"Navigating and landing",
+"Cooking food",
+"Filming the landing"
+],
+"a": 0
+},
+"why": "Clever, efficient programs made every bit count.",
+"src": "Apollo Guidance Computer"
+},
+{
+"id": "h068",
+"t": "Only one ancient wonder survives",
+"b": "Of the Seven Wonders of the Ancient World, only the Great Pyramid of Giza still stands. The others, including the Lighthouse of Alexandria and the Hanging Gardens of Babylon, were destroyed, or, in the gardens' case, may never have existed.",
+"q": {
+"p": "Which of the Seven Ancient Wonders still stands?",
+"o": [
+"The Great Pyramid",
+"The Colossus of Rhodes",
+"The Lighthouse of Alexandria"
+],
+"a": 0
+},
+"rq": {
+"p": "Which wonder may never have existed?",
+"o": [
+"The Hanging Gardens of Babylon",
+"The Great Pyramid",
+"The Temple of Artemis"
+],
+"a": 0
+},
+"why": "Earthquakes, fires and looting took the others.",
+"src": "Seven Wonders of the Ancient World"
+},
+{
+"id": "h069",
+"t": "A film star helped invent Wi-Fi's ancestor",
+"b": "In 1942, Hollywood actress Hedy Lamarr and composer George Antheil patented 'frequency hopping', a way to stop enemies jamming radio-guided torpedoes. Similar spread-spectrum ideas later fed into Wi-Fi, Bluetooth and GPS.",
+"q": {
+"p": "Which actress co-invented frequency hopping?",
+"o": [
+"Hedy Lamarr",
+"Marilyn Monroe",
+"Audrey Hepburn"
+],
+"a": 0
+},
+"rq": {
+"p": "What was frequency hopping first meant to protect?",
+"o": [
+"Radio-guided torpedoes",
+"Telephone calls",
+"TV broadcasts"
+],
+"a": 0
+},
+"why": "Switching frequencies quickly makes signals hard to jam.",
+"src": "Hedy Lamarr"
+},
+{
+"id": "h070",
+"t": "Scotland's national animal is a unicorn",
+"b": "The unicorn has been a Scottish heraldic symbol since the 1100s, standing for purity and power. On the UK royal coat of arms, it faces England's lion. In legend, the unicorn is so wild it has to be chained.",
+"q": {
+"p": "What is Scotland's national animal?",
+"o": [
+"The unicorn",
+"The red deer",
+"The golden eagle"
+],
+"a": 0
+},
+"rq": {
+"p": "Which animal faces the unicorn on the royal coat of arms?",
+"o": [
+"A lion",
+"A dragon",
+"An eagle"
+],
+"a": 0
+},
+"why": "Medieval legends made the unicorn a symbol of untamed strength.",
+"src": "Royal coat of arms of the United Kingdom"
+},
+{
+"id": "h071",
+"t": "The monarch gets two birthdays",
+"b": "Britain's monarch has an actual birthday and an official one, usually celebrated in June with the Trooping the Colour parade. The tradition took hold in the 1700s, largely because summer weather suits a parade far better.",
+"q": {
+"p": "Why does the British monarch have an official birthday?",
+"o": [
+"Summer weather suits a parade",
+"A legal mistake",
+"To share with a twin"
+],
+"a": 0
+},
+"rq": {
+"p": "What parade marks the official birthday?",
+"o": [
+"Trooping the Colour",
+"Changing of the Guard",
+"Lord Mayor's Show"
+],
+"a": 0
+},
+"why": "Ceremonial outdoor events are easier in June.",
+"src": "Official birthday"
+},
+{
+"id": "h072",
+"t": "Romans had fast-food counters",
+"b": "Pompeii had dozens of thermopolia, street counters selling hot food and drink. In 2020 archaeologists uncovered one with painted animals, traces of duck, pork and snail, and jars still set into the counter.",
+"q": {
+"p": "What was a Roman thermopolium?",
+"o": [
+"A hot food counter",
+"A public bath",
+"A temple"
+],
+"a": 0
+},
+"rq": {
+"p": "Which food traces were found in Pompeii's counter?",
+"o": [
+"Duck, pork and snail",
+"Pizza and pasta",
+"Chocolate"
+],
+"a": 0
+},
+"why": "Many poorer Romans had no kitchen at home.",
+"src": "Thermopolium"
+},
+{
+"id": "h073",
+"t": "France used the guillotine until 1977",
+"b": "The guillotine, adopted during the French Revolution in 1792, remained France's method of execution for nearly two centuries. The last execution was in 1977, the same year Star Wars came out. France abolished the death penalty in 1981.",
+"q": {
+"p": "When was the guillotine last used in France?",
+"o": [
+"1977",
+"1799",
+"1871"
+],
+"a": 0
+},
+"rq": {
+"p": "When did France abolish the death penalty?",
+"o": [
+"1981",
+"1900",
+"1945"
+],
+"a": 0
+},
+"why": "It was intended as a quicker, more 'humane' method at the time.",
+"src": "Guillotine",
+"vis": {
+"type": "timeline",
+"points": [
+{
+"label": "Adopted",
+"year": 1792
+},
+{
+"label": "Last used",
+"year": 1977
+},
+{
+"label": "Abolished",
+"year": 1981
+}
+]
+}
+},
+{
+"id": "h074",
+"t": "Fanta was born in wartime Germany",
+"b": "During the Second World War, Coca-Cola's German branch couldn't get the syrup for Coke. In 1940 it invented a new drink from available leftovers like whey and apple pulp, and called it Fanta, from 'Fantasie'.",
+"q": {
+"p": "Why was Fanta invented?",
+"o": [
+"Coke syrup couldn't reach wartime Germany",
+"To compete with Pepsi",
+"As a health drink"
+],
+"a": 0
+},
+"rq": {
+"p": "What word does 'Fanta' come from?",
+"o": [
+"Fantasie (imagination)",
+"Fantastic",
+"Fanfare"
+],
+"a": 0
+},
+"why": "Trade embargoes cut off Coca-Cola's ingredients.",
+"src": "Fanta"
+},
+{
+"id": "h075",
+"t": "Jeans got rivets in 1873",
+"b": "Tailor Jacob Davis put copper rivets on work trousers to stop pockets tearing. He partnered with fabric supplier Levi Strauss, and they patented riveted denim in 1873, the birth of blue jeans.",
+"q": {
+"p": "Why were rivets added to jeans?",
+"o": [
+"To stop pockets tearing",
+"For decoration",
+"To keep them dry"
+],
+"a": 0
+},
+"rq": {
+"p": "Who first came up with riveted jeans?",
+"o": [
+"Tailor Jacob Davis",
+"Ralph Lauren",
+"Coco Chanel"
+],
+"a": 0
+},
+"why": "Miners needed tough clothes.",
+"src": "Jeans"
+}
 ]

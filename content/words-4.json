@@ -1,0 +1,628 @@
+[
+{
+"id": "i076",
+"t": "Nobody knows where 'dog' came from",
+"b": "Dog is one of English's great etymological mysteries. It appears in late Old English as docga, probably first for a particular breed, while the usual word was hund (hound). Linguists still don't know where docga came from.",
+"q": {
+"p": "Do we know where the word 'dog' comes from?",
+"o": [
+"No, it's a mystery",
+"Yes, from Latin",
+"Yes, from French"
+],
+"a": 0
+},
+"rq": {
+"p": "What was the usual Old English word for dog?",
+"o": [
+"Hund",
+"Canis",
+"Wulf"
+],
+"a": 0
+},
+"why": "Some words appear without a clear ancestor.",
+"src": "Wiktionary: dog",
+"srcUrl": "https://en.wiktionary.org/wiki/dog"
+},
+{
+"id": "i077",
+"t": "Spoonerisms",
+"b": "Swapping the first sounds of words, like 'a blushing crow' for 'a crushing blow', is called a spoonerism. It's named after William Archibald Spooner, an Oxford don famous for such slips, though many quotes attributed to him were invented by students.",
+"q": {
+"p": "What is a spoonerism?",
+"o": [
+"Swapping the first sounds of words",
+"A cooking term",
+"A rhyming poem"
+],
+"a": 0
+},
+"rq": {
+"p": "Who are spoonerisms named after?",
+"o": [
+"An Oxford don, William Spooner",
+"A London chef",
+"A comedian"
+],
+"a": 0
+},
+"why": "The brain sometimes plans sounds ahead and mixes them up.",
+"src": "Spoonerism"
+},
+{
+"id": "i078",
+"t": "Palindromes read both ways",
+"b": "A palindrome reads the same backwards and forwards, ignoring spaces and punctuation. Classics include 'racecar' and 'A man, a plan, a canal: Panama'. The word comes from the Greek palindromos, running back again.",
+"q": {
+"p": "Which of these is a palindrome?",
+"o": [
+"A man, a plan, a canal: Panama",
+"The quick brown fox",
+"To be or not to be"
+],
+"a": 0
+},
+"rq": {
+"p": "What does the Greek root of 'palindrome' mean?",
+"o": [
+"Running back again",
+"Mirror word",
+"Twin letters"
+],
+"a": 0
+},
+"why": "Its letters mirror around the centre.",
+"src": "Palindrome"
+},
+{
+"id": "i079",
+"t": "The 'fifty words for snow' myth",
+"b": "The claim that Inuit languages have dozens of words for snow is misleading. These languages build long words from many parts, so one root can make endless forms. By that counting, English has many snow words too: slush, sleet, powder, blizzard, drift.",
+"q": {
+"p": "Is the 'Inuit have 50 words for snow' claim accurate?",
+"o": [
+"It's misleading",
+"Yes, exactly 50",
+"They have none"
+],
+"a": 0
+},
+"rq": {
+"p": "Why can Inuit languages form so many snow terms?",
+"o": [
+"They build long words from many parts",
+"They only talk about snow",
+"They borrow from English"
+],
+"a": 0
+},
+"why": "How you count 'words' changes the answer.",
+"src": "Eskimo words for snow"
+},
+{
+"id": "i080",
+"t": "Cappuccino is named after friars",
+"b": "Cappuccino takes its name from the Capuchin friars, whose brown hooded robes matched the colour of coffee mixed with milk. The friars' name itself comes from cappuccio, the Italian for hood.",
+"q": {
+"p": "Who is cappuccino named after?",
+"o": [
+"Capuchin friars",
+"An Italian city",
+"A coffee merchant"
+],
+"a": 0
+},
+"rq": {
+"p": "What does Italian 'cappuccio' mean?",
+"o": [
+"Hood",
+"Cup",
+"Foam"
+],
+"a": 0
+},
+"why": "The milky coffee matched their robes.",
+"src": "Cappuccino"
+},
+{
+"id": "i081",
+"t": "'Sincere' doesn't mean 'without wax'",
+"b": "A popular story says sincere comes from Latin sine cera, 'without wax', because honest sculptors didn't hide cracks with wax. It's a myth. The word comes from Latin sincerus, meaning clean, pure or whole.",
+"q": {
+"p": "Does 'sincere' come from 'without wax'?",
+"o": [
+"No, that's a myth",
+"Yes",
+"Only in Italian"
+],
+"a": 0
+},
+"rq": {
+"p": "What does Latin 'sincerus' mean?",
+"o": [
+"Pure or whole",
+"Honest sculptor",
+"Smooth"
+],
+"a": 0
+},
+"why": "Neat stories often attach themselves to words later.",
+"src": "Wiktionary: sincere",
+"srcUrl": "https://en.wiktionary.org/wiki/sincere"
+},
+{
+"id": "i082",
+"t": "'Posh' doesn't mean 'port out, starboard home'",
+"b": "The tale that posh came from tickets stamped P.O.S.H., for the shaded cabins on voyages to India, is a myth. No such tickets have been found, and the acronym story only appeared decades after the word. Its true origin is unknown.",
+"q": {
+"p": "Did 'posh' come from 'port out, starboard home'?",
+"o": [
+"No, there's no evidence",
+"Yes, it was on tickets",
+"It came from Posh Spice"
+],
+"a": 0
+},
+"rq": {
+"p": "Is the real origin of 'posh' known?",
+"o": [
+"No",
+"Yes, from Hindi",
+"Yes, from shipping law"
+],
+"a": 0
+},
+"why": "Acronym origins for old words are almost always invented.",
+"src": "Posh"
+},
+{
+"id": "i083",
+"t": "'Rule of thumb' isn't about beating wives",
+"b": "A story claims old English law allowed a man to beat his wife with a stick no thicker than his thumb. Historians have found no such law. The phrase most likely comes from using your thumb as a rough measuring tool.",
+"q": {
+"p": "Did 'rule of thumb' come from a law about beating?",
+"o": [
+"No, there's no evidence of such a law",
+"Yes",
+"It came from carpentry rules only"
+],
+"a": 0
+},
+"rq": {
+"p": "What's the likely origin of 'rule of thumb'?",
+"o": [
+"Using the thumb to measure roughly",
+"A judge's ruling",
+"A sailing rule"
+],
+"a": 0
+},
+"why": "An inch was once roughly a thumb's width.",
+"src": "Rule of thumb"
+},
+{
+"id": "i084",
+"t": "Plato's cave",
+"b": "In Plato's allegory, prisoners chained in a cave see only shadows on a wall and think they're reality. One escapes, sees the real world in sunlight, and returns to tell the others, who don't believe him. It's about education and how we know what's real.",
+"q": {
+"p": "In Plato's cave, what do the prisoners mistake for reality?",
+"o": [
+"Shadows on a wall",
+"Dreams",
+"Reflections in water"
+],
+"a": 0
+},
+"rq": {
+"p": "What happens when the escaped prisoner returns?",
+"o": [
+"The others don't believe him",
+"He becomes king",
+"He forgets everything"
+],
+"a": 0
+},
+"why": "Plato meant learning can feel painful and be resisted.",
+"src": "Allegory of the cave"
+},
+{
+"id": "i085",
+"t": "Diogenes lived in a jar",
+"b": "The Greek philosopher Diogenes rejected comfort and convention, reportedly living in a large ceramic jar in Athens. When Alexander the Great offered him any favour, Diogenes is said to have asked him to stand out of his sunlight.",
+"q": {
+"p": "What did Diogenes reportedly ask Alexander the Great?",
+"o": [
+"To stand out of his sunlight",
+"For gold",
+"For a palace"
+],
+"a": 0
+},
+"rq": {
+"p": "Where did Diogenes reportedly live?",
+"o": [
+"A large jar",
+"A cave",
+"A temple"
+],
+"a": 0
+},
+"why": "He believed needing little made you free.",
+"src": "Diogenes"
+},
+{
+"id": "i086",
+"t": "Confucius's version of the golden rule",
+"b": "Long before many later versions, Confucius taught: 'Do not impose on others what you do not wish for yourself.' Similar principles appear across many religions and philosophies worldwide.",
+"q": {
+"p": "What did Confucius say about treating others?",
+"o": [
+"Don't do to others what you wouldn't want",
+"Always obey rulers",
+"Treat strangers as enemies"
+],
+"a": 0
+},
+"rq": {
+"p": "Is the golden rule unique to one culture?",
+"o": [
+"No, versions appear worldwide",
+"Yes, only China",
+"Yes, only Europe"
+],
+"a": 0
+},
+"why": "Empathy-based ethics arose independently in many places.",
+"src": "Golden Rule"
+},
+{
+"id": "i087",
+"t": "Aristotle tutored Alexander the Great",
+"b": "Around 343 BC, King Philip II of Macedon hired the philosopher Aristotle to tutor his 13-year-old son, the future Alexander the Great. He taught him for several years, covering subjects from ethics to medicine.",
+"q": {
+"p": "Who tutored the young Alexander the Great?",
+"o": [
+"Aristotle",
+"Socrates",
+"Plato"
+],
+"a": 0
+},
+"rq": {
+"p": "How old was Alexander when the tutoring began?",
+"o": [
+"About 13",
+"About 5",
+"About 25"
+],
+"a": 0
+},
+"why": "Philip wanted the best mind in Greece for his heir.",
+"src": "Aristotle"
+},
+{
+"id": "i088",
+"t": "Kant's famously regular walks",
+"b": "Philosopher Immanuel Kant lived his whole life in and around Königsberg. He was so regular in his habits that, according to a popular story, neighbours could set their clocks by his afternoon walk.",
+"q": {
+"p": "What were Kant's neighbours said to set clocks by?",
+"o": [
+"His daily walk",
+"His church visits",
+"His lectures"
+],
+"a": 0
+},
+"rq": {
+"p": "Where did Kant spend nearly all his life?",
+"o": [
+"Königsberg",
+"Paris",
+"Berlin"
+],
+"a": 0
+},
+"why": "Strict routine left his mind free for hard thinking.",
+"src": "Immanuel Kant"
+},
+{
+"id": "i089",
+"t": "The 'Mozart effect' is mostly a myth",
+"b": "A 1993 study found students did slightly better on a spatial task right after hearing Mozart. It was hyped as 'Mozart makes babies smarter'. Later research found the small effect was short-lived, and likely came from music lifting mood and alertness.",
+"q": {
+"p": "Does listening to Mozart make you smarter long-term?",
+"o": [
+"No good evidence it does",
+"Yes, permanently",
+"Only for babies"
+],
+"a": 0
+},
+"rq": {
+"p": "What likely caused the brief effect?",
+"o": [
+"Better mood and alertness",
+"Mozart's genius",
+"Classical rhythms rewiring the brain"
+],
+"a": 0
+},
+"why": "Any enjoyable music had similar effects in later studies.",
+"src": "Mozart effect"
+},
+{
+"id": "i090",
+"t": "The pangram that uses every letter",
+"b": "'The quick brown fox jumps over the lazy dog' contains every letter of the English alphabet. Sentences like this, called pangrams, were used to test typewriters and to show off fonts.",
+"q": {
+"p": "What's special about 'The quick brown fox jumps over the lazy dog'?",
+"o": [
+"It uses every letter",
+"It's the oldest sentence",
+"It's a palindrome"
+],
+"a": 0
+},
+"rq": {
+"p": "What is a sentence using every letter called?",
+"o": [
+"A pangram",
+"An anagram",
+"A haiku"
+],
+"a": 0
+},
+"why": "It checks every key on a keyboard.",
+"src": "The quick brown fox jumps over the lazy dog"
+},
+{
+"id": "i091",
+"t": "'Rhythms' has no standard vowels",
+"b": "Rhythms is one of the longest common English words without a, e, i, o or u. The letter y does the vowel's job. Other examples include crypt, gym and myths.",
+"q": {
+"p": "Which word has no a, e, i, o or u?",
+"o": [
+"Rhythms",
+"Strength",
+"Twelfth"
+],
+"a": 0
+},
+"rq": {
+"p": "Which letter acts as the vowel in 'rhythms'?",
+"o": [
+"Y",
+"H",
+"S"
+],
+"a": 0
+},
+"why": "Y can be a consonant or a vowel depending on the word.",
+"src": "English words without vowels"
+},
+{
+"id": "i092",
+"t": "Anagrams hid scientific discoveries",
+"b": "In 1610 Galileo announced a discovery about Saturn as a scrambled anagram, so he could claim priority without revealing it. Christiaan Huygens later did the same for Saturn's rings. Rivals had to wait for the unscrambled answer.",
+"q": {
+"p": "Why did Galileo publish a discovery as an anagram?",
+"o": [
+"To claim credit without revealing it",
+"As a joke",
+"To avoid censors only"
+],
+"a": 0
+},
+"rq": {
+"p": "Which planet were these anagrams about?",
+"o": [
+"Saturn",
+"Mars",
+"Jupiter"
+],
+"a": 0
+},
+"why": "A scrambled message proved who found it first.",
+"src": "Anagram"
+},
+{
+"id": "i093",
+"t": "The Oxford comma",
+"b": "The Oxford comma is the optional comma before 'and' in a list. Compare 'I thanked my parents, Ayesha and God' with 'I thanked my parents, Ayesha, and God'. Without it, the sentence can suggest your parents are Ayesha and God.",
+"q": {
+"p": "Where does the Oxford comma go?",
+"o": [
+"Before 'and' at the end of a list",
+"After every verb",
+"At the start of a sentence"
+],
+"a": 0
+},
+"rq": {
+"p": "Why do fans like the Oxford comma?",
+"o": [
+"It can prevent ambiguity",
+"It's required by law",
+"It saves space"
+],
+"a": 0
+},
+"why": "In 2017 a US court case over overtime pay turned on a missing serial comma.",
+"src": "Serial comma"
+},
+{
+"id": "i094",
+"t": "Shakespeare's words",
+"b": "Shakespeare is the earliest recorded source for hundreds of English words and phrases, such as 'eyeball' and 'swagger'. Some were probably already in speech, but his plays spread them widely and many stuck.",
+"q": {
+"p": "Did Shakespeare invent every word first recorded in his plays?",
+"o": [
+"Not necessarily, some were already spoken",
+"Yes, all of them",
+"None of them"
+],
+"a": 0
+},
+"rq": {
+"p": "Which word has an early recorded use in Shakespeare?",
+"o": [
+"Swagger",
+"Internet",
+"Robot"
+],
+"a": 0
+},
+"why": "Dictionaries record first written uses, not first spoken ones.",
+"src": "Shakespeare's influence"
+},
+{
+"id": "i095",
+"t": "Hello took off with the telephone",
+"b": "Hello existed before phones, but it was mainly used to attract attention or express surprise. Thomas Edison championed it as the standard way to answer the telephone in the late 1870s. Alexander Graham Bell preferred 'ahoy'.",
+"q": {
+"p": "What did Alexander Graham Bell want people to say when answering the phone?",
+"o": [
+"Ahoy",
+"Hello",
+"Speak"
+],
+"a": 0
+},
+"rq": {
+"p": "Who championed 'hello' for the phone?",
+"o": [
+"Thomas Edison",
+"Nikola Tesla",
+"Samuel Morse"
+],
+"a": 0
+},
+"why": "Edison's choice spread with telephone exchanges.",
+"src": "Hello"
+},
+{
+"id": "i096",
+"t": "Writing on wet clay",
+"b": "Cuneiform, meaning wedge-shaped, was written by pressing a cut reed into wet clay. Tablets were cheap and, once baked, nearly indestructible. Ironically, fires that destroyed ancient libraries often baked their tablets, preserving them.",
+"q": {
+"p": "What did cuneiform writers write on?",
+"o": [
+"Wet clay",
+"Papyrus",
+"Animal skin"
+],
+"a": 0
+},
+"rq": {
+"p": "How did fires sometimes help preserve tablets?",
+"o": [
+"They baked the clay hard",
+"They sealed the libraries",
+"They didn't"
+],
+"a": 0
+},
+"why": "Baked clay can last thousands of years.",
+"src": "Clay tablet"
+},
+{
+"id": "i097",
+"t": "The # has a fancy name",
+"b": "The # symbol has many names: hash, pound sign, number sign. Engineers at Bell Labs in the 1960s gave it a playful official name, octothorpe, for the new touch-tone phone keypads. Several stories compete to explain the 'thorpe'.",
+"q": {
+"p": "What did Bell Labs engineers call the # symbol?",
+"o": [
+"Octothorpe",
+"Hashbrown",
+"Crosshatch"
+],
+"a": 0
+},
+"rq": {
+"p": "What was it named for?",
+"o": [
+"Touch-tone phone keypads",
+"Twitter",
+"Music notation"
+],
+"a": 0
+},
+"why": "'Octo' refers to its eight ends.",
+"src": "Number sign"
+},
+{
+"id": "i098",
+"t": "The Voynich manuscript is unreadable",
+"b": "The Voynich manuscript is a 15th-century book full of strange plants and an unknown script. Radiocarbon dating places its vellum in the early 1400s. Despite efforts by codebreakers, nobody has convincingly deciphered it.",
+"q": {
+"p": "Has the Voynich manuscript been deciphered?",
+"o": [
+"Not convincingly",
+"Yes, it's a recipe book",
+"Yes, it's a diary"
+],
+"a": 0
+},
+"rq": {
+"p": "When was the Voynich manuscript's vellum dated to?",
+"o": [
+"Early 1400s",
+"Ancient Egypt",
+"The 1900s"
+],
+"a": 0
+},
+"why": "Its script matches no known language or code.",
+"src": "Voynich manuscript"
+},
+{
+"id": "i099",
+"t": "The Library of Babel",
+"b": "Jorge Luis Borges imagined an endless library holding every possible book of a certain length, every combination of letters. Somewhere in it is the true story of your life, and countless almost-true versions. It's a famous thought experiment on meaning and infinity.",
+"q": {
+"p": "What does Borges' Library of Babel contain?",
+"o": [
+"Every possible book",
+"Only great books",
+"Nothing at all"
+],
+"a": 0
+},
+"rq": {
+"p": "Who wrote The Library of Babel?",
+"o": [
+"Jorge Luis Borges",
+"Franz Kafka",
+"Umberto Eco"
+],
+"a": 0
+},
+"why": "Having everything is useless if you can't find the meaningful bits.",
+"src": "The Library of Babel"
+},
+{
+"id": "i100",
+"t": "Learning works best with spacing",
+"b": "You're using it right now. Decades of research show that spreading reviews over days and weeks, and testing yourself rather than re-reading, leads to far better long-term memory than cramming. Little and often beats a lot at once.",
+"q": {
+"p": "Which leads to better long-term memory?",
+"o": [
+"Spaced reviews over days",
+"Cramming the night before"
+],
+"a": 0
+},
+"rq": {
+"p": "What's this effect called?",
+"o": [
+"The spacing effect",
+"The cramming effect",
+"The recency effect"
+],
+"a": 0
+},
+"why": "Each time you nearly forget and then recall, the memory strengthens.",
+"src": "Spacing effect"
+}
+]

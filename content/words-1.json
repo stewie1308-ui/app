@@ -1,0 +1,630 @@
+[
+{
+"id": "i001",
+"t": "Ketchup started as fish sauce",
+"b": "The word ketchup probably comes from kê-tsiap, a fermented fish sauce from southern China. British traders brought the idea home in the 1700s, and ketchups were made from mushrooms, walnuts or oysters before tomato won out.",
+"q": {
+"p": "What was the original 'ketchup'?",
+"o": [
+"A fermented fish sauce",
+"A tomato jam",
+"A mustard"
+],
+"a": 0
+},
+"rq": {
+"p": "Which ingredient was NOT an early British ketchup?",
+"o": [
+"Chocolate",
+"Mushroom",
+"Walnut"
+],
+"a": 0
+},
+"why": "Tomato ketchup only became standard in the 1800s.",
+"src": "Ketchup"
+},
+{
+"id": "i002",
+"t": "Robot means forced labour",
+"b": "The word robot comes from the Czech robota, meaning forced labour. It was introduced in Karel Čapek's 1920 play R.U.R., about artificial workers who rebel. Čapek credited his brother Josef with suggesting it.",
+"q": {
+"p": "What does the Czech word behind 'robot' mean?",
+"o": [
+"Forced labour",
+"Metal man",
+"Thinking machine"
+],
+"a": 0
+},
+"rq": {
+"p": "Where did 'robot' first appear?",
+"o": [
+"A 1920 Czech play",
+"A 1950s comic",
+"An engineering manual"
+],
+"a": 0
+},
+"why": "The play imagined manufactured workers.",
+"src": "R.U.R."
+},
+{
+"id": "i003",
+"t": "Muscle means little mouse",
+"b": "Muscle comes from the Latin musculus, meaning little mouse. Romans thought a flexing muscle, such as the biceps, looked like a small mouse moving under the skin.",
+"q": {
+"p": "What does the Latin root of 'muscle' mean?",
+"o": [
+"Little mouse",
+"Strength",
+"Rope"
+],
+"a": 0
+},
+"rq": {
+"p": "Why did Romans make that comparison?",
+"o": [
+"Flexing muscles look like a mouse moving",
+"Mice are strong",
+"Muscles are grey"
+],
+"a": 0
+},
+"why": "A rippling biceps does look a bit like a mouse under a blanket.",
+"src": "Muscle"
+},
+{
+"id": "i004",
+"t": "Nice used to be an insult",
+"b": "Nice comes from the Latin nescius, meaning ignorant. In Middle English it meant foolish or silly. Over centuries it shifted to mean fussy, then precise, then pleasant, its main meaning today.",
+"q": {
+"p": "What did 'nice' originally mean in English?",
+"o": [
+"Foolish",
+"Kind",
+"Beautiful"
+],
+"a": 0
+},
+"rq": {
+"p": "Which Latin word is 'nice' from?",
+"o": [
+"Nescius, ignorant",
+"Nix, snow",
+"Nitidus, shiny"
+],
+"a": 0
+},
+"why": "Word meanings can drift far over time.",
+"src": "Nice"
+},
+{
+"id": "i005",
+"t": "Silly once meant blessed",
+"b": "In Old English, sælig meant happy, fortunate or blessed. Over the centuries it drifted to innocent, then pitiable, then foolish, giving us silly.",
+"q": {
+"p": "What did the ancestor of 'silly' mean?",
+"o": [
+"Blessed",
+"Stupid",
+"Loud"
+],
+"a": 0
+},
+"rq": {
+"p": "Which German word shares silly's old meaning?",
+"o": [
+"Selig, blessed",
+"Silber, silver",
+"Sehr, very"
+],
+"a": 0
+},
+"why": "German selig kept the original 'blessed' sense.",
+"src": "Silly"
+},
+{
+"id": "i006",
+"t": "A clue was a ball of thread",
+"b": "A clew was a ball of yarn. In the Greek myth, Theseus unrolled one to find his way out of the Minotaur's labyrinth. So a 'clue' came to mean anything that helps you find your way to an answer.",
+"q": {
+"p": "What was a 'clew' originally?",
+"o": [
+"A ball of thread",
+"A footprint",
+"A key"
+],
+"a": 0
+},
+"rq": {
+"p": "Who used one to escape a labyrinth?",
+"o": [
+"Theseus",
+"Hercules",
+"Odysseus"
+],
+"a": 0
+},
+"why": "Following the thread led to the solution.",
+"src": "Wiktionary: clue",
+"srcUrl": "https://en.wiktionary.org/wiki/clue"
+},
+{
+"id": "i007",
+"t": "Disaster means bad star",
+"b": "Disaster comes from the Italian disastro, from dis- (bad) and astro (star). It reflects an old belief that catastrophes happened when the stars and planets were badly aligned.",
+"q": {
+"p": "What does 'disaster' literally mean?",
+"o": [
+"Bad star",
+"Big fire",
+"Broken land"
+],
+"a": 0
+},
+"rq": {
+"p": "Which old belief is behind 'disaster'?",
+"o": [
+"Stars influence events",
+"Gods live underground",
+"Floods cleanse the land"
+],
+"a": 0
+},
+"why": "Astrology shaped everyday vocabulary.",
+"src": "Wiktionary: disaster",
+"srcUrl": "https://en.wiktionary.org/wiki/disaster"
+},
+{
+"id": "i008",
+"t": "Quarantine means forty days",
+"b": "During plague outbreaks in the 1300s and 1400s, Venice made arriving ships wait 40 days before anyone could land. The Venetian quaranta giorni, forty days, gave us quarantine.",
+"q": {
+"p": "What number is hidden in 'quarantine'?",
+"o": [
+"Forty",
+"Fourteen",
+"Four"
+],
+"a": 0
+},
+"rq": {
+"p": "Which city's plague rules gave us 'quarantine'?",
+"o": [
+"Venice",
+"London",
+"Paris"
+],
+"a": 0
+},
+"why": "Waiting let any hidden illness show itself.",
+"src": "Quarantine"
+},
+{
+"id": "i009",
+"t": "Sabotage and the clog myth",
+"b": "Sabotage comes from the French saboter, linked to sabot, a wooden clog. The popular tale that workers threw clogs into machines is probably a myth; saboter meant to clatter about clumsily or to bungle a job.",
+"q": {
+"p": "Did 'sabotage' come from workers throwing clogs in machines?",
+"o": [
+"Probably not, that's a myth",
+"Yes, definitely",
+"It came from boats"
+],
+"a": 0
+},
+"rq": {
+"p": "What is a 'sabot'?",
+"o": [
+"A wooden clog",
+"A spanner",
+"A factory"
+],
+"a": 0
+},
+"why": "Neat origin stories are often invented later.",
+"src": "Sabotage"
+},
+{
+"id": "i010",
+"t": "OK began as a joke",
+"b": "In 1839, Boston newspapers had a fad for jokey abbreviations of misspellings. OK stood for 'oll korrect', a deliberate misspelling of 'all correct'. It survived thanks to an 1840 presidential campaign and the telegraph.",
+"q": {
+"p": "What did OK originally stand for?",
+"o": [
+"'Oll korrect'",
+"'Old Kinderhook' only",
+"'Only kidding'"
+],
+"a": 0
+},
+"rq": {
+"p": "When did OK first appear in print?",
+"o": [
+"1839",
+"1939",
+"1739"
+],
+"a": 0
+},
+"why": "Martin Van Buren's 'Old Kinderhook' campaign spread it further.",
+"src": "OK"
+},
+{
+"id": "i011",
+"t": "Goodbye means God be with you",
+"b": "Goodbye is a shortened form of 'God be with ye', common in the 1500s. Over time it was squeezed down, and 'God' changed to 'good' under the influence of greetings like 'good day'.",
+"q": {
+"p": "What phrase did 'goodbye' come from?",
+"o": [
+"God be with ye",
+"Good buy",
+"Go to bed"
+],
+"a": 0
+},
+"rq": {
+"p": "Why did 'God' turn into 'good'?",
+"o": [
+"Influence of 'good day' and 'good night'",
+"A royal decree",
+"A printing error"
+],
+"a": 0
+},
+"why": "Frequently used phrases get worn down.",
+"src": "Wiktionary: goodbye",
+"srcUrl": "https://en.wiktionary.org/wiki/goodbye"
+},
+{
+"id": "i012",
+"t": "Milton invented pandemonium",
+"b": "John Milton coined Pandæmonium in Paradise Lost (1667) as the name of the capital of Hell, from Greek pan- (all) and daimon (spirit or demon). Today it means wild chaos.",
+"q": {
+"p": "Who invented the word 'pandemonium'?",
+"o": [
+"John Milton",
+"William Shakespeare",
+"Charles Dickens"
+],
+"a": 0
+},
+"rq": {
+"p": "What was Pandæmonium in Paradise Lost?",
+"o": [
+"The capital of Hell",
+"A musical instrument",
+"A royal palace"
+],
+"a": 0
+},
+"why": "'All demons' sums up the chaos.",
+"src": "Pandemonium"
+},
+{
+"id": "i013",
+"t": "Serendipity came from a fairy tale",
+"b": "Horace Walpole coined serendipity in a 1754 letter, inspired by a Persian fairy tale, The Three Princes of Serendip, whose heroes kept making lucky discoveries by accident. Serendip is an old name for Sri Lanka.",
+"q": {
+"p": "What is 'Serendip'?",
+"o": [
+"An old name for Sri Lanka",
+"A Greek goddess",
+"A spice"
+],
+"a": 0
+},
+"rq": {
+"p": "Who coined 'serendipity'?",
+"o": [
+"Horace Walpole",
+"Jane Austen",
+"Samuel Johnson"
+],
+"a": 0
+},
+"why": "The princes found things they weren't looking for.",
+"src": "Serendipity"
+},
+{
+"id": "i014",
+"t": "Dr Seuss gave us 'nerd'",
+"b": "The earliest known printed use of nerd is in Dr Seuss's 1950 book If I Ran the Zoo, as the name of an imaginary creature. Within a year or two, American teenagers were using it for a dull or studious person.",
+"q": {
+"p": "Where does 'nerd' first appear in print?",
+"o": [
+"A Dr Seuss book",
+"A science magazine",
+"A computer manual"
+],
+"a": 0
+},
+"rq": {
+"p": "In that book, what was a nerd?",
+"o": [
+"An imaginary creature",
+"A scientist",
+"A teacher"
+],
+"a": 0
+},
+"why": "Slang often borrows from popular culture.",
+"src": "Nerd"
+},
+{
+"id": "i015",
+"t": "'Run' has the most meanings",
+"b": "When the Oxford English Dictionary revised its entry for run, the verb alone had 645 meanings, more than any other English word. 'Set' had previously held the record with about 430.",
+"q": {
+"p": "Which English word has the most meanings in the OED?",
+"o": [
+"Run",
+"Set",
+"Get"
+],
+"a": 0
+},
+"rq": {
+"p": "About how many meanings does 'run' (the verb) have?",
+"o": [
+"645",
+"45",
+"4,500"
+],
+"a": 0
+},
+"why": "Short, everyday words pick up new uses constantly.",
+"src": "Oxford English Dictionary"
+},
+{
+"id": "i016",
+"t": "A dictionary once listed a ghost word",
+"b": "Webster's 1934 dictionary included 'dord', meaning density. It wasn't a real word: a note saying 'D or d' (abbreviations for density) was misread. It stayed in print for years before an editor noticed.",
+"q": {
+"p": "How did 'dord' get into a dictionary?",
+"o": [
+"A misread note",
+"A spelling bee",
+"A poet invented it"
+],
+"a": 0
+},
+"rq": {
+"p": "What was 'dord' supposed to mean?",
+"o": [
+"Density",
+"A small bird",
+"Laziness"
+],
+"a": 0
+},
+"why": "'D or d' meant the abbreviation could be capital or lower case.",
+"src": "Dord"
+},
+{
+"id": "i017",
+"t": "Esperanto was invented in 1887",
+"b": "Ophthalmologist L. L. Zamenhof published Esperanto in 1887, hoping a simple shared second language would ease conflict between peoples. Its grammar has no irregular verbs. Today it has an estimated hundreds of thousands to a few million speakers.",
+"q": {
+"p": "What was Esperanto designed for?",
+"o": [
+"An easy shared second language",
+"Secret codes",
+"Computer programming"
+],
+"a": 0
+},
+"rq": {
+"p": "What's unusual about Esperanto's verbs?",
+"o": [
+"None are irregular",
+"They have no tenses",
+"They come last always"
+],
+"a": 0
+},
+"why": "Regular rules make it quicker to learn.",
+"src": "Esperanto"
+},
+{
+"id": "i018",
+"t": "Hawaiian uses just 13 letters",
+"b": "The Hawaiian alphabet has only five vowels and eight consonants, counting the ʻokina, a glottal stop. That's why Hawaiian words like 'humuhumunukunukuāpuaʻa' repeat so many of the same sounds.",
+"q": {
+"p": "How many letters does the Hawaiian alphabet have?",
+"o": [
+"13",
+"26",
+"32"
+],
+"a": 0
+},
+"rq": {
+"p": "What is the ʻokina?",
+"o": [
+"A glottal stop letter",
+"A greeting",
+"A vowel"
+],
+"a": 0
+},
+"why": "Fewer sounds mean words tend to be longer.",
+"src": "Hawaiian alphabet"
+},
+{
+"id": "i019",
+"t": "Basque is related to no other language",
+"b": "Basque, spoken in parts of northern Spain and southwest France, is a language isolate: it has no proven relatives. It was probably spoken in the region before Indo-European languages like Latin arrived.",
+"q": {
+"p": "Which European language has no known relatives?",
+"o": [
+"Basque",
+"Welsh",
+"Hungarian"
+],
+"a": 0
+},
+"rq": {
+"p": "Where is Basque spoken?",
+"o": [
+"Northern Spain and southwest France",
+"Northern Italy",
+"Switzerland"
+],
+"a": 0
+},
+"why": "It survived as other languages spread around it.",
+"src": "Basque language"
+},
+{
+"id": "i020",
+"t": "Papua New Guinea has over 800 languages",
+"b": "Papua New Guinea, with about 10 million people, has around 840 living languages, more than any other country. Mountains, jungles and islands kept communities separate for thousands of years.",
+"q": {
+"p": "Which country has the most languages?",
+"o": [
+"Papua New Guinea",
+"India",
+"China"
+],
+"a": 0
+},
+"rq": {
+"p": "Why does PNG have so many languages?",
+"o": [
+"Rugged terrain kept groups apart",
+"A law requires it",
+"Colonisers brought them"
+],
+"a": 0
+},
+"why": "Isolation lets languages drift apart.",
+"src": "Languages of Papua New Guinea"
+},
+{
+"id": "i021",
+"t": "A sentence made only of 'buffalo'",
+"b": "'Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo' is a grammatical sentence. It uses buffalo as a city, an animal and a verb meaning to bully: bison from Buffalo that other Buffalo bison bully, themselves bully Buffalo bison.",
+"q": {
+"p": "Can a sentence of only the word 'buffalo' be grammatical?",
+"o": [
+"Yes",
+"No",
+"Only in American English"
+],
+"a": 0
+},
+"rq": {
+"p": "What does the verb 'buffalo' mean?",
+"o": [
+"To bully or confuse",
+"To graze",
+"To stampede"
+],
+"a": 0
+},
+"why": "One word playing three roles makes it work.",
+"src": "Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo"
+},
+{
+"id": "i022",
+"t": "Misheard lyrics are mondegreens",
+"b": "Writer Sylvia Wright coined mondegreen in 1954. As a child she'd heard a ballad line 'laid him on the green' as 'Lady Mondegreen'. Now the word covers any misheard phrase or song lyric.",
+"q": {
+"p": "What's a mondegreen?",
+"o": [
+"A misheard phrase",
+"A type of moss",
+"A green flag"
+],
+"a": 0
+},
+"rq": {
+"p": "What line did Sylvia Wright mishear?",
+"o": [
+"'Laid him on the green'",
+"'God save the Queen'",
+"'Over the rainbow'"
+],
+"a": 0
+},
+"why": "Our brains fill unclear sounds with familiar words.",
+"src": "Mondegreen"
+},
+{
+"id": "i023",
+"t": "Eggcorns are clever mistakes",
+"b": "An eggcorn is a mistaken word that still makes some sense, like 'egg corn' for acorn, or 'for all intensive purposes' for 'intents and purposes'. Linguists named them in 2003 after the acorn example.",
+"q": {
+"p": "Which is an eggcorn?",
+"o": [
+"'For all intensive purposes'",
+"'Their' for 'there'",
+"'Teh' for 'the'"
+],
+"a": 0
+},
+"rq": {
+"p": "What was the original eggcorn?",
+"o": [
+"'Egg corn' for acorn",
+"'Egg nog' for eggnog",
+"'Eggplant' for aubergine"
+],
+"a": 0
+},
+"why": "The mistaken version sounds plausible, so it spreads.",
+"src": "Eggcorn"
+},
+{
+"id": "i024",
+"t": "Repeat a word and it goes strange",
+"b": "Say a word like 'spoon' over and over and it soon feels meaningless and odd. This is semantic satiation. The brain's response to the word fades with repetition, briefly loosening the link between sound and meaning.",
+"q": {
+"p": "What happens when you repeat a word many times?",
+"o": [
+"It temporarily feels meaningless",
+"You remember it forever",
+"It sounds louder"
+],
+"a": 0
+},
+"rq": {
+"p": "What's this effect called?",
+"o": [
+"Semantic satiation",
+"Déjà vu",
+"Echolalia"
+],
+"a": 0
+},
+"why": "Neural responses dampen when a stimulus repeats.",
+"src": "Semantic satiation"
+},
+{
+"id": "i025",
+"t": "Tip of the tongue",
+"b": "When a word is on the tip of your tongue, you often know its first letter, number of syllables or similar-sounding words. Research suggests these moments become more frequent with age and are usually resolved within minutes.",
+"q": {
+"p": "In a tip-of-the-tongue moment, what do people often recall?",
+"o": [
+"The word's first letter",
+"Nothing at all",
+"Its dictionary page"
+],
+"a": 0
+},
+"rq": {
+"p": "How do these moments change with age?",
+"o": [
+"They become more frequent",
+"They disappear",
+"They get shorter"
+],
+"a": 0
+},
+"why": "Meaning is retrieved but the sound form is only partly reached.",
+"src": "Tip of the tongue"
+}
+]

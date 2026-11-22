@@ -1,0 +1,645 @@
+[
+{
+"id": "i051",
+"t": "The Scream comes in several versions",
+"b": "Edvard Munch created The Scream in several versions: a painting from 1893, another from 1910, two pastels and a run of prints. The 1895 pastel sold in 2012 for nearly $120 million.",
+"q": {
+"p": "How many versions of The Scream did Munch make?",
+"o": [
+"Several",
+"Just one",
+"Exactly two"
+],
+"a": 0
+},
+"rq": {
+"p": "Which country was Edvard Munch from?",
+"o": [
+"Norway",
+"Sweden",
+"Germany"
+],
+"a": 0
+},
+"why": "Artists often revisited their most powerful images.",
+"src": "The Scream"
+},
+{
+"id": "i052",
+"t": "The golden ratio myth",
+"b": "Books often claim the Parthenon, the Mona Lisa and the Great Pyramid were built on the golden ratio, about 1.618. Careful measurements don't support most of these claims, and studies find people don't reliably prefer golden rectangles.",
+"q": {
+"p": "Was the Parthenon designed around the golden ratio?",
+"o": [
+"There's little good evidence",
+"Yes, precisely",
+"It's exactly 1.618 tall"
+],
+"a": 0
+},
+"rq": {
+"p": "Roughly what is the golden ratio?",
+"o": [
+"1.618",
+"3.142",
+"2.718"
+],
+"a": 0
+},
+"why": "With enough points to choose from, you can find any ratio in a building.",
+"src": "Golden ratio"
+},
+{
+"id": "i053",
+"t": "Blue paint once cost more than gold",
+"b": "Ultramarine, the deepest blue of Renaissance paintings, was made by grinding lapis lazuli mined in Afghanistan. It could be more expensive than gold, so patrons sometimes specified in contracts how much ultramarine a painter must use, often for the Virgin Mary's robes.",
+"q": {
+"p": "What was Renaissance ultramarine made from?",
+"o": [
+"Ground lapis lazuli",
+"Blueberries",
+"Copper rust"
+],
+"a": 0
+},
+"rq": {
+"p": "Where was the lapis lazuli mined?",
+"o": [
+"Afghanistan",
+"Spain",
+"Egypt"
+],
+"a": 0
+},
+"why": "'Ultramarine' means 'beyond the sea', where it came from.",
+"src": "Ultramarine"
+},
+{
+"id": "i054",
+"t": "One of the blackest materials",
+"b": "Vantablack, developed by Surrey NanoSystems, is a coating of tiny carbon nanotubes that absorbs about 99.96% of visible light. Coated objects look like holes. Artist Anish Kapoor holds exclusive rights to use it in art, which caused an art-world feud.",
+"q": {
+"p": "How much visible light does Vantablack absorb?",
+"o": [
+"About 99.96%",
+"About 50%",
+"About 80%"
+],
+"a": 0
+},
+"rq": {
+"p": "Which artist holds exclusive art rights to Vantablack?",
+"o": [
+"Anish Kapoor",
+"Damien Hirst",
+"Banksy"
+],
+"a": 0
+},
+"why": "Light gets trapped bouncing between the nanotubes.",
+"src": "Vantablack"
+},
+{
+"id": "i055",
+"t": "Beethoven composed while deaf",
+"b": "Beethoven began losing his hearing in his late twenties and was almost completely deaf by the time he wrote his Ninth Symphony, premiered in 1824. At its end, a musician reportedly turned him round so he could see the applause.",
+"q": {
+"p": "Was Beethoven deaf when he wrote his Ninth Symphony?",
+"o": [
+"Almost completely",
+"No",
+"Only in one ear"
+],
+"a": 0
+},
+"rq": {
+"p": "When was the Ninth Symphony first performed?",
+"o": [
+"1824",
+"1724",
+"1924"
+],
+"a": 0
+},
+"why": "He could still 'hear' music in his imagination.",
+"src": "Symphony No. 9 (Beethoven)"
+},
+{
+"id": "i056",
+"t": "Happy Birthday is now free to sing",
+"b": "'Happy Birthday to You' was long claimed under copyright, earning millions in licence fees. In 2015 a US court ruled the copyright claim invalid, and in 2016 the song was officially placed in the public domain.",
+"q": {
+"p": "Is 'Happy Birthday to You' still under copyright in the US?",
+"o": [
+"No, since 2016",
+"Yes",
+"Only the second verse"
+],
+"a": 0
+},
+"rq": {
+"p": "What ended the copyright claim?",
+"o": [
+"A court ruling",
+"The composer's wish",
+"A new law"
+],
+"a": 0
+},
+"why": "The court found no valid evidence of a copyright on the lyrics.",
+"src": "Happy Birthday to You"
+},
+{
+"id": "i057",
+"t": "Mozart wrote a symphony at eight",
+"b": "Wolfgang Amadeus Mozart composed his first symphony in 1764 in London, aged about eight. By then he had already toured Europe as a child performer. He wrote over 600 works before dying at 35.",
+"q": {
+"p": "How old was Mozart when he wrote his first symphony?",
+"o": [
+"About eight",
+"About 18",
+"About 28"
+],
+"a": 0
+},
+"rq": {
+"p": "Where did Mozart write his first symphony?",
+"o": [
+"London",
+"Vienna",
+"Rome"
+],
+"a": 0
+},
+"why": "His father Leopold trained him intensively from early childhood.",
+"src": "Symphony No. 1 (Mozart)"
+},
+{
+"id": "i058",
+"t": "A4 paper halves perfectly",
+"b": "A-series paper has sides in the ratio 1 to √2. Fold an A4 sheet in half and you get A5 with exactly the same shape. A0 is defined as one square metre, so A4 is a sixteenth of that.",
+"q": {
+"p": "What's special about A4 paper's shape?",
+"o": [
+"Halving it keeps the same shape",
+"It's a perfect square",
+"It matches the golden ratio"
+],
+"a": 0
+},
+"rq": {
+"p": "What area is A0 paper?",
+"o": [
+"One square metre",
+"One square foot",
+"Half a square metre"
+],
+"a": 0
+},
+"why": "The √2 ratio is the only one that keeps its shape when halved.",
+"src": "ISO 216"
+},
+{
+"id": "i059",
+"t": "Zero as a number came from India",
+"b": "Many cultures had a symbol for 'nothing here' in their numbers, but Indian mathematicians treated zero as a number in its own right. In 628, Brahmagupta wrote rules for adding, subtracting and multiplying with zero.",
+"q": {
+"p": "Where was zero first treated as a number with its own rules?",
+"o": [
+"India",
+"Rome",
+"Greece"
+],
+"a": 0
+},
+"rq": {
+"p": "Which mathematician wrote early rules for zero?",
+"o": [
+"Brahmagupta",
+"Euclid",
+"Fibonacci"
+],
+"a": 0
+},
+"why": "Treating 'nothing' as a number made algebra far easier.",
+"src": "0"
+},
+{
+"id": "i060",
+"t": "Fibonacci brought our digits to Europe",
+"b": "Europe used Roman numerals until Leonardo of Pisa, known as Fibonacci, promoted Hindu-Arabic digits in his 1202 book Liber Abaci. He had learned them while growing up in North Africa. Merchants found them far easier for calculation.",
+"q": {
+"p": "Who promoted Hindu-Arabic numerals in Europe in 1202?",
+"o": [
+"Fibonacci",
+"Leonardo da Vinci",
+"Galileo"
+],
+"a": 0
+},
+"rq": {
+"p": "Where did Fibonacci learn the numerals?",
+"o": [
+"North Africa",
+"China",
+"Greece"
+],
+"a": 0
+},
+"why": "Try doing long multiplication in Roman numerals.",
+"src": "Liber Abaci"
+},
+{
+"id": "i061",
+"t": "The birthday paradox",
+"b": "In a group of just 23 people, there's a better-than-even chance that two share a birthday. It feels wrong because we think about our own birthday, but the number of possible pairs grows fast: 23 people make 253 pairs.",
+"q": {
+"p": "How many people make a shared birthday more likely than not?",
+"o": [
+"23",
+"183",
+"365"
+],
+"a": 0
+},
+"rq": {
+"p": "How many pairs are there among 23 people?",
+"o": [
+"253",
+"23",
+"46"
+],
+"a": 0
+},
+"why": "Pairs, not individuals, are what match.",
+"src": "Birthday problem"
+},
+{
+"id": "i062",
+"t": "Switch doors in the Monty Hall problem",
+"b": "Pick one of three doors; a car is behind one. The host, who knows where it is, opens another door showing a goat and offers a switch. Switching wins two-thirds of the time. Even some mathematicians refused to believe it at first.",
+"q": {
+"p": "Should you switch doors in the Monty Hall problem?",
+"o": [
+"Yes, it wins 2/3 of the time",
+"No",
+"It makes no difference"
+],
+"a": 0
+},
+"rq": {
+"p": "Why does switching help?",
+"o": [
+"The host's choice gives you information",
+"The car moves",
+"Doors are lucky"
+],
+"a": 0
+},
+"why": "Your first pick was right only 1/3 of the time.",
+"src": "Monty Hall problem"
+},
+{
+"id": "i063",
+"t": "Some infinities are bigger than others",
+"b": "In the 1870s Georg Cantor proved that the infinity of all real numbers is larger than the infinity of whole numbers: you can't pair them up one-to-one. It shocked mathematicians, and some fiercely opposed him.",
+"q": {
+"p": "Can one infinity be bigger than another?",
+"o": [
+"Yes",
+"No",
+"Only in physics"
+],
+"a": 0
+},
+"rq": {
+"p": "Who proved it?",
+"o": [
+"Georg Cantor",
+"Isaac Newton",
+"Pythagoras"
+],
+"a": 0
+},
+"why": "There's always a real number left over in any list.",
+"src": "Cantor's diagonal argument"
+},
+{
+"id": "i064",
+"t": "Benford's law",
+"b": "In many real-world data sets, from populations to bills, the leading digit is 1 about 30% of the time and 9 less than 5%. Auditors use this pattern, called Benford's law, to spot fabricated numbers.",
+"q": {
+"p": "In many real data sets, how often does the first digit equal 1?",
+"o": [
+"About 30% of the time",
+"About 11%",
+"About 50%"
+],
+"a": 0
+},
+"rq": {
+"p": "Who uses Benford's law to detect fraud?",
+"o": [
+"Auditors",
+"Chefs",
+"Pilots"
+],
+"a": 0
+},
+"why": "Made-up numbers tend to have evenly spread first digits.",
+"src": "Benford's law"
+},
+{
+"id": "i065",
+"t": "NASA needs only 15 digits of pi",
+"b": "Pi's digits go on forever without repeating. But NASA's Jet Propulsion Laboratory says it uses about 15 decimal places for interplanetary navigation. With 40 digits you could calculate the circumference of the observable universe to within an atom's width.",
+"q": {
+"p": "How many decimal places of pi does NASA's JPL typically use?",
+"o": [
+"About 15",
+"Millions",
+"Just 2"
+],
+"a": 0
+},
+"rq": {
+"p": "Do pi's digits ever repeat in a pattern?",
+"o": [
+"No",
+"Yes, every 100 digits",
+"Yes, after a billion"
+],
+"a": 0
+},
+"why": "Extra digits make errors smaller than anything measurable.",
+"src": "NASA JPL: How many decimals of pi do we really need?",
+"srcUrl": "https://www.jpl.nasa.gov/edu/news/how-many-decimals-of-pi-do-we-really-need/"
+},
+{
+"id": "i066",
+"t": "Six degrees of separation",
+"b": "In 1967, Stanley Milgram asked people in the US Midwest to pass a letter to a stranger in Boston via acquaintances. Letters that arrived took about six steps on average. Later studies of online networks found similarly short chains.",
+"q": {
+"p": "How many steps did Milgram's letters take on average?",
+"o": [
+"About six",
+"About sixty",
+"Two"
+],
+"a": 0
+},
+"rq": {
+"p": "What does 'six degrees of separation' suggest?",
+"o": [
+"Everyone is linked by short chains",
+"Everyone has six friends",
+"Strangers never meet"
+],
+"a": 0
+},
+"why": "A few well-connected people link distant groups.",
+"src": "Small-world experiment"
+},
+{
+"id": "i067",
+"t": "Dunbar's number",
+"b": "Anthropologist Robin Dunbar proposed that humans can keep around 150 stable relationships, linked to the size of our brains' neocortex. The exact number is debated, but similar group sizes appear in villages, armies and companies.",
+"q": {
+"p": "About how many stable relationships did Dunbar propose we can keep?",
+"o": [
+"About 150",
+"About 15",
+"About 1,500"
+],
+"a": 0
+},
+"rq": {
+"p": "Is Dunbar's number exact?",
+"o": [
+"No, it's debated",
+"Yes, exactly 150",
+"It's a legal limit"
+],
+"a": 0
+},
+"why": "Tracking who's who in a group takes brainpower.",
+"src": "Dunbar's number"
+},
+{
+"id": "i068",
+"t": "Tycoon, shampoo and pyjamas are borrowed",
+"b": "English borrows from everywhere. Tycoon comes from the Japanese taikun, a title for a great lord. Shampoo comes from Hindi chāmpo, to press or massage. Pyjamas come from Persian and Urdu words for leg garment.",
+"q": {
+"p": "Which language gave English 'shampoo'?",
+"o": [
+"Hindi",
+"French",
+"Japanese"
+],
+"a": 0
+},
+"rq": {
+"p": "What did 'tycoon' originally mean?",
+"o": [
+"A great lord",
+"A rich merchant",
+"A typhoon"
+],
+"a": 0
+},
+"why": "Trade and empire brought words home with goods.",
+"src": "Shampoo"
+},
+{
+"id": "i069",
+"t": "Avocado, chocolate and tomato are Nahuatl",
+"b": "These words come from Nahuatl, the language of the Aztecs, through Spanish: avocado from āhuacatl, tomato from tomatl, and chocolate probably from a Nahuatl word for a drink. Chilli and coyote too.",
+"q": {
+"p": "Which language gave us 'tomato' and 'avocado'?",
+"o": [
+"Nahuatl",
+"Latin",
+"Arabic"
+],
+"a": 0
+},
+"rq": {
+"p": "Who spoke Nahuatl?",
+"o": [
+"The Aztecs",
+"The Incas",
+"The Maya only"
+],
+"a": 0
+},
+"why": "Spanish explorers borrowed names along with the foods.",
+"src": "Nahuatl"
+},
+{
+"id": "i070",
+"t": "The ampersand is a squashed 'and'",
+"b": "The symbol & started as a joined-up Latin et, meaning and. Children reciting the alphabet once ended with '…X, Y, Z, and per se and', meaning '& by itself is and'. Slurred together, that became ampersand.",
+"q": {
+"p": "What Latin word is the & symbol based on?",
+"o": [
+"Et, meaning and",
+"Ad, meaning to",
+"Est, meaning is"
+],
+"a": 0
+},
+"rq": {
+"p": "Where does the name 'ampersand' come from?",
+"o": [
+"'And per se and' in alphabet recitals",
+"A printer named Amper",
+"A Greek letter"
+],
+"a": 0
+},
+"why": "& was once taught as the 27th letter of the alphabet.",
+"src": "Ampersand"
+},
+{
+"id": "i071",
+"t": "Emoji has nothing to do with emotion",
+"b": "Emoji is Japanese: e means picture, and moji means written character. The resemblance to 'emotion' is a coincidence. Shigetaka Kurita designed an influential early set of 176 emoji for a Japanese mobile service in 1999.",
+"q": {
+"p": "What does 'emoji' mean in Japanese?",
+"o": [
+"Picture character",
+"Emotion icon",
+"Small face"
+],
+"a": 0
+},
+"rq": {
+"p": "Who designed an influential early emoji set in 1999?",
+"o": [
+"Shigetaka Kurita",
+"Steve Jobs",
+"Hayao Miyazaki"
+],
+"a": 0
+},
+"why": "The similarity to 'emotion' helped the word spread.",
+"src": "Emoji"
+},
+{
+"id": "i072",
+"t": "'Typewriter' fits on one row",
+"b": "'Typewriter' is famously one of the longest common English words you can type using only the top row of letters on a QWERTY keyboard. Try it: every letter is between Q and P.",
+"q": {
+"p": "Which word can you type using only the top letter row?",
+"o": [
+"Typewriter",
+"Keyboard",
+"Computer"
+],
+"a": 0
+},
+"rq": {
+"p": "Which keyboard layout does this apply to?",
+"o": [
+"QWERTY",
+"AZERTY",
+"Dvorak"
+],
+"a": 0
+},
+"why": "The top row includes T, Y, P, E, W, R and I.",
+"src": "QWERTY"
+},
+{
+"id": "i073",
+"t": "Writing was invented more than once",
+"b": "Writing seems to have been invented independently at least three or four times: in Mesopotamia around 3200 BC, in China by about 1200 BC, and in Mesoamerica by about 500 BC, with Egypt's hieroglyphs possibly a separate case.",
+"q": {
+"p": "Was writing invented only once?",
+"o": [
+"No, several times independently",
+"Yes, in Egypt",
+"Yes, in China"
+],
+"a": 0
+},
+"rq": {
+"p": "Where did the earliest known writing appear?",
+"o": [
+"Mesopotamia",
+"Greece",
+"India"
+],
+"a": 0
+},
+"why": "Growing cities needed records of trade and taxes.",
+"src": "History of writing",
+"vis": {
+"type": "timeline",
+"points": [
+{
+"label": "Mesopotamia",
+"year": -3200
+},
+{
+"label": "China",
+"year": -1200
+},
+{
+"label": "Mesoamerica",
+"year": -500
+}
+]
+}
+},
+{
+"id": "i074",
+"t": "The first writing was accounting",
+"b": "The earliest cuneiform tablets from the city of Uruk, in today's Iraq, mostly record grain, livestock and labour. Writing seems to have started as bookkeeping long before it was used for stories or poems.",
+"q": {
+"p": "What did most of the earliest writing record?",
+"o": [
+"Goods and accounts",
+"Love poems",
+"Prayers"
+],
+"a": 0
+},
+"rq": {
+"p": "What was the earliest writing system called?",
+"o": [
+"Cuneiform",
+"Hieroglyphs",
+"Runes"
+],
+"a": 0
+},
+"why": "Temples needed to track who owed what.",
+"src": "Cuneiform"
+},
+{
+"id": "i075",
+"t": "Ancient Greek had no spaces",
+"b": "Ancient Greek and Latin were often written in scriptio continua: no spaces between words, little punctuation and no lowercase letters. Readers usually read aloud to work out where words began and ended.",
+"q": {
+"p": "How was ancient Greek usually written?",
+"o": [
+"Without spaces between words",
+"Right to left only",
+"In pictures"
+],
+"a": 0
+},
+"rq": {
+"p": "How did readers cope?",
+"o": [
+"They often read aloud",
+"They used spaces in their heads only",
+"They didn't read"
+],
+"a": 0
+},
+"why": "Word spacing spread later, partly through Irish and English monks.",
+"src": "Scriptio continua"
+}
+]

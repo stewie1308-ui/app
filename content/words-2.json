@@ -1,0 +1,627 @@
+[
+{
+"id": "i026",
+"t": "The uncanny valley",
+"b": "In 1970, roboticist Masahiro Mori proposed that as robots look more human we like them more, until they become almost but not quite human. Then they turn creepy. He called that dip the uncanny valley.",
+"q": {
+"p": "Why might a very lifelike robot feel creepy?",
+"o": [
+"It's almost but not quite human",
+"It's too shiny",
+"It's too small"
+],
+"a": 0
+},
+"rq": {
+"p": "Who proposed the uncanny valley?",
+"o": [
+"Masahiro Mori",
+"Isaac Asimov",
+"Alan Turing"
+],
+"a": 0
+},
+"why": "Small flaws in near-human faces may signal something is wrong.",
+"src": "Uncanny valley"
+},
+{
+"id": "i027",
+"t": "The Ship of Theseus",
+"b": "If every plank of a ship is replaced one by one, is it still the same ship? And if you rebuilt the old planks into a second ship, which is the original? Plutarch recorded the puzzle nearly 2,000 years ago, and it still fuels debates about identity.",
+"q": {
+"p": "What does the Ship of Theseus puzzle ask about?",
+"o": [
+"Whether something stays the same if all its parts change",
+"How ships float",
+"Who owns a ship"
+],
+"a": 0
+},
+"rq": {
+"p": "Who recorded the puzzle?",
+"o": [
+"Plutarch",
+"Plato",
+"Pliny"
+],
+"a": 0
+},
+"why": "Your body's cells are also replaced over time.",
+"src": "Ship of Theseus"
+},
+{
+"id": "i028",
+"t": "Occam's razor",
+"b": "Occam's razor, named after the 14th-century friar William of Ockham, advises: don't add more assumptions than you need. When two explanations fit the facts equally well, prefer the simpler one. It's a guide, not a proof.",
+"q": {
+"p": "What does Occam's razor suggest?",
+"o": [
+"Prefer the simpler explanation",
+"Always shave",
+"Trust the most detailed theory"
+],
+"a": 0
+},
+"rq": {
+"p": "Is Occam's razor a proof?",
+"o": [
+"No, it's a rule of thumb",
+"Yes",
+"Only in maths"
+],
+"a": 0
+},
+"why": "Each extra assumption is another chance to be wrong.",
+"src": "Occam's razor"
+},
+{
+"id": "i029",
+"t": "Hanlon's razor",
+"b": "Hanlon's razor says: never attribute to malice what can be adequately explained by carelessness or mistake. It's a reminder that most frustrating situations come from people being busy or wrong, not plotting against you.",
+"q": {
+"p": "Hanlon's razor suggests most annoying events are due to…",
+"o": [
+"Mistakes, not malice",
+"Conspiracies",
+"Bad luck only"
+],
+"a": 0
+},
+"rq": {
+"p": "What is it a useful reminder for?",
+"o": [
+"Not assuming bad intent",
+"Shaving technique",
+"Saving money"
+],
+"a": 0
+},
+"why": "Assuming malice often makes conflicts worse.",
+"src": "Hanlon's razor"
+},
+{
+"id": "i030",
+"t": "Achilles can't catch the tortoise?",
+"b": "Zeno of Elea argued that fast Achilles can never overtake a tortoise with a head start: each time he reaches where it was, it has moved on a bit. Mathematicians later resolved it: infinitely many shrinking steps can add up to a finite distance.",
+"q": {
+"p": "What resolves Zeno's Achilles paradox?",
+"o": [
+"Infinite steps can sum to a finite distance",
+"Achilles was slower",
+"Tortoises are fast"
+],
+"a": 0
+},
+"rq": {
+"p": "Who devised the paradox?",
+"o": [
+"Zeno of Elea",
+"Archimedes",
+"Euclid"
+],
+"a": 0
+},
+"why": "1/2 + 1/4 + 1/8 + … adds up to exactly 1.",
+"src": "Zeno's paradoxes"
+},
+{
+"id": "i031",
+"t": "The trolley problem began in 1967",
+"b": "Philosopher Philippa Foot posed the trolley problem in 1967: should you divert a runaway tram to kill one person instead of five? It's used to explore the difference between doing harm and allowing it, and now informs debates about self-driving cars.",
+"q": {
+"p": "Who first posed the trolley problem?",
+"o": [
+"Philippa Foot",
+"Immanuel Kant",
+"Elon Musk"
+],
+"a": 0
+},
+"rq": {
+"p": "Which modern technology revived the debate?",
+"o": [
+"Self-driving cars",
+"Smartphones",
+"Drones"
+],
+"a": 0
+},
+"why": "Cars may need rules for unavoidable crash choices.",
+"src": "Trolley problem"
+},
+{
+"id": "i032",
+"t": "Socrates wrote nothing",
+"b": "Socrates, one of the founders of Western philosophy, never wrote anything down that survives. We know his ideas mainly through his students, especially Plato, whose dialogues star Socrates as the main speaker.",
+"q": {
+"p": "How do we know what Socrates thought?",
+"o": [
+"Through his students' writings",
+"From his books",
+"From his diary"
+],
+"a": 0
+},
+"rq": {
+"p": "Which student wrote dialogues starring Socrates?",
+"o": [
+"Plato",
+"Aristotle",
+"Homer"
+],
+"a": 0
+},
+"why": "Socrates preferred live conversation to writing.",
+"src": "Socrates"
+},
+{
+"id": "i033",
+"t": "I think, therefore I am",
+"b": "René Descartes wanted one belief he couldn't doubt. Even if he doubted everything, he realised the act of doubting proved he existed. He wrote it in French in 1637 as 'je pense, donc je suis', later famous in Latin as 'cogito, ergo sum'.",
+"q": {
+"p": "What couldn't Descartes doubt?",
+"o": [
+"That he existed, since he was thinking",
+"That the world was real",
+"That God was watching"
+],
+"a": 0
+},
+"rq": {
+"p": "In which language did Descartes first publish the phrase?",
+"o": [
+"French",
+"Latin",
+"Greek"
+],
+"a": 0
+},
+"why": "Doubting is itself a kind of thinking.",
+"src": "Cogito, ergo sum"
+},
+{
+"id": "i034",
+"t": "Stoics split what you can control",
+"b": "The Stoic teacher Epictetus, a former slave, taught that some things are up to us, like our judgements and actions, and some aren't, like weather or others' opinions. Focusing only on the first brings peace of mind.",
+"q": {
+"p": "What did Epictetus say to focus on?",
+"o": [
+"What's within your control",
+"Other people's opinions",
+"The future"
+],
+"a": 0
+},
+"rq": {
+"p": "What was Epictetus's background?",
+"o": [
+"A former slave",
+"An emperor",
+"A general"
+],
+"a": 0
+},
+"why": "Worrying about uncontrollable things only adds suffering.",
+"src": "Epictetus"
+},
+{
+"id": "i035",
+"t": "The prisoner's dilemma",
+"b": "Two suspects can each stay silent or betray the other. Betrayal looks best individually, but if both betray, both do worse than if both had stayed silent. The puzzle, devised in 1950, shows how self-interest can backfire.",
+"q": {
+"p": "In the prisoner's dilemma, what happens if both betray each other?",
+"o": [
+"Both do worse than if both stayed silent",
+"Both go free",
+"One wins big"
+],
+"a": 0
+},
+"rq": {
+"p": "What does the dilemma illustrate?",
+"o": [
+"Self-interest can backfire",
+"Crime pays",
+"Silence is always best"
+],
+"a": 0
+},
+"why": "Trust lets both sides reach the better outcome.",
+"src": "Prisoner's dilemma"
+},
+{
+"id": "i036",
+"t": "The tragedy of the commons",
+"b": "If a pasture is shared by everyone, each herder gains by adding one more cow, but if all do, the grass is destroyed. Ecologist Garrett Hardin popularised the idea in 1968. Economist Elinor Ostrom later showed communities often manage commons well.",
+"q": {
+"p": "Who showed communities can manage shared resources well?",
+"o": [
+"Elinor Ostrom",
+"Adam Smith",
+"Karl Marx"
+],
+"a": 0
+},
+"rq": {
+"p": "What is the 'tragedy' of the commons?",
+"o": [
+"Individual gain ruins a shared resource",
+"Farmers fight over land",
+"Cows get sick"
+],
+"a": 0
+},
+"why": "Ostrom won a Nobel in economics in 2009 for this work.",
+"src": "Tragedy of the commons"
+},
+{
+"id": "i037",
+"t": "Goodhart's law",
+"b": "Economist Charles Goodhart noted that measures used as targets stop being good measures. Paraphrased: 'When a measure becomes a target, it ceases to be a good measure.' People game the number instead of improving the real thing.",
+"q": {
+"p": "What happens when a measure becomes a target?",
+"o": [
+"It stops being a good measure",
+"It improves",
+"Nothing"
+],
+"a": 0
+},
+"rq": {
+"p": "Why does Goodhart's law happen?",
+"o": [
+"People game the number",
+"Measurements break",
+"Targets are illegal"
+],
+"a": 0
+},
+"why": "Effort shifts to hitting the metric, not the goal.",
+"src": "Goodhart's law"
+},
+{
+"id": "i038",
+"t": "The 80/20 rule",
+"b": "Italian economist Vilfredo Pareto observed around 1900 that about 80% of Italy's land was owned by about 20% of the people. The 'Pareto principle' now loosely describes how a small share of causes often drives most of the effects.",
+"q": {
+"p": "What did Pareto originally observe?",
+"o": [
+"20% of people owned 80% of land",
+"80% of people were farmers",
+"Prices rose 20% a year"
+],
+"a": 0
+},
+"rq": {
+"p": "Is 80/20 an exact law?",
+"o": [
+"No, it's a rough pattern",
+"Yes, always exact",
+"Only for money"
+],
+"a": 0
+},
+"why": "Many real-world distributions are lopsided.",
+"src": "Pareto principle"
+},
+{
+"id": "i039",
+"t": "Survivorship bias",
+"b": "In the Second World War, statistician Abraham Wald studied damage on returning bombers. Rather than armouring where bullet holes clustered, he argued for armouring where returning planes had none, since planes hit there didn't come back.",
+"q": {
+"p": "Where did Wald suggest adding armour?",
+"o": [
+"Where returning planes had no holes",
+"Where holes clustered",
+"Nowhere"
+],
+"a": 0
+},
+"rq": {
+"p": "What error does survivorship bias describe?",
+"o": [
+"Looking only at those who made it",
+"Trusting old data",
+"Counting twice"
+],
+"a": 0
+},
+"why": "The missing planes held the important information.",
+"src": "Survivorship bias"
+},
+{
+"id": "i040",
+"t": "The Streisand effect",
+"b": "In 2003, Barbra Streisand sued to remove an aerial photo of her Malibu home from a coastal survey website. The lawsuit drew huge attention and the photo was viewed far more. Trying to hide something often spreads it.",
+"q": {
+"p": "What's the Streisand effect?",
+"o": [
+"Trying to hide something makes it spread",
+"Famous people sing better",
+"Lawsuits always succeed"
+],
+"a": 0
+},
+"rq": {
+"p": "What did Streisand want removed?",
+"o": [
+"An aerial photo of her home",
+"A bad review",
+"A song"
+],
+"a": 0
+},
+"why": "Attention attracts curiosity.",
+"src": "Streisand effect"
+},
+{
+"id": "i041",
+"t": "The sunk cost fallacy",
+"b": "Sitting through a terrible film because you've paid for the ticket is the sunk cost fallacy. Money or time already spent can't be recovered, so it shouldn't decide what you do next; only future costs and benefits should.",
+"q": {
+"p": "Should money already spent decide what you do next?",
+"o": [
+"No, only future costs and benefits",
+"Yes, always",
+"Only if it's a lot"
+],
+"a": 0
+},
+"rq": {
+"p": "What's an example of the sunk cost fallacy?",
+"o": [
+"Finishing a bad film because you paid",
+"Leaving a bad film",
+"Asking for a refund"
+],
+"a": 0
+},
+"why": "Past costs are gone whatever you choose.",
+"src": "Sunk cost"
+},
+{
+"id": "i042",
+"t": "We notice what we already believe",
+"b": "Confirmation bias is our tendency to seek out, remember and trust information that supports what we already think, and to brush aside what doesn't. Deliberately looking for evidence against your view helps counter it.",
+"q": {
+"p": "What is confirmation bias?",
+"o": [
+"Favouring evidence that fits our beliefs",
+"Checking facts twice",
+"Confirming appointments"
+],
+"a": 0
+},
+"rq": {
+"p": "How can you counter it?",
+"o": [
+"Look for evidence against your view",
+"Read only one source",
+"Trust your gut"
+],
+"a": 0
+},
+"why": "Agreeing evidence feels good; disagreeing evidence feels like a threat.",
+"src": "Confirmation bias"
+},
+{
+"id": "i043",
+"t": "Chesterton's fence",
+"b": "G. K. Chesterton imagined a reformer finding a fence across a road and wanting it removed. A wiser one says: first find out why it was built. Only remove a rule or tradition once you understand its purpose.",
+"q": {
+"p": "What does Chesterton's fence advise?",
+"o": [
+"Understand why something exists before removing it",
+"Never change anything",
+"Build more fences"
+],
+"a": 0
+},
+"rq": {
+"p": "Who came up with the idea?",
+"o": [
+"G. K. Chesterton",
+"Robert Frost",
+"Thomas More"
+],
+"a": 0
+},
+"why": "Old rules sometimes solve problems we've forgotten.",
+"src": "G. K. Chesterton"
+},
+{
+"id": "i044",
+"t": "Parkinson's law",
+"b": "In a 1955 Economist essay, historian C. Northcote Parkinson wrote that 'work expands so as to fill the time available for its completion'. Give a task a week and it tends to take a week. Tighter deadlines can help.",
+"q": {
+"p": "According to Parkinson's law, work expands to fill…",
+"o": [
+"The time available",
+"The space available",
+"The budget only"
+],
+"a": 0
+},
+"rq": {
+"p": "Where was Parkinson's law first published?",
+"o": [
+"The Economist",
+"A science journal",
+"A cookbook"
+],
+"a": 0
+},
+"why": "Without a deadline, tasks absorb extra polishing and delay.",
+"src": "Parkinson's law"
+},
+{
+"id": "i045",
+"t": "Hofstadter's law",
+"b": "Douglas Hofstadter's playful law says: 'It always takes longer than you expect, even when you take into account Hofstadter's law.' It captures our persistent tendency to underestimate how long tasks take, known as the planning fallacy.",
+"q": {
+"p": "What does Hofstadter's law say?",
+"o": [
+"Things take longer than expected, even allowing for that",
+"Things finish early",
+"Plans never fail"
+],
+"a": 0
+},
+"rq": {
+"p": "What's the general tendency called?",
+"o": [
+"The planning fallacy",
+"The halo effect",
+"The placebo effect"
+],
+"a": 0
+},
+"why": "We imagine the best case and forget surprises.",
+"src": "Hofstadter's law"
+},
+{
+"id": "i046",
+"t": "The map is not the territory",
+"b": "Philosopher Alfred Korzybski warned that a map, or any model, is not the reality it describes. Maps leave things out and can be out of date. The idea reminds us that our mental models are simplifications.",
+"q": {
+"p": "What does 'the map is not the territory' mean?",
+"o": [
+"Models aren't the reality they describe",
+"Maps are always wrong",
+"Never use maps"
+],
+"a": 0
+},
+"rq": {
+"p": "Who coined the phrase?",
+"o": [
+"Alfred Korzybski",
+"Christopher Columbus",
+"Ptolemy"
+],
+"a": 0
+},
+"why": "Every model leaves something out.",
+"src": "Map–territory relation"
+},
+{
+"id": "i047",
+"t": "Invert, always invert",
+"b": "Mathematician Carl Jacobi advised solving hard problems by turning them around. Investor Charlie Munger made it famous: instead of asking how to succeed, ask what would guarantee failure, then avoid that.",
+"q": {
+"p": "What does 'inversion' suggest?",
+"o": [
+"Ask what would cause failure, then avoid it",
+"Do things backwards",
+"Turn your phone upside down"
+],
+"a": 0
+},
+"rq": {
+"p": "Which mathematician said 'invert, always invert'?",
+"o": [
+"Carl Jacobi",
+"Isaac Newton",
+"Euler"
+],
+"a": 0
+},
+"why": "Mistakes are often easier to spot than perfect plans.",
+"src": "Carl Gustav Jacob Jacobi"
+},
+{
+"id": "i048",
+"t": "Opportunity cost",
+"b": "The true cost of a choice is the best thing you gave up to make it. An evening spent scrolling costs whatever else you could have done with those hours. Economists call this opportunity cost.",
+"q": {
+"p": "What is the opportunity cost of a choice?",
+"o": [
+"The best alternative you gave up",
+"The price tag",
+"The tax you pay"
+],
+"a": 0
+},
+"rq": {
+"p": "Spending an evening on your phone has an opportunity cost of…",
+"o": [
+"What else you could've done",
+"Nothing",
+"The phone's battery"
+],
+"a": 0
+},
+"why": "Time and money spent on one thing can't be spent on another.",
+"src": "Opportunity cost"
+},
+{
+"id": "i049",
+"t": "Starry Night was painted from an asylum",
+"b": "Vincent van Gogh painted The Starry Night in 1889 while staying at an asylum in Saint-Rémy-de-Provence in southern France. It shows the view from his window just before sunrise, with an imagined village added.",
+"q": {
+"p": "Where was Van Gogh when he painted The Starry Night?",
+"o": [
+"An asylum in southern France",
+"Paris",
+"Amsterdam"
+],
+"a": 0
+},
+"rq": {
+"p": "What part of the painting did he imagine?",
+"o": [
+"The village",
+"The stars",
+"The window"
+],
+"a": 0
+},
+"why": "He painted from memory and imagination as well as the view.",
+"src": "The Starry Night"
+},
+{
+"id": "i050",
+"t": "Michelangelo painted standing up",
+"b": "Popular images show Michelangelo lying on his back to paint the Sistine Chapel ceiling. In fact he worked standing on a scaffold he designed, painting overhead for four years, from 1508 to 1512. He wrote a poem complaining about the strain on his neck.",
+"q": {
+"p": "How did Michelangelo paint the Sistine ceiling?",
+"o": [
+"Standing on scaffolding",
+"Lying on his back",
+"From a ladder"
+],
+"a": 0
+},
+"rq": {
+"p": "How long did the ceiling take?",
+"o": [
+"About four years",
+"About four months",
+"About forty years"
+],
+"a": 0
+},
+"why": "The 'lying down' image comes from later fiction and films.",
+"src": "Sistine Chapel ceiling"
+}
+]

@@ -1,27 +1,726 @@
 [
-{"id":"s076","t":"Arctic terns chase endless summer","b":"Arctic terns fly from Arctic breeding grounds to Antarctica and back each year, a round trip averaging about 70,000 km. Over a 30-year life that adds up to roughly the distance to the Moon and back three times. They see more daylight than any other animal.","q":{"p":"Which animal has the longest yearly migration?","o":["Arctic tern","Grey whale","Monarch butterfly"],"a":0},"rq":{"p":"About how far does an Arctic tern fly each year?","o":["70,000 km","7,000 km","700 km"],"a":0},"why":"Summer at both poles means near-constant daylight.","src":"Arctic tern"},
-{"id":"s077","t":"Axolotls regrow body parts","b":"The axolotl, a Mexican salamander, can regrow lost limbs, parts of its spinal cord and heart, and even parts of its brain, without scarring. Scientists study it hoping to learn how to help human tissue heal.","q":{"p":"What can an axolotl regrow?","o":["Legs and parts of its heart","Only its tail","Nothing"],"a":0},"rq":{"p":"What kind of animal is an axolotl?","o":["A salamander","A fish","A lizard"],"a":0},"why":"Its cells can return to a flexible state and rebuild tissue.","src":"Axolotl"},
-{"id":"s078","t":"Your brain is an energy hog","b":"The brain is about 2% of body weight but uses around 20% of your resting energy. Much of that powers the constant electrical signalling between about 86 billion neurons, even while you sleep.","q":{"p":"How much of your resting energy does your brain use?","o":["About 20%","About 2%","About 60%"],"a":0},"rq":{"p":"About how many neurons are in a human brain?","o":["86 billion","86 million","86 thousand"],"a":0},"why":"Keeping neurons ready to fire is energetically expensive.","src":"Human brain","vis":{"type":"compare","items":[{"label":"Share of weight","value":2,"unit":"%"},{"label":"Share of energy","value":20,"unit":"%"}]}},
-{"id":"s079","t":"You use far more than 10% of your brain","b":"The idea that we use only 10% of our brains is a myth. Brain scans show activity across nearly all regions over a day, and damage to almost any area causes some loss of function.","q":{"p":"How much of your brain do you use?","o":["Virtually all of it","About 10%","About half"],"a":0},"rq":{"p":"What evidence busts the 10% myth?","o":["Scans show activity in nearly every region","Brains weigh too much","Surveys of doctors"],"a":0},"why":"Different tasks use different areas, but all are used.","src":"Ten percent of the brain myth"},
-{"id":"s080","t":"Caffeine hides your tiredness","b":"While you're awake, a chemical called adenosine builds up in your brain, making you feel sleepy. Caffeine has a similar shape and blocks adenosine's receptors, so the 'tired' signal can't get through. The adenosine is still there when caffeine wears off.","q":{"p":"How does caffeine keep you awake?","o":["It blocks a sleepiness signal","It adds energy to cells","It raises blood sugar"],"a":0},"rq":{"p":"What chemical makes you feel sleepy as the day goes on?","o":["Adenosine","Adrenaline","Insulin"],"a":0},"why":"Caffeine is a molecular look-alike that jams the receptor.","src":"Caffeine"},
-{"id":"s081","t":"Goosebumps are a leftover","b":"Tiny muscles at each hair follicle contract when you're cold or scared, making hairs stand up. In furry animals this traps warm air or makes them look bigger. For mostly hairless humans, the reflex remains but does little.","q":{"p":"What were goosebumps originally for?","o":["Fluffing up fur","Cooling the skin","Sensing sound"],"a":0},"rq":{"p":"What causes goosebumps?","o":["Tiny muscles at hair follicles","Skin shrinking","Blood rushing out"],"a":0},"why":"It's a reflex inherited from hairier ancestors.","src":"Goose bumps"},
-{"id":"s082","t":"Air is mostly nitrogen","b":"The air you breathe is about 78% nitrogen and 21% oxygen. Most of the remaining 1% is argon. Carbon dioxide makes up only about 0.04%, yet it has a big effect on Earth's temperature.","q":{"p":"What is most of the air made of?","o":["Nitrogen","Oxygen","Carbon dioxide"],"a":0},"rq":{"p":"What is the third most common gas in air?","o":["Argon","Carbon dioxide","Helium"],"a":0},"why":"Nitrogen is very unreactive, so it builds up in the air.","src":"Atmosphere of Earth","vis":{"type":"compare","items":[{"label":"Nitrogen","value":78,"unit":"%"},{"label":"Oxygen","value":21,"unit":"%"},{"label":"Argon","value":0.9,"unit":"%"}]}},
-{"id":"s083","t":"A fluffy cloud weighs hundreds of tonnes","b":"The US Geological Survey estimates that a typical cumulus cloud holds about 500 tonnes of water, roughly the weight of 100 elephants. It floats because the water is spread out as tiny droplets in rising, slightly warmer air.","q":{"p":"Roughly how much water is in a typical fluffy cloud?","o":["About 500 tonnes","About 5 kg","About 5 tonnes"],"a":0},"rq":{"p":"Why do clouds float?","o":["Tiny droplets held up by rising air","Clouds are lighter than air","Static electricity"],"a":0},"why":"Each droplet is so small it falls incredibly slowly.","src":"Cloud","srcUrl":"https://www.usgs.gov/special-topics/water-science-school/science/how-much-does-a-cloud-weigh"},
-{"id":"s084","t":"Rainbows are really circles","b":"Every rainbow is part of a full circle centred on the point opposite the Sun. From the ground, the horizon cuts off the bottom half. From a plane or a mountaintop you can sometimes see the whole ring.","q":{"p":"What shape is a full rainbow?","o":["A circle","An arch","A spiral"],"a":0},"rq":{"p":"Why do we usually see only an arch?","o":["The ground blocks the lower half","Sunlight is blocked","Rain only falls in arches"],"a":0},"why":"Raindrops bend light back at about 42° from the anti-solar point.","src":"Rainbow"},
-{"id":"s085","t":"Snow is made of clear ice","b":"Each snow crystal is made of transparent ice. Snow looks white because light bounces off the countless crystal surfaces in every direction, scattering all colours equally, which our eyes see as white.","q":{"p":"What colour is ice in a snowflake?","o":["Clear","White","Pale blue"],"a":0},"rq":{"p":"Why does snow look white?","o":["Light scatters off many crystal faces","It has white minerals","Air bubbles are white"],"a":0},"why":"Scattering every colour equally makes white.","src":"Snow"},
-{"id":"s086","t":"Everest would sink in the Mariana Trench","b":"Challenger Deep in the Mariana Trench is about 10,900 metres below sea level. Mount Everest is about 8,850 metres tall. Drop Everest in and its peak would still be about 2 km underwater.","q":{"p":"If Everest were in the deepest ocean trench, would its peak stick out?","o":["No, it'd be about 2 km under","Yes, just barely","Yes, by 2 km"],"a":0},"rq":{"p":"About how deep is Challenger Deep?","o":["About 11 km","About 4 km","About 1 km"],"a":0},"why":"The trench forms where one tectonic plate dives under another.","src":"Challenger Deep","vis":{"type":"compare","items":[{"label":"Challenger Deep","value":10.9,"unit":"km deep"},{"label":"Everest","value":8.85,"unit":"km tall"}]}},
-{"id":"s087","t":"Continents move as fast as nails grow","b":"Tectonic plates creep a few centimetres a year, about as fast as fingernails grow. The Atlantic Ocean widens by roughly 2.5 cm each year as North America and Europe drift apart.","q":{"p":"How fast do continents move?","o":["About as fast as fingernails grow","About walking speed","They don't move"],"a":0},"rq":{"p":"What's happening to the Atlantic Ocean?","o":["It's slowly widening","It's shrinking fast","It's fixed"],"a":0},"why":"Hot rock rising along the mid-Atlantic ridge pushes plates apart.","src":"Plate tectonics"},
-{"id":"s088","t":"T. rex is closer in time to us than to Stegosaurus","b":"Stegosaurus lived around 150 million years ago. Tyrannosaurus rex lived about 68 to 66 million years ago. That means less time separates T. rex from your phone than separates it from Stegosaurus.","q":{"p":"Who lived closer in time to T. rex?","o":["Us","Stegosaurus"],"a":0},"rq":{"p":"About when did Stegosaurus live?","o":["150 million years ago","66 million years ago","10,000 years ago"],"a":0},"why":"The age of dinosaurs lasted over 160 million years.","src":"Stegosaurus","vis":{"type":"timeline","points":[{"label":"Stegosaurus","year":-150000000},{"label":"T. rex","year":-67000000},{"label":"Us","year":0}]}},
-{"id":"s089","t":"Birds are living dinosaurs","b":"Birds evolved from small feathered dinosaurs related to Velociraptor. Scientists classify them as dinosaurs, so dinosaurs didn't all die out 66 million years ago. About 11,000 species are alive today.","q":{"p":"Which animals are living dinosaurs?","o":["Birds","Crocodiles","Lizards"],"a":0},"rq":{"p":"Which group did birds evolve from?","o":["Small feathered dinosaurs","Flying reptiles called pterosaurs","Early mammals"],"a":0},"why":"Fossils show feathers, wishbones and hollow bones in many dinosaurs.","src":"Origin of birds"},
-{"id":"s090","t":"Octopus arms do their own thinking","b":"An octopus has about 500 million neurons, and around two-thirds of them are in its arms, not its brain. Each arm can taste, touch and react on its own, while the brain sets the overall goal.","q":{"p":"Where are most of an octopus's neurons?","o":["In its arms","In its brain","In its eyes"],"a":0},"rq":{"p":"What can a single octopus arm do by itself?","o":["Taste and react to things","Nothing","See"],"a":0},"why":"Spreading control out lets eight flexible arms move independently.","src":"Octopus"},
-{"id":"s091","t":"Crows make hooked tools","b":"New Caledonian crows shape twigs and leaves into hooked tools to fish grubs out of logs. In a famous 2002 experiment, a crow named Betty bent a straight wire into a hook to lift a food basket from a tube.","q":{"p":"What did Betty the crow do?","o":["Bent wire into a hook","Learned to count to 100","Opened a locked door with a key"],"a":0},"rq":{"p":"What do New Caledonian crows make in the wild?","o":["Hooked stick tools","Nests with doors","Stone hammers"],"a":0},"why":"Few animals besides humans make tools to a design.","src":"New Caledonian crow"},
-{"id":"s092","t":"Dolphins sleep with half a brain","b":"Dolphins must surface to breathe, so they can't fully switch off. They rest one half of the brain at a time while the other stays alert, keeping one eye open to watch for danger and remember to breathe.","q":{"p":"How do dolphins sleep?","o":["Half their brain at a time","They never sleep","Upside down on the seabed"],"a":0},"rq":{"p":"Why can't dolphins sleep fully?","o":["They must remember to breathe","They're always hunting","The water is too cold"],"a":0},"why":"Breathing is a conscious action for dolphins.","src":"Unihemispheric slow-wave sleep"},
-{"id":"s093","t":"Cats can't taste sugar","b":"Cats carry a broken version of a gene needed for the sweet taste receptor, so they can't detect sweetness. It makes sense for strict meat-eaters, which rarely meet sugar. Many other carnivores, like sea lions, lost the sweet taste too.","q":{"p":"Which taste can't cats detect?","o":["Sweet","Salty","Bitter"],"a":0},"rq":{"p":"Why did cats lose their sweet taste?","o":["As meat-eaters they didn't need it","They eat too much sugar","Domestication"],"a":0},"why":"Unused genes can break over evolution without harm.","src":"Cat"},
-{"id":"s094","t":"Dogs have 50 times our smell receptors","b":"Humans have about 6 million smell receptors in the nose. Dogs have up to around 300 million, and a large part of a dog's brain is devoted to analysing smells. That's why dogs can detect drugs, explosives and even some illnesses.","q":{"p":"How many smell receptors can a dog have?","o":["Up to 300 million","About 6 million, like us","About 3,000"],"a":0},"rq":{"p":"About how many smell receptors do humans have?","o":["About 6 million","About 300 million","About 600"],"a":0},"why":"More receptors and more brain power mean much finer sniffing.","src":"Dog","vis":{"type":"compare","items":[{"label":"Dog","value":300,"unit":"million"},{"label":"Human","value":6,"unit":"million"}]}},
-{"id":"s095","t":"The universe is 13.8 billion years old","b":"By measuring the faint afterglow of the Big Bang and how fast galaxies are moving apart, astronomers estimate the universe began about 13.8 billion years ago. Earth formed much later, about 4.5 billion years ago.","q":{"p":"How old is the universe?","o":["About 13.8 billion years","About 4.5 billion years","About 6,000 years"],"a":0},"rq":{"p":"How old is Earth?","o":["About 4.5 billion years","About 13.8 billion years","About 450 million years"],"a":0},"why":"The cosmic microwave background is light from 380,000 years after the Big Bang.","src":"Age of the universe","vis":{"type":"timeline","points":[{"label":"Big Bang","year":-13800000000},{"label":"Earth forms","year":-4500000000},{"label":"Today","year":0}]}},
-{"id":"s096","t":"Hydrogen is most of everything","b":"About three-quarters of all ordinary matter in the universe, by mass, is hydrogen, the simplest element. Most of the rest is helium. Every heavier element, including the carbon and oxygen in you, was made inside stars.","q":{"p":"What's the most common element in the universe?","o":["Hydrogen","Oxygen","Iron"],"a":0},"rq":{"p":"Where were the carbon and oxygen in your body made?","o":["Inside stars","In the Big Bang","In Earth's core"],"a":0},"why":"The Big Bang made mostly hydrogen and helium; stars forge the rest.","src":"Abundance of the chemical elements"},
-{"id":"s097","t":"Koalas have fingerprints like ours","b":"Koalas have fingerprints so similar to human ones that even under a microscope they're hard to tell apart. They evolved separately from ours, probably to help koalas grip branches and judge which leaves to eat.","q":{"p":"Which animal has fingerprints very like humans'?","o":["Koala","Dog","Parrot"],"a":0},"rq":{"p":"Did koala fingerprints come from a shared ancestor with us?","o":["No, they evolved separately","Yes","Koalas don't have fingerprints"],"a":0},"why":"Similar needs, like gripping, can produce similar features.","src":"Koala"},
-{"id":"s098","t":"Pluto has a giant heart","b":"When NASA's New Horizons flew past Pluto in 2015, it revealed a huge bright heart-shaped region. The left half is a vast plain of nitrogen ice, about 1,000 km across, that slowly churns like a lava lamp.","q":{"p":"What shape did New Horizons find on Pluto?","o":["A heart","A smiley face","A ring"],"a":0},"rq":{"p":"What is Pluto's heart's left half made of?","o":["Nitrogen ice","Liquid water","Iron"],"a":0},"why":"Pluto is cold enough for nitrogen to freeze solid.","src":"Sputnik Planitia"},
-{"id":"s099","t":"Bees see ultraviolet, not red","b":"Bees can't see red well, but they see ultraviolet light. Many flowers have UV patterns, invisible to us, that act like landing strips guiding bees to the nectar.","q":{"p":"Which light can bees see that we can't?","o":["Ultraviolet","Infrared","Radio"],"a":0},"rq":{"p":"What colour do bees struggle to see?","o":["Red","Blue","Yellow"],"a":0},"why":"Bee eyes have UV, blue and green receptors.","src":"Bee"},
-{"id":"s100","t":"Your stomach relines itself every few days","b":"Your stomach acid is strong enough to break down food, so its lining needs protection. It is coated in mucus, and the surface cells are replaced every few days to keep it from digesting itself.","q":{"p":"How does your stomach avoid digesting itself?","o":["Mucus and fast cell replacement","It's made of bone","The acid is weak"],"a":0},"rq":{"p":"How often are the stomach's surface cells replaced?","o":["Every few days","Every few years","Never"],"a":0},"why":"Constant renewal keeps damage from building up.","src":"Stomach"}
+{
+"id": "s076",
+"t": "Arctic terns chase endless summer",
+"b": "Arctic terns fly from Arctic breeding grounds to Antarctica and back each year, a round trip averaging about 70,000 km. Over a 30-year life that adds up to roughly the distance to the Moon and back three times. They see more daylight than any other animal.",
+"q": {
+"p": "Which animal has the longest yearly migration?",
+"o": [
+"Arctic tern",
+"Grey whale",
+"Monarch butterfly"
+],
+"a": 0
+},
+"rq": {
+"p": "About how far does an Arctic tern fly each year?",
+"o": [
+"70,000 km",
+"7,000 km",
+"700 km"
+],
+"a": 0
+},
+"why": "Summer at both poles means near-constant daylight.",
+"src": "Arctic tern"
+},
+{
+"id": "s077",
+"t": "Axolotls regrow body parts",
+"b": "The axolotl, a Mexican salamander, can regrow lost limbs, parts of its spinal cord and heart, and even parts of its brain, without scarring. Scientists study it hoping to learn how to help human tissue heal.",
+"q": {
+"p": "What can an axolotl regrow?",
+"o": [
+"Legs and parts of its heart",
+"Only its tail",
+"Nothing"
+],
+"a": 0
+},
+"rq": {
+"p": "What kind of animal is an axolotl?",
+"o": [
+"A salamander",
+"A fish",
+"A lizard"
+],
+"a": 0
+},
+"why": "Its cells can return to a flexible state and rebuild tissue.",
+"src": "Axolotl"
+},
+{
+"id": "s078",
+"t": "Your brain is an energy hog",
+"b": "The brain is about 2% of body weight but uses around 20% of your resting energy. Much of that powers the constant electrical signalling between about 86 billion neurons, even while you sleep.",
+"q": {
+"p": "How much of your resting energy does your brain use?",
+"o": [
+"About 20%",
+"About 2%",
+"About 60%"
+],
+"a": 0
+},
+"rq": {
+"p": "About how many neurons are in a human brain?",
+"o": [
+"86 billion",
+"86 million",
+"86 thousand"
+],
+"a": 0
+},
+"why": "Keeping neurons ready to fire is energetically expensive.",
+"src": "Human brain",
+"vis": {
+"type": "compare",
+"items": [
+{
+"label": "Share of weight",
+"value": 2,
+"unit": "%"
+},
+{
+"label": "Share of energy",
+"value": 20,
+"unit": "%"
+}
+]
+}
+},
+{
+"id": "s079",
+"t": "You use far more than 10% of your brain",
+"b": "The idea that we use only 10% of our brains is a myth. Brain scans show activity across nearly all regions over a day, and damage to almost any area causes some loss of function.",
+"q": {
+"p": "How much of your brain do you use?",
+"o": [
+"Virtually all of it",
+"About 10%",
+"About half"
+],
+"a": 0
+},
+"rq": {
+"p": "What evidence busts the 10% myth?",
+"o": [
+"Scans show activity in nearly every region",
+"Brains weigh too much",
+"Surveys of doctors"
+],
+"a": 0
+},
+"why": "Different tasks use different areas, but all are used.",
+"src": "Ten percent of the brain myth"
+},
+{
+"id": "s080",
+"t": "Caffeine hides your tiredness",
+"b": "While you're awake, a chemical called adenosine builds up in your brain, making you feel sleepy. Caffeine has a similar shape and blocks adenosine's receptors, so the 'tired' signal can't get through. The adenosine is still there when caffeine wears off.",
+"q": {
+"p": "How does caffeine keep you awake?",
+"o": [
+"It blocks a sleepiness signal",
+"It adds energy to cells",
+"It raises blood sugar"
+],
+"a": 0
+},
+"rq": {
+"p": "What chemical makes you feel sleepy as the day goes on?",
+"o": [
+"Adenosine",
+"Adrenaline",
+"Insulin"
+],
+"a": 0
+},
+"why": "Caffeine is a molecular look-alike that jams the receptor.",
+"src": "Caffeine"
+},
+{
+"id": "s081",
+"t": "Goosebumps are a leftover",
+"b": "Tiny muscles at each hair follicle contract when you're cold or scared, making hairs stand up. In furry animals this traps warm air or makes them look bigger. For mostly hairless humans, the reflex remains but does little.",
+"q": {
+"p": "What were goosebumps originally for?",
+"o": [
+"Fluffing up fur",
+"Cooling the skin",
+"Sensing sound"
+],
+"a": 0
+},
+"rq": {
+"p": "What causes goosebumps?",
+"o": [
+"Tiny muscles at hair follicles",
+"Skin shrinking",
+"Blood rushing out"
+],
+"a": 0
+},
+"why": "It's a reflex inherited from hairier ancestors.",
+"src": "Goose bumps"
+},
+{
+"id": "s082",
+"t": "Air is mostly nitrogen",
+"b": "The air you breathe is about 78% nitrogen and 21% oxygen. Most of the remaining 1% is argon. Carbon dioxide makes up only about 0.04%, yet it has a big effect on Earth's temperature.",
+"q": {
+"p": "What is most of the air made of?",
+"o": [
+"Nitrogen",
+"Oxygen",
+"Carbon dioxide"
+],
+"a": 0
+},
+"rq": {
+"p": "What is the third most common gas in air?",
+"o": [
+"Argon",
+"Carbon dioxide",
+"Helium"
+],
+"a": 0
+},
+"why": "Nitrogen is very unreactive, so it builds up in the air.",
+"src": "Atmosphere of Earth",
+"vis": {
+"type": "compare",
+"items": [
+{
+"label": "Nitrogen",
+"value": 78,
+"unit": "%"
+},
+{
+"label": "Oxygen",
+"value": 21,
+"unit": "%"
+},
+{
+"label": "Argon",
+"value": 0.9,
+"unit": "%"
+}
+]
+}
+},
+{
+"id": "s083",
+"t": "A fluffy cloud weighs hundreds of tonnes",
+"b": "The US Geological Survey estimates that a typical cumulus cloud holds about 500 tonnes of water, roughly the weight of 100 elephants. It floats because the water is spread out as tiny droplets in rising, slightly warmer air.",
+"q": {
+"p": "Roughly how much water is in a typical fluffy cloud?",
+"o": [
+"About 500 tonnes",
+"About 5 kg",
+"About 5 tonnes"
+],
+"a": 0
+},
+"rq": {
+"p": "Why do clouds float?",
+"o": [
+"Tiny droplets held up by rising air",
+"Clouds are lighter than air",
+"Static electricity"
+],
+"a": 0
+},
+"why": "Each droplet is so small it falls incredibly slowly.",
+"src": "USGS: How much does a cloud weigh?",
+"srcUrl": "https://www.usgs.gov/special-topics/water-science-school/science/how-much-does-a-cloud-weigh"
+},
+{
+"id": "s084",
+"t": "Rainbows are really circles",
+"b": "Every rainbow is part of a full circle centred on the point opposite the Sun. From the ground, the horizon cuts off the bottom half. From a plane or a mountaintop you can sometimes see the whole ring.",
+"q": {
+"p": "What shape is a full rainbow?",
+"o": [
+"A circle",
+"An arch",
+"A spiral"
+],
+"a": 0
+},
+"rq": {
+"p": "Why do we usually see only an arch?",
+"o": [
+"The ground blocks the lower half",
+"Sunlight is blocked",
+"Rain only falls in arches"
+],
+"a": 0
+},
+"why": "Raindrops bend light back at about 42° from the anti-solar point.",
+"src": "Rainbow"
+},
+{
+"id": "s085",
+"t": "Snow is made of clear ice",
+"b": "Each snow crystal is made of transparent ice. Snow looks white because light bounces off the countless crystal surfaces in every direction, scattering all colours equally, which our eyes see as white.",
+"q": {
+"p": "What colour is ice in a snowflake?",
+"o": [
+"Clear",
+"White",
+"Pale blue"
+],
+"a": 0
+},
+"rq": {
+"p": "Why does snow look white?",
+"o": [
+"Light scatters off many crystal faces",
+"It has white minerals",
+"Air bubbles are white"
+],
+"a": 0
+},
+"why": "Scattering every colour equally makes white.",
+"src": "Snow"
+},
+{
+"id": "s086",
+"t": "Everest would sink in the Mariana Trench",
+"b": "Challenger Deep in the Mariana Trench is about 10,900 metres below sea level. Mount Everest is about 8,850 metres tall. Drop Everest in and its peak would still be about 2 km underwater.",
+"q": {
+"p": "If Everest were in the deepest ocean trench, would its peak stick out?",
+"o": [
+"No, it'd be about 2 km under",
+"Yes, just barely",
+"Yes, by 2 km"
+],
+"a": 0
+},
+"rq": {
+"p": "About how deep is Challenger Deep?",
+"o": [
+"About 11 km",
+"About 4 km",
+"About 1 km"
+],
+"a": 0
+},
+"why": "The trench forms where one tectonic plate dives under another.",
+"src": "Challenger Deep",
+"vis": {
+"type": "compare",
+"items": [
+{
+"label": "Challenger Deep",
+"value": 10.9,
+"unit": "km deep"
+},
+{
+"label": "Everest",
+"value": 8.85,
+"unit": "km tall"
+}
+]
+}
+},
+{
+"id": "s087",
+"t": "Continents move as fast as nails grow",
+"b": "Tectonic plates creep a few centimetres a year, about as fast as fingernails grow. The Atlantic Ocean widens by roughly 2.5 cm each year as North America and Europe drift apart.",
+"q": {
+"p": "How fast do continents move?",
+"o": [
+"About as fast as fingernails grow",
+"About walking speed",
+"They don't move"
+],
+"a": 0
+},
+"rq": {
+"p": "What's happening to the Atlantic Ocean?",
+"o": [
+"It's slowly widening",
+"It's shrinking fast",
+"It's fixed"
+],
+"a": 0
+},
+"why": "Hot rock rising along the mid-Atlantic ridge pushes plates apart.",
+"src": "Plate tectonics"
+},
+{
+"id": "s088",
+"t": "T. rex is closer in time to us than to Stegosaurus",
+"b": "Stegosaurus lived around 150 million years ago. Tyrannosaurus rex lived about 68 to 66 million years ago. That means less time separates T. rex from your phone than separates it from Stegosaurus.",
+"q": {
+"p": "Who lived closer in time to T. rex?",
+"o": [
+"Us",
+"Stegosaurus"
+],
+"a": 0
+},
+"rq": {
+"p": "About when did Stegosaurus live?",
+"o": [
+"150 million years ago",
+"66 million years ago",
+"10,000 years ago"
+],
+"a": 0
+},
+"why": "The age of dinosaurs lasted over 160 million years.",
+"src": "Stegosaurus",
+"vis": {
+"type": "timeline",
+"points": [
+{
+"label": "Stegosaurus",
+"year": -150000000
+},
+{
+"label": "T. rex",
+"year": -67000000
+},
+{
+"label": "Us",
+"year": 0
+}
+]
+}
+},
+{
+"id": "s089",
+"t": "Birds are living dinosaurs",
+"b": "Birds evolved from small feathered dinosaurs related to Velociraptor. Scientists classify them as dinosaurs, so dinosaurs didn't all die out 66 million years ago. About 11,000 species are alive today.",
+"q": {
+"p": "Which animals are living dinosaurs?",
+"o": [
+"Birds",
+"Crocodiles",
+"Lizards"
+],
+"a": 0
+},
+"rq": {
+"p": "Which group did birds evolve from?",
+"o": [
+"Small feathered dinosaurs",
+"Flying reptiles called pterosaurs",
+"Early mammals"
+],
+"a": 0
+},
+"why": "Fossils show feathers, wishbones and hollow bones in many dinosaurs.",
+"src": "Origin of birds"
+},
+{
+"id": "s090",
+"t": "Octopus arms do their own thinking",
+"b": "An octopus has about 500 million neurons, and around two-thirds of them are in its arms, not its brain. Each arm can taste, touch and react on its own, while the brain sets the overall goal.",
+"q": {
+"p": "Where are most of an octopus's neurons?",
+"o": [
+"In its arms",
+"In its brain",
+"In its eyes"
+],
+"a": 0
+},
+"rq": {
+"p": "What can a single octopus arm do by itself?",
+"o": [
+"Taste and react to things",
+"Nothing",
+"See"
+],
+"a": 0
+},
+"why": "Spreading control out lets eight flexible arms move independently.",
+"src": "Octopus"
+},
+{
+"id": "s091",
+"t": "Crows make hooked tools",
+"b": "New Caledonian crows shape twigs and leaves into hooked tools to fish grubs out of logs. In a famous 2002 experiment, a crow named Betty bent a straight wire into a hook to lift a food basket from a tube.",
+"q": {
+"p": "What did Betty the crow do?",
+"o": [
+"Bent wire into a hook",
+"Learned to count to 100",
+"Opened a locked door with a key"
+],
+"a": 0
+},
+"rq": {
+"p": "What do New Caledonian crows make in the wild?",
+"o": [
+"Hooked stick tools",
+"Nests with doors",
+"Stone hammers"
+],
+"a": 0
+},
+"why": "Few animals besides humans make tools to a design.",
+"src": "New Caledonian crow"
+},
+{
+"id": "s092",
+"t": "Dolphins sleep with half a brain",
+"b": "Dolphins must surface to breathe, so they can't fully switch off. They rest one half of the brain at a time while the other stays alert, keeping one eye open to watch for danger and remember to breathe.",
+"q": {
+"p": "How do dolphins sleep?",
+"o": [
+"Half their brain at a time",
+"They never sleep",
+"Upside down on the seabed"
+],
+"a": 0
+},
+"rq": {
+"p": "Why can't dolphins sleep fully?",
+"o": [
+"They must remember to breathe",
+"They're always hunting",
+"The water is too cold"
+],
+"a": 0
+},
+"why": "Breathing is a conscious action for dolphins.",
+"src": "Unihemispheric slow-wave sleep"
+},
+{
+"id": "s093",
+"t": "Cats can't taste sugar",
+"b": "Cats carry a broken version of a gene needed for the sweet taste receptor, so they can't detect sweetness. It makes sense for strict meat-eaters, which rarely meet sugar. Many other carnivores, like sea lions, lost the sweet taste too.",
+"q": {
+"p": "Which taste can't cats detect?",
+"o": [
+"Sweet",
+"Salty",
+"Bitter"
+],
+"a": 0
+},
+"rq": {
+"p": "Why did cats lose their sweet taste?",
+"o": [
+"As meat-eaters they didn't need it",
+"They eat too much sugar",
+"Domestication"
+],
+"a": 0
+},
+"why": "Unused genes can break over evolution without harm.",
+"src": "Cat"
+},
+{
+"id": "s094",
+"t": "Dogs have 50 times our smell receptors",
+"b": "Humans have about 6 million smell receptors in the nose. Dogs have up to around 300 million, and a large part of a dog's brain is devoted to analysing smells. That's why dogs can detect drugs, explosives and even some illnesses.",
+"q": {
+"p": "How many smell receptors can a dog have?",
+"o": [
+"Up to 300 million",
+"About 6 million, like us",
+"About 3,000"
+],
+"a": 0
+},
+"rq": {
+"p": "About how many smell receptors do humans have?",
+"o": [
+"About 6 million",
+"About 300 million",
+"About 600"
+],
+"a": 0
+},
+"why": "More receptors and more brain power mean much finer sniffing.",
+"src": "Dog",
+"vis": {
+"type": "compare",
+"items": [
+{
+"label": "Dog",
+"value": 300,
+"unit": "million"
+},
+{
+"label": "Human",
+"value": 6,
+"unit": "million"
+}
+]
+}
+},
+{
+"id": "s095",
+"t": "The universe is 13.8 billion years old",
+"b": "By measuring the faint afterglow of the Big Bang and how fast galaxies are moving apart, astronomers estimate the universe began about 13.8 billion years ago. Earth formed much later, about 4.5 billion years ago.",
+"q": {
+"p": "How old is the universe?",
+"o": [
+"About 13.8 billion years",
+"About 4.5 billion years",
+"About 6,000 years"
+],
+"a": 0
+},
+"rq": {
+"p": "How old is Earth?",
+"o": [
+"About 4.5 billion years",
+"About 13.8 billion years",
+"About 450 million years"
+],
+"a": 0
+},
+"why": "The cosmic microwave background is light from 380,000 years after the Big Bang.",
+"src": "Age of the universe",
+"vis": {
+"type": "timeline",
+"points": [
+{
+"label": "Big Bang",
+"year": -13800000000
+},
+{
+"label": "Earth forms",
+"year": -4500000000
+},
+{
+"label": "Today",
+"year": 0
+}
+]
+}
+},
+{
+"id": "s096",
+"t": "Hydrogen is most of everything",
+"b": "About three-quarters of all ordinary matter in the universe, by mass, is hydrogen, the simplest element. Most of the rest is helium. Every heavier element, including the carbon and oxygen in you, was made inside stars.",
+"q": {
+"p": "What's the most common element in the universe?",
+"o": [
+"Hydrogen",
+"Oxygen",
+"Iron"
+],
+"a": 0
+},
+"rq": {
+"p": "Where were the carbon and oxygen in your body made?",
+"o": [
+"Inside stars",
+"In the Big Bang",
+"In Earth's core"
+],
+"a": 0
+},
+"why": "The Big Bang made mostly hydrogen and helium; stars forge the rest.",
+"src": "Abundance of the chemical elements"
+},
+{
+"id": "s097",
+"t": "Koalas have fingerprints like ours",
+"b": "Koalas have fingerprints so similar to human ones that even under a microscope they're hard to tell apart. They evolved separately from ours, probably to help koalas grip branches and judge which leaves to eat.",
+"q": {
+"p": "Which animal has fingerprints very like humans'?",
+"o": [
+"Koala",
+"Dog",
+"Parrot"
+],
+"a": 0
+},
+"rq": {
+"p": "Did koala fingerprints come from a shared ancestor with us?",
+"o": [
+"No, they evolved separately",
+"Yes",
+"Koalas don't have fingerprints"
+],
+"a": 0
+},
+"why": "Similar needs, like gripping, can produce similar features.",
+"src": "Koala"
+},
+{
+"id": "s098",
+"t": "Pluto has a giant heart",
+"b": "When NASA's New Horizons flew past Pluto in 2015, it revealed a huge bright heart-shaped region. The left half is a vast plain of nitrogen ice, about 1,000 km across, that slowly churns like a lava lamp.",
+"q": {
+"p": "What shape did New Horizons find on Pluto?",
+"o": [
+"A heart",
+"A smiley face",
+"A ring"
+],
+"a": 0
+},
+"rq": {
+"p": "What is Pluto's heart's left half made of?",
+"o": [
+"Nitrogen ice",
+"Liquid water",
+"Iron"
+],
+"a": 0
+},
+"why": "Pluto is cold enough for nitrogen to freeze solid.",
+"src": "Sputnik Planitia"
+},
+{
+"id": "s099",
+"t": "Bees see ultraviolet, not red",
+"b": "Bees can't see red well, but they see ultraviolet light. Many flowers have UV patterns, invisible to us, that act like landing strips guiding bees to the nectar.",
+"q": {
+"p": "Which light can bees see that we can't?",
+"o": [
+"Ultraviolet",
+"Infrared",
+"Radio"
+],
+"a": 0
+},
+"rq": {
+"p": "What colour do bees struggle to see?",
+"o": [
+"Red",
+"Blue",
+"Yellow"
+],
+"a": 0
+},
+"why": "Bee eyes have UV, blue and green receptors.",
+"src": "Bee"
+},
+{
+"id": "s100",
+"t": "Your stomach relines itself every few days",
+"b": "Your stomach acid is strong enough to break down food, so its lining needs protection. It is coated in mucus, and the surface cells are replaced every few days to keep it from digesting itself.",
+"q": {
+"p": "How does your stomach avoid digesting itself?",
+"o": [
+"Mucus and fast cell replacement",
+"It's made of bone",
+"The acid is weak"
+],
+"a": 0
+},
+"rq": {
+"p": "How often are the stomach's surface cells replaced?",
+"o": [
+"Every few days",
+"Every few years",
+"Never"
+],
+"a": 0
+},
+"why": "Constant renewal keeps damage from building up.",
+"src": "Stomach"
+}
 ]

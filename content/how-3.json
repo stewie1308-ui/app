@@ -1,27 +1,627 @@
 [
-{"id":"w051","t":"F and J have bumps for a reason","b":"The small ridges on the F and J keys let touch typists find the home row without looking. Your index fingers rest there, and the other fingers fall into place along the row.","q":{"p":"Why do the F and J keys have bumps?","o":["To find the home row by touch","To mark broken keys","For decoration"],"a":0},"rq":{"p":"Which fingers rest on F and J?","o":["Index fingers","Thumbs","Little fingers"],"a":0},"why":"Touch typing relies on feel, not sight.","src":"Touch typing"},
-{"id":"w052","t":"You helped digitise books","b":"For years, many reCAPTCHA puzzles showed two words: one the system knew, and one scanned from an old book that computers couldn't read. By typing both, millions of people helped digitise books and newspapers.","q":{"p":"What did typing reCAPTCHA words once help do?","o":["Digitise old books","Train spam filters","Count internet users"],"a":0},"rq":{"p":"How did reCAPTCHA know you were human?","o":["You typed the known word right","It watched your face","It checked your typing speed only"],"a":0},"why":"It turned a security check into useful work.","src":"reCAPTCHA"},
-{"id":"w053","t":"The internet runs under the sea","b":"The vast majority of data travelling between continents goes through fibre-optic cables on the seabed, not satellites. Hundreds of these cables crisscross the oceans, some thinner than a garden hose.","q":{"p":"How does most internet data cross oceans?","o":["Undersea cables","Satellites","Radio towers on ships"],"a":0},"rq":{"p":"What do undersea internet cables carry data with?","o":["Light through glass fibres","Electricity through copper","Sound waves"],"a":0},"why":"Cables carry far more data, faster and cheaper, than satellites.","src":"Submarine communications cable"},
-{"id":"w054","t":"Data travels in packets","b":"When you send a photo, it's chopped into thousands of small packets. Each packet may take a different route across the internet, and your friend's device puts them back in order. Lost packets are simply re-sent.","q":{"p":"How does a photo travel across the internet?","o":["Chopped into small packets","As one big file","Printed and scanned"],"a":0},"rq":{"p":"What happens to a lost packet?","o":["It's re-sent","The photo is lost","It's guessed"],"a":0},"why":"Small packets share network links efficiently.","src":"Packet switching"},
-{"id":"w055","t":"Screens use only three colours","b":"Every pixel on your screen is made of tiny red, green and blue parts. By mixing their brightness, a screen can create millions of colours. Look at a screen with a magnifying glass and you can see the separate dots.","q":{"p":"Which three colours make every colour on your screen?","o":["Red, green, blue","Red, yellow, blue","Cyan, magenta, yellow"],"a":0},"rq":{"p":"How do screens make yellow?","o":["Mixing red and green light","With yellow pixels","Mixing blue and green"],"a":0},"why":"Your eye has three types of colour receptors.","src":"RGB color model"},
-{"id":"w056","t":"£9.99 really does feel cheaper","b":"Studies show prices ending in .99 make people feel something is noticeably cheaper than the round number. We read left to right, so £9.99 registers as 'nine-something'. It's called the left-digit effect.","q":{"p":"Why do shops price things at £9.99?","o":["The first digit sways our sense of price","Tax rules","It's cheaper to print"],"a":0},"rq":{"p":"What's this effect called?","o":["The left-digit effect","Anchoring","Loss aversion"],"a":0},"why":"We judge numbers quickly by their first digit.","src":"Psychological pricing"},
-{"id":"w057","t":"Many crossing buttons once did nothing","b":"In 2004, The New York Times reported that most of New York's pedestrian crossing buttons no longer worked, because the lights ran on timers. Many cities still keep some buttons only for daytime or night-time use.","q":{"p":"What did a 2004 report find about New York crossing buttons?","o":["Most didn't do anything","They were too slow","They were all new"],"a":0},"rq":{"p":"Why didn't the buttons work?","o":["Lights ran on timers instead","Vandals broke them","They needed coins"],"a":0},"why":"Computerised traffic timing replaced on-demand crossings.","src":"Placebo button"},
-{"id":"w058","t":"Leap years skip some centuries","b":"Earth takes about 365.2422 days to go round the Sun. Adding a leap day every four years overcorrects slightly, so century years skip it unless divisible by 400. 2000 was a leap year; 1900 wasn't, and 2100 won't be.","q":{"p":"Will 2100 be a leap year?","o":["No","Yes"],"a":0},"rq":{"p":"Why was 2000 a leap year?","o":["It's divisible by 400","Every century is","It was the millennium"],"a":0},"why":"The rule keeps the calendar aligned with the seasons.","src":"Leap year"},
-{"id":"w059","t":"China uses a single time zone","b":"China spans about five geographical time zones but uses one official time, Beijing Time. In the far west, sunrise in winter can come after 9 a.m., and some people there unofficially use a local time two hours behind.","q":{"p":"How many official time zones does China use?","o":["One","Five","Three"],"a":0},"rq":{"p":"What happens in China's far west because of this?","o":["Very late winter sunrises","Midnight sun","Two calendars"],"a":0},"why":"A single zone was adopted in 1949 for national unity.","src":"Time in China"},
-{"id":"w060","t":"Germany started daylight saving","b":"Germany and Austria-Hungary were the first to adopt daylight saving time nationally, in 1916, to save fuel for the war effort. Britain followed a few weeks later with British Summer Time.","q":{"p":"Which country first adopted daylight saving nationally?","o":["Germany","Britain","USA"],"a":0},"rq":{"p":"Why was daylight saving first introduced?","o":["To save fuel in wartime","For farmers","For tourism"],"a":0},"why":"An extra hour of evening daylight cut lighting costs.","src":"Daylight saving time"},
-{"id":"w061","t":"A second is 9 billion vibrations","b":"Since 1967, one second has been officially defined as 9,192,631,770 oscillations of radiation from a caesium-133 atom. Atomic clocks count these and are so precise they would drift by less than a second over millions of years.","q":{"p":"What defines one official second?","o":["Vibrations of a caesium atom","Earth's spin","A pendulum in Paris"],"a":0},"rq":{"p":"When was this definition adopted?","o":["1967","1884","2001"],"a":0},"why":"Atoms are more regular than Earth's slightly wobbly spin.","src":"Second"},
-{"id":"w062","t":"Babylon gave us 60 minutes","b":"We split hours into 60 minutes and circles into 360 degrees thanks to the ancient Babylonians, who counted in base 60. Sixty divides neatly by 2, 3, 4, 5, 6, 10, 12, 15, 20 and 30.","q":{"p":"Why are there 60 minutes in an hour?","o":["Babylonians counted in base 60","Romans liked the number","It matches the Moon"],"a":0},"rq":{"p":"Why is 60 a handy number?","o":["It divides evenly in many ways","It's prime","It's the number of stars"],"a":0},"why":"Easy division made trade and astronomy simpler.","src":"Sexagesimal"},
-{"id":"w063","t":"Most fund managers don't beat the market","b":"Each year, S&P's SPIVA reports compare active investment funds with simple index funds that track a whole market. Over 10 to 15 years, the large majority of active funds do worse than their index, partly due to higher fees.","q":{"p":"Over 15 years, do most active funds beat a simple index?","o":["No, most do worse","Yes, most do better","About half and half exactly"],"a":0},"rq":{"p":"What's one big reason active funds lag?","o":["Higher fees","They're illegal","They don't invest"],"a":0},"why":"Small yearly fees compound into large differences.","src":"Index fund"},
-{"id":"w064","t":"Bitcoin has a hard cap","b":"Bitcoin's code limits the total supply to 21 million coins. New coins are released ever more slowly, halving the reward roughly every four years, with the last fractions expected around the year 2140.","q":{"p":"What's the maximum number of bitcoins that can exist?","o":["21 million","21 billion","No limit"],"a":0},"rq":{"p":"How often does the new-bitcoin reward halve?","o":["About every four years","Every year","Every month"],"a":0},"why":"A fixed supply was a design choice by its creator.","src":"Bitcoin"},
-{"id":"w065","t":"Sleep comes in 90-minute cycles","b":"A night's sleep moves through repeating cycles of lighter, deeper and dreaming (REM) sleep, each roughly 90 minutes. Deep sleep dominates early in the night, while REM periods get longer toward morning.","q":{"p":"Roughly how long is one sleep cycle?","o":["About 90 minutes","About 9 minutes","About 4 hours"],"a":0},"rq":{"p":"When do dreaming (REM) periods get longest?","o":["Toward morning","Right after falling asleep","They're always equal"],"a":0},"why":"The brain cycles through different restorative stages.","src":"Sleep cycle"},
-{"id":"w066","t":"Sugar doesn't make children hyper","b":"Many parents believe sugar makes kids hyperactive, but controlled studies, including a 1995 analysis of many trials, found no real effect on behaviour. In one study, parents told their child had sugar rated them more hyper, even when it was a placebo.","q":{"p":"Does sugar make children hyperactive?","o":["Studies say no","Yes, always","Only chocolate does"],"a":0},"rq":{"p":"What did parents do when told their child had sugar?","o":["Rated them more hyper","Didn't notice anything","Gave them more"],"a":0},"why":"Expectation shapes what we see.","src":"Sugar and hyperactivity","srcUrl":"https://en.wikipedia.org/w/index.php?search=sugar+hyperactivity"},
-{"id":"w067","t":"Cracking knuckles won't cause arthritis","b":"The pop comes from gas bubbles forming in the fluid of the joint. Doctor Donald Unger cracked the knuckles of only one hand for over 60 years and found no arthritis difference between hands. Larger studies agree.","q":{"p":"Does cracking your knuckles cause arthritis?","o":["No evidence it does","Yes","Only in thumbs"],"a":0},"rq":{"p":"What makes the knuckle pop?","o":["Gas bubbles in joint fluid","Bones rubbing","Tendons snapping"],"a":0},"why":"Unger won an Ig Nobel Prize for his one-man experiment.","src":"Cracking joints"},
-{"id":"w068","t":"Muscle memory lives in your brain","b":"When you learn to ride a bike or type, the 'muscle memory' is stored in the brain, in areas like the cerebellum and motor cortex, not in the muscles themselves. Practice makes the brain's control of movement faster and more automatic.","q":{"p":"Where is 'muscle memory' actually stored?","o":["In the brain","In the muscles","In the spine only"],"a":0},"rq":{"p":"Which brain area helps fine-tune movements?","o":["Cerebellum","Hippocampus","Pituitary gland"],"a":0},"why":"Repetition strengthens the brain circuits controlling a skill.","src":"Muscle memory"},
-{"id":"w069","t":"Habits take about two months to form","b":"A 2009 UCL study tracked people building a new daily habit. On average it took about 66 days for the behaviour to feel automatic, but individuals ranged widely from 18 to 254 days. Missing a day now and then didn't ruin progress.","q":{"p":"On average, how long did a new habit take to feel automatic?","o":["About 66 days","Exactly 21 days","About a week"],"a":0},"rq":{"p":"Did missing one day derail habit-building?","o":["No","Yes, it reset progress","It doubled the time"],"a":0},"why":"Consistency over weeks matters more than perfection.","src":"Habit"},
-{"id":"w070","t":"Multitasking is mostly switching","b":"When you 'multitask' on mental tasks, your brain usually switches rapidly between them. Each switch costs time and attention, so doing two demanding things at once is often slower and more error-prone than doing them one after another.","q":{"p":"What does the brain mostly do when 'multitasking'?","o":["Rapidly switches between tasks","Does both fully at once","Shuts one task down"],"a":0},"rq":{"p":"What's the cost of switching tasks?","o":["Lost time and more errors","Nothing","More creativity"],"a":0},"why":"Attention can only fully focus on one demanding task.","src":"Human multitasking"},
-{"id":"w071","t":"Most 'taste' is really smell","b":"Your tongue detects only basic tastes like sweet, salty, sour, bitter and umami. The rich flavours of food come mostly from smell, as aromas travel up the back of your throat. That's why food tastes bland with a blocked nose.","q":{"p":"Why does food taste bland when you have a cold?","o":["Your sense of smell is blocked","Your tongue swells","Germs eat the flavour"],"a":0},"rq":{"p":"Where do most food flavours come from?","o":["Smell","The tongue's tip","Temperature"],"a":0},"why":"Aromas reach your nose from inside your mouth.","src":"Flavor"},
-{"id":"w072","t":"Decaf isn't caffeine-free","b":"Decaffeination removes most but not all caffeine. A cup of decaf coffee typically still has a few milligrams, compared with around 70 to 140 mg in a regular cup.","q":{"p":"Does decaf coffee contain caffeine?","o":["Yes, a small amount","None at all","More than regular"],"a":0},"rq":{"p":"About how much caffeine is in regular coffee?","o":["Around 70 to 140 mg","Around 1 mg","Around 1,000 mg"],"a":0},"why":"Removing every last molecule would ruin the flavour.","src":"Decaffeination"},
-{"id":"w073","t":"Guinness bubbles sink","b":"In a pint of Guinness, bubbles near the glass wall drift downward. Scientists showed the bubbles rise in the middle, pushing liquid up, while liquid near the walls flows down, dragging bubbles with it.","q":{"p":"Which way do bubbles near the glass travel in Guinness?","o":["Down","Up","Sideways only"],"a":0},"rq":{"p":"What drags the bubbles down?","o":["Liquid flowing down near the walls","Gravity on the foam","Cold glass"],"a":0},"why":"Rising bubbles in the centre create a circulating current.","src":"Guinness"},
-{"id":"w074","t":"Mentos make cola erupt by roughness","b":"Mentos sweets are covered in microscopic pits. Dropped into fizzy drink, these give dissolved carbon dioxide countless spots to form bubbles all at once. The sudden burst of gas launches a foaming fountain.","q":{"p":"Why does a Mentos make cola erupt?","o":["Its rough surface triggers bubbles","A chemical reaction with sugar","It's acidic"],"a":0},"rq":{"p":"What gas forms the fountain?","o":["Carbon dioxide","Oxygen","Hydrogen"],"a":0},"why":"Bubbles need 'nucleation sites' to start forming.","src":"Diet Coke and Mentos eruption"},
-{"id":"w075","t":"The Leaning Tower leaned from the start","b":"Construction of Pisa's bell tower began in 1173, and it started to lean during building because the soft ground on one side couldn't support it. Engineers straightened its tilt slightly between 1990 and 2001 to stop it falling.","q":{"p":"When did the Leaning Tower of Pisa start leaning?","o":["During its construction","In a 1900s earthquake","Last century"],"a":0},"rq":{"p":"What caused the lean?","o":["Soft ground on one side","A design choice","War damage"],"a":0},"why":"Building took nearly 200 years; long pauses let the soil settle.","src":"Leaning Tower of Pisa"}
+{
+"id": "w051",
+"t": "F and J have bumps for a reason",
+"b": "The small ridges on the F and J keys let touch typists find the home row without looking. Your index fingers rest there, and the other fingers fall into place along the row.",
+"q": {
+"p": "Why do the F and J keys have bumps?",
+"o": [
+"To find the home row by touch",
+"To mark broken keys",
+"For decoration"
+],
+"a": 0
+},
+"rq": {
+"p": "Which fingers rest on F and J?",
+"o": [
+"Index fingers",
+"Thumbs",
+"Little fingers"
+],
+"a": 0
+},
+"why": "Touch typing relies on feel, not sight.",
+"src": "Touch typing"
+},
+{
+"id": "w052",
+"t": "You helped digitise books",
+"b": "For years, many reCAPTCHA puzzles showed two words: one the system knew, and one scanned from an old book that computers couldn't read. By typing both, millions of people helped digitise books and newspapers.",
+"q": {
+"p": "What did typing reCAPTCHA words once help do?",
+"o": [
+"Digitise old books",
+"Train spam filters",
+"Count internet users"
+],
+"a": 0
+},
+"rq": {
+"p": "How did reCAPTCHA know you were human?",
+"o": [
+"You typed the known word right",
+"It watched your face",
+"It checked your typing speed only"
+],
+"a": 0
+},
+"why": "It turned a security check into useful work.",
+"src": "reCAPTCHA"
+},
+{
+"id": "w053",
+"t": "The internet runs under the sea",
+"b": "The vast majority of data travelling between continents goes through fibre-optic cables on the seabed, not satellites. Hundreds of these cables crisscross the oceans, some thinner than a garden hose.",
+"q": {
+"p": "How does most internet data cross oceans?",
+"o": [
+"Undersea cables",
+"Satellites",
+"Radio towers on ships"
+],
+"a": 0
+},
+"rq": {
+"p": "What do undersea internet cables carry data with?",
+"o": [
+"Light through glass fibres",
+"Electricity through copper",
+"Sound waves"
+],
+"a": 0
+},
+"why": "Cables carry far more data, faster and cheaper, than satellites.",
+"src": "Submarine communications cable"
+},
+{
+"id": "w054",
+"t": "Data travels in packets",
+"b": "When you send a photo, it's chopped into thousands of small packets. Each packet may take a different route across the internet, and your friend's device puts them back in order. Lost packets are simply re-sent.",
+"q": {
+"p": "How does a photo travel across the internet?",
+"o": [
+"Chopped into small packets",
+"As one big file",
+"Printed and scanned"
+],
+"a": 0
+},
+"rq": {
+"p": "What happens to a lost packet?",
+"o": [
+"It's re-sent",
+"The photo is lost",
+"It's guessed"
+],
+"a": 0
+},
+"why": "Small packets share network links efficiently.",
+"src": "Packet switching"
+},
+{
+"id": "w055",
+"t": "Screens use only three colours",
+"b": "Every pixel on your screen is made of tiny red, green and blue parts. By mixing their brightness, a screen can create millions of colours. Look at a screen with a magnifying glass and you can see the separate dots.",
+"q": {
+"p": "Which three colours make every colour on your screen?",
+"o": [
+"Red, green, blue",
+"Red, yellow, blue",
+"Cyan, magenta, yellow"
+],
+"a": 0
+},
+"rq": {
+"p": "How do screens make yellow?",
+"o": [
+"Mixing red and green light",
+"With yellow pixels",
+"Mixing blue and green"
+],
+"a": 0
+},
+"why": "Your eye has three types of colour receptors.",
+"src": "RGB color model"
+},
+{
+"id": "w056",
+"t": "£9.99 really does feel cheaper",
+"b": "Studies show prices ending in .99 make people feel something is noticeably cheaper than the round number. We read left to right, so £9.99 registers as 'nine-something'. It's called the left-digit effect.",
+"q": {
+"p": "Why do shops price things at £9.99?",
+"o": [
+"The first digit sways our sense of price",
+"Tax rules",
+"It's cheaper to print"
+],
+"a": 0
+},
+"rq": {
+"p": "What's this effect called?",
+"o": [
+"The left-digit effect",
+"Anchoring",
+"Loss aversion"
+],
+"a": 0
+},
+"why": "We judge numbers quickly by their first digit.",
+"src": "Psychological pricing"
+},
+{
+"id": "w057",
+"t": "Many crossing buttons once did nothing",
+"b": "In 2004, The New York Times reported that most of New York's pedestrian crossing buttons no longer worked, because the lights ran on timers. Many cities still keep some buttons only for daytime or night-time use.",
+"q": {
+"p": "What did a 2004 report find about New York crossing buttons?",
+"o": [
+"Most didn't do anything",
+"They were too slow",
+"They were all new"
+],
+"a": 0
+},
+"rq": {
+"p": "Why didn't the buttons work?",
+"o": [
+"Lights ran on timers instead",
+"Vandals broke them",
+"They needed coins"
+],
+"a": 0
+},
+"why": "Computerised traffic timing replaced on-demand crossings.",
+"src": "Placebo button"
+},
+{
+"id": "w058",
+"t": "Leap years skip some centuries",
+"b": "Earth takes about 365.2422 days to go round the Sun. Adding a leap day every four years overcorrects slightly, so century years skip it unless divisible by 400. 2000 was a leap year; 1900 wasn't, and 2100 won't be.",
+"q": {
+"p": "Will 2100 be a leap year?",
+"o": [
+"No",
+"Yes"
+],
+"a": 0
+},
+"rq": {
+"p": "Why was 2000 a leap year?",
+"o": [
+"It's divisible by 400",
+"Every century is",
+"It was the millennium"
+],
+"a": 0
+},
+"why": "The rule keeps the calendar aligned with the seasons.",
+"src": "Leap year"
+},
+{
+"id": "w059",
+"t": "China uses a single time zone",
+"b": "China spans about five geographical time zones but uses one official time, Beijing Time. In the far west, sunrise in winter can come after 9 a.m., and some people there unofficially use a local time two hours behind.",
+"q": {
+"p": "How many official time zones does China use?",
+"o": [
+"One",
+"Five",
+"Three"
+],
+"a": 0
+},
+"rq": {
+"p": "What happens in China's far west because of this?",
+"o": [
+"Very late winter sunrises",
+"Midnight sun",
+"Two calendars"
+],
+"a": 0
+},
+"why": "A single zone was adopted in 1949 for national unity.",
+"src": "Time in China"
+},
+{
+"id": "w060",
+"t": "Germany started daylight saving",
+"b": "Germany and Austria-Hungary were the first to adopt daylight saving time nationally, in 1916, to save fuel for the war effort. Britain followed a few weeks later with British Summer Time.",
+"q": {
+"p": "Which country first adopted daylight saving nationally?",
+"o": [
+"Germany",
+"Britain",
+"USA"
+],
+"a": 0
+},
+"rq": {
+"p": "Why was daylight saving first introduced?",
+"o": [
+"To save fuel in wartime",
+"For farmers",
+"For tourism"
+],
+"a": 0
+},
+"why": "An extra hour of evening daylight cut lighting costs.",
+"src": "Daylight saving time"
+},
+{
+"id": "w061",
+"t": "A second is 9 billion vibrations",
+"b": "Since 1967, one second has been officially defined as 9,192,631,770 oscillations of radiation from a caesium-133 atom. Atomic clocks count these and are so precise they would drift by less than a second over millions of years.",
+"q": {
+"p": "What defines one official second?",
+"o": [
+"Vibrations of a caesium atom",
+"Earth's spin",
+"A pendulum in Paris"
+],
+"a": 0
+},
+"rq": {
+"p": "When was this definition adopted?",
+"o": [
+"1967",
+"1884",
+"2001"
+],
+"a": 0
+},
+"why": "Atoms are more regular than Earth's slightly wobbly spin.",
+"src": "Second"
+},
+{
+"id": "w062",
+"t": "Babylon gave us 60 minutes",
+"b": "We split hours into 60 minutes and circles into 360 degrees thanks to the ancient Babylonians, who counted in base 60. Sixty divides neatly by 2, 3, 4, 5, 6, 10, 12, 15, 20 and 30.",
+"q": {
+"p": "Why are there 60 minutes in an hour?",
+"o": [
+"Babylonians counted in base 60",
+"Romans liked the number",
+"It matches the Moon"
+],
+"a": 0
+},
+"rq": {
+"p": "Why is 60 a handy number?",
+"o": [
+"It divides evenly in many ways",
+"It's prime",
+"It's the number of stars"
+],
+"a": 0
+},
+"why": "Easy division made trade and astronomy simpler.",
+"src": "Sexagesimal"
+},
+{
+"id": "w063",
+"t": "Most fund managers don't beat the market",
+"b": "Each year, S&P's SPIVA reports compare active investment funds with simple index funds that track a whole market. Over 10 to 15 years, the large majority of active funds do worse than their index, partly due to higher fees.",
+"q": {
+"p": "Over 15 years, do most active funds beat a simple index?",
+"o": [
+"No, most do worse",
+"Yes, most do better",
+"About half and half exactly"
+],
+"a": 0
+},
+"rq": {
+"p": "What's one big reason active funds lag?",
+"o": [
+"Higher fees",
+"They're illegal",
+"They don't invest"
+],
+"a": 0
+},
+"why": "Small yearly fees compound into large differences.",
+"src": "Index fund"
+},
+{
+"id": "w064",
+"t": "Bitcoin has a hard cap",
+"b": "Bitcoin's code limits the total supply to 21 million coins. New coins are released ever more slowly, halving the reward roughly every four years, with the last fractions expected around the year 2140.",
+"q": {
+"p": "What's the maximum number of bitcoins that can exist?",
+"o": [
+"21 million",
+"21 billion",
+"No limit"
+],
+"a": 0
+},
+"rq": {
+"p": "How often does the new-bitcoin reward halve?",
+"o": [
+"About every four years",
+"Every year",
+"Every month"
+],
+"a": 0
+},
+"why": "A fixed supply was a design choice by its creator.",
+"src": "Bitcoin"
+},
+{
+"id": "w065",
+"t": "Sleep comes in 90-minute cycles",
+"b": "A night's sleep moves through repeating cycles of lighter, deeper and dreaming (REM) sleep, each roughly 90 minutes. Deep sleep dominates early in the night, while REM periods get longer toward morning.",
+"q": {
+"p": "Roughly how long is one sleep cycle?",
+"o": [
+"About 90 minutes",
+"About 9 minutes",
+"About 4 hours"
+],
+"a": 0
+},
+"rq": {
+"p": "When do dreaming (REM) periods get longest?",
+"o": [
+"Toward morning",
+"Right after falling asleep",
+"They're always equal"
+],
+"a": 0
+},
+"why": "The brain cycles through different restorative stages.",
+"src": "Sleep cycle"
+},
+{
+"id": "w066",
+"t": "Sugar doesn't make children hyper",
+"b": "Many parents believe sugar makes kids hyperactive, but controlled studies, including a 1995 analysis of many trials, found no real effect on behaviour. In one study, parents told their child had sugar rated them more hyper, even when it was a placebo.",
+"q": {
+"p": "Does sugar make children hyperactive?",
+"o": [
+"Studies say no",
+"Yes, always",
+"Only chocolate does"
+],
+"a": 0
+},
+"rq": {
+"p": "What did parents do when told their child had sugar?",
+"o": [
+"Rated them more hyper",
+"Didn't notice anything",
+"Gave them more"
+],
+"a": 0
+},
+"why": "Expectation shapes what we see.",
+"src": "Wikipedia: Sugar and hyperactivity",
+"srcUrl": "https://en.wikipedia.org/w/index.php?search=sugar+hyperactivity"
+},
+{
+"id": "w067",
+"t": "Cracking knuckles won't cause arthritis",
+"b": "The pop comes from gas bubbles forming in the fluid of the joint. Doctor Donald Unger cracked the knuckles of only one hand for over 60 years and found no arthritis difference between hands. Larger studies agree.",
+"q": {
+"p": "Does cracking your knuckles cause arthritis?",
+"o": [
+"No evidence it does",
+"Yes",
+"Only in thumbs"
+],
+"a": 0
+},
+"rq": {
+"p": "What makes the knuckle pop?",
+"o": [
+"Gas bubbles in joint fluid",
+"Bones rubbing",
+"Tendons snapping"
+],
+"a": 0
+},
+"why": "Unger won an Ig Nobel Prize for his one-man experiment.",
+"src": "Cracking joints"
+},
+{
+"id": "w068",
+"t": "Muscle memory lives in your brain",
+"b": "When you learn to ride a bike or type, the 'muscle memory' is stored in the brain, in areas like the cerebellum and motor cortex, not in the muscles themselves. Practice makes the brain's control of movement faster and more automatic.",
+"q": {
+"p": "Where is 'muscle memory' actually stored?",
+"o": [
+"In the brain",
+"In the muscles",
+"In the spine only"
+],
+"a": 0
+},
+"rq": {
+"p": "Which brain area helps fine-tune movements?",
+"o": [
+"Cerebellum",
+"Hippocampus",
+"Pituitary gland"
+],
+"a": 0
+},
+"why": "Repetition strengthens the brain circuits controlling a skill.",
+"src": "Muscle memory"
+},
+{
+"id": "w069",
+"t": "Habits take about two months to form",
+"b": "A 2009 UCL study tracked people building a new daily habit. On average it took about 66 days for the behaviour to feel automatic, but individuals ranged widely from 18 to 254 days. Missing a day now and then didn't ruin progress.",
+"q": {
+"p": "On average, how long did a new habit take to feel automatic?",
+"o": [
+"About 66 days",
+"Exactly 21 days",
+"About a week"
+],
+"a": 0
+},
+"rq": {
+"p": "Did missing one day derail habit-building?",
+"o": [
+"No",
+"Yes, it reset progress",
+"It doubled the time"
+],
+"a": 0
+},
+"why": "Consistency over weeks matters more than perfection.",
+"src": "Habit"
+},
+{
+"id": "w070",
+"t": "Multitasking is mostly switching",
+"b": "When you 'multitask' on mental tasks, your brain usually switches rapidly between them. Each switch costs time and attention, so doing two demanding things at once is often slower and more error-prone than doing them one after another.",
+"q": {
+"p": "What does the brain mostly do when 'multitasking'?",
+"o": [
+"Rapidly switches between tasks",
+"Does both fully at once",
+"Shuts one task down"
+],
+"a": 0
+},
+"rq": {
+"p": "What's the cost of switching tasks?",
+"o": [
+"Lost time and more errors",
+"Nothing",
+"More creativity"
+],
+"a": 0
+},
+"why": "Attention can only fully focus on one demanding task.",
+"src": "Human multitasking"
+},
+{
+"id": "w071",
+"t": "Most 'taste' is really smell",
+"b": "Your tongue detects only basic tastes like sweet, salty, sour, bitter and umami. The rich flavours of food come mostly from smell, as aromas travel up the back of your throat. That's why food tastes bland with a blocked nose.",
+"q": {
+"p": "Why does food taste bland when you have a cold?",
+"o": [
+"Your sense of smell is blocked",
+"Your tongue swells",
+"Germs eat the flavour"
+],
+"a": 0
+},
+"rq": {
+"p": "Where do most food flavours come from?",
+"o": [
+"Smell",
+"The tongue's tip",
+"Temperature"
+],
+"a": 0
+},
+"why": "Aromas reach your nose from inside your mouth.",
+"src": "Flavor"
+},
+{
+"id": "w072",
+"t": "Decaf isn't caffeine-free",
+"b": "Decaffeination removes most but not all caffeine. A cup of decaf coffee typically still has a few milligrams, compared with around 70 to 140 mg in a regular cup.",
+"q": {
+"p": "Does decaf coffee contain caffeine?",
+"o": [
+"Yes, a small amount",
+"None at all",
+"More than regular"
+],
+"a": 0
+},
+"rq": {
+"p": "About how much caffeine is in regular coffee?",
+"o": [
+"Around 70 to 140 mg",
+"Around 1 mg",
+"Around 1,000 mg"
+],
+"a": 0
+},
+"why": "Removing every last molecule would ruin the flavour.",
+"src": "Decaffeination"
+},
+{
+"id": "w073",
+"t": "Guinness bubbles sink",
+"b": "In a pint of Guinness, bubbles near the glass wall drift downward. Scientists showed the bubbles rise in the middle, pushing liquid up, while liquid near the walls flows down, dragging bubbles with it.",
+"q": {
+"p": "Which way do bubbles near the glass travel in Guinness?",
+"o": [
+"Down",
+"Up",
+"Sideways only"
+],
+"a": 0
+},
+"rq": {
+"p": "What drags the bubbles down?",
+"o": [
+"Liquid flowing down near the walls",
+"Gravity on the foam",
+"Cold glass"
+],
+"a": 0
+},
+"why": "Rising bubbles in the centre create a circulating current.",
+"src": "Guinness"
+},
+{
+"id": "w074",
+"t": "Mentos make cola erupt by roughness",
+"b": "Mentos sweets are covered in microscopic pits. Dropped into fizzy drink, these give dissolved carbon dioxide countless spots to form bubbles all at once. The sudden burst of gas launches a foaming fountain.",
+"q": {
+"p": "Why does a Mentos make cola erupt?",
+"o": [
+"Its rough surface triggers bubbles",
+"A chemical reaction with sugar",
+"It's acidic"
+],
+"a": 0
+},
+"rq": {
+"p": "What gas forms the fountain?",
+"o": [
+"Carbon dioxide",
+"Oxygen",
+"Hydrogen"
+],
+"a": 0
+},
+"why": "Bubbles need 'nucleation sites' to start forming.",
+"src": "Diet Coke and Mentos eruption"
+},
+{
+"id": "w075",
+"t": "The Leaning Tower leaned from the start",
+"b": "Construction of Pisa's bell tower began in 1173, and it started to lean during building because the soft ground on one side couldn't support it. Engineers straightened its tilt slightly between 1990 and 2001 to stop it falling.",
+"q": {
+"p": "When did the Leaning Tower of Pisa start leaning?",
+"o": [
+"During its construction",
+"In a 1900s earthquake",
+"Last century"
+],
+"a": 0
+},
+"rq": {
+"p": "What caused the lean?",
+"o": [
+"Soft ground on one side",
+"A design choice",
+"War damage"
+],
+"a": 0
+},
+"why": "Building took nearly 200 years; long pauses let the soil settle.",
+"src": "Leaning Tower of Pisa"
+}
 ]
