@@ -1,0 +1,79 @@
+name: Build Inkling
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - uses: android-actions/setup-android@v3
+
+      - name: Install
+        run: npm ci
+
+      - name: Test
+        run: npm test
+
+      - name: Build cards and packs
+        run: npm run content
+
+      - name: Copy the app into the Android project
+        run: npx cap sync android
+
+      - name: Use signing key from secrets, if set
+        env:
+          KEYSTORE_B64: ${{ secrets.INKLING_KEYSTORE_B64 }}
+        run: |
+          if [ -n "$KEYSTORE_B64" ]; then
+            echo "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/inkling.jks"
+            echo "INKLING_KEYSTORE_FILE=$RUNNER_TEMP/inkling.jks" >> "$GITHUB_ENV"
+          fi
+
+      - name: Build the APK
+        working-directory: android
+        env:
+          INKLING_VERSION_CODE: ${{ github.run_number }}
+          INKLING_STORE_PASS: ${{ secrets.INKLING_STORE_PASS }}
+          INKLING_KEY_PASS: ${{ secrets.INKLING_STORE_PASS }}
+          INKLING_KEY_ALIAS: inkling
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease --no-daemon --stacktrace
+          cp app/build/outputs/apk/release/app-release.apk "$GITHUB_WORKSPACE/Inkling.apk"
+
+      - name: Keep the APK with this run
+        uses: actions/upload-artifact@v4
+        with:
+          name: Inkling
+          path: Inkling.apk
+
+      - name: Publish a release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "v1.0.${{ github.run_number }}" Inkling.apk \
+            --title "Inkling 1.0.${{ github.run_number }}" \
+            --notes "Download Inkling.apk on your Android phone and open it to install or update. Your progress is kept when updating." \
+            --latest

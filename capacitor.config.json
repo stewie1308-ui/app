@@ -1,0 +1,14 @@
+{
+  "appId": "com.stewie.inkling",
+  "appName": "Inkling",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#F6F0E4"
+  },
+  "plugins": {
+    "SystemBars": {
+      "insetsHandling": "css",
+      "style": "LIGHT"
+    }
+  }
+}

@@ -31,8 +31,9 @@
   --topic: var(--ink);
   --serif: 'Fraunces', Georgia, serif;
   --sans: 'Source Sans 3', system-ui, sans-serif;
-  --top: max(env(safe-area-inset-top, 0px), 14px);
-  --bottom: max(env(safe-area-inset-bottom, 0px), 14px);
+  /* Capacitor sets --safe-area-inset-* on older Android WebViews; env() covers the rest. */
+  --top: max(var(--safe-area-inset-top, env(safe-area-inset-top, 0px)), 14px);
+  --bottom: max(var(--safe-area-inset-bottom, env(safe-area-inset-bottom, 0px)), 14px);
   color-scheme: light;
 }
 .t-science { --topic: var(--science); }

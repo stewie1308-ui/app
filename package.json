@@ -11,8 +11,14 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/cli": "^8.6.2",
     "@fontsource-variable/fraunces": "^5.3.0",
     "@fontsource-variable/source-sans-3": "^5.3.1",
     "puppeteer-core": "^25.18.1"
+  },
+  "dependencies": {
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/core": "^8.6.2"
   }
 }
