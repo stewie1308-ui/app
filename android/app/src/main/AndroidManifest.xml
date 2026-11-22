@@ -24,6 +24,19 @@
 
         </activity>
 
+        <!-- Home-screen widget: a learned fact of the day -->
+        <receiver
+            android:name=".FactWidget"
+            android:exported="true"
+            android:label="Inkling fact">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/fact_widget_info" />
+        </receiver>
+
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.fileprovider"

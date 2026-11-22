@@ -13,8 +13,10 @@ import { Capacitor, registerPlugin, SystemBars } from '../vendor/capacitor-core.
 import { applyTheme } from './theme.js';
 import { planReminders, REMINDER_IDS } from './reminders.js';
 import { streakAlive } from './streak.js';
+import { widgetPayload } from './widget.js';
 
 const Notes = Capacitor.isNativePlatform() ? registerPlugin('LocalNotifications') : null;
+const Widget = Capacitor.isNativePlatform() ? registerPlugin('InklingWidget') : null;
 
 const root = document.getElementById('app');
 const VIEWS = { home: renderHome, card: renderCard, browse: renderBrowse, stats: renderStats, settings: renderSettings, recap: renderRecap };
@@ -35,6 +37,12 @@ const app = {
     this.refreshCards();
     const r0 = before.settings.reminder, r1 = this.state.settings.reminder;
     if (before.streak.lastDay !== this.state.streak.lastDay || r0?.on !== r1?.on || r0?.time !== r1?.time) this.syncReminders();
+    if (Object.keys(before.cards).length !== Object.keys(this.state.cards).length) this.syncWidget();
+  },
+  // Hands the widget the facts you've learned (never unseen ones).
+  syncWidget() {
+    if (!Widget) return;
+    Widget.update({ json: JSON.stringify(widgetPayload(this.state, this.byId)) }).catch((e) => console.warn('widget', e));
   },
   // Reminders are a week of one-off notifications, re-planned whenever something relevant changes.
   async syncReminders() {
@@ -68,6 +76,7 @@ const app = {
     saveState(this.state);
     this.refreshCards();
     this.applyTheme();
+    this.syncWidget();
   },
   refreshCards() {
     this.cards = allCards(this.starter, this.state);
@@ -121,6 +130,7 @@ async function boot() {
     if (app.view === 'home') app.render();
   });
   app.syncReminders();
+  app.syncWidget();
   app.render();
 }
 

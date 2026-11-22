@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="widget_paper">#F6F0E4</color>
+    <color name="widget_ink">#2B2620</color>
+    <color name="widget_faded">#6B6358</color>
+    <color name="widget_rule">#DDD2BE</color>
+    <color name="widget_science">#7A9471</color>
+    <color name="widget_history">#B8613E</color>
+    <color name="widget_how">#B5852A</color>
+    <color name="widget_words">#5C7185</color>
+    <string name="widget_description">A fact you\'ve learned, a new one each day</string>
+    <string name="widget_empty_title">Learn something today</string>
+    <string name="widget_empty_body">Do today\'s cards and the facts you learn will show up here.</string>
+</resources>

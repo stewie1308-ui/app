@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="widget_paper">#1F1C18</color>
+    <color name="widget_ink">#EDE5D6</color>
+    <color name="widget_faded">#A99F90</color>
+    <color name="widget_rule">#3E3831</color>
+    <color name="widget_science">#9DB592</color>
+    <color name="widget_history">#DB8D69</color>
+    <color name="widget_how">#D8AE55</color>
+    <color name="widget_words">#93A9BF</color>
+</resources>
