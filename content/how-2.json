@@ -1,0 +1,627 @@
+[
+{
+"id": "w026",
+"t": "Testing yourself beats re-reading",
+"b": "Many studies show that trying to recall information, even guessing wrongly, strengthens memory more than reading it again. It's called the testing effect, and it's why Inkling asks you a question before showing the answer.",
+"q": {
+"p": "Which helps you remember more?",
+"o": [
+"Testing yourself",
+"Re-reading notes"
+],
+"a": 0
+},
+"rq": {
+"p": "What is the testing effect?",
+"o": [
+"Recalling information strengthens memory",
+"Tests make people anxious",
+"Studying the night before works best"
+],
+"a": 0
+},
+"why": "Retrieving a memory rebuilds and strengthens it.",
+"src": "Testing effect"
+},
+{
+"id": "w027",
+"t": "Half of people miss the gorilla",
+"b": "In a 1999 experiment, people counted basketball passes in a video. A person in a gorilla suit walked through the scene, and about half the viewers didn't notice. Focused attention can make us blind to the unexpected.",
+"q": {
+"p": "What did many viewers miss in the basketball video?",
+"o": [
+"A person in a gorilla suit",
+"A dropped ball",
+"A second referee"
+],
+"a": 0
+},
+"rq": {
+"p": "What does the gorilla study show?",
+"o": [
+"Focus can blind us to obvious things",
+"Gorillas are hard to see",
+"People can't count"
+],
+"a": 0
+},
+"why": "This is called inattentional blindness.",
+"src": "Inattentional blindness"
+},
+{
+"id": "w028",
+"t": "Familiarity breeds liking",
+"b": "Psychologist Robert Zajonc found people tend to prefer things simply because they've seen them before, even nonsense words or shapes. This 'mere exposure effect' is one reason adverts repeat so often.",
+"q": {
+"p": "What tends to happen when we see something repeatedly?",
+"o": [
+"We like it more",
+"We like it less",
+"Nothing changes"
+],
+"a": 0
+},
+"rq": {
+"p": "What is this effect called?",
+"o": [
+"Mere exposure effect",
+"Placebo effect",
+"Halo effect"
+],
+"a": 0
+},
+"why": "Familiar things feel easier to process, which feels pleasant.",
+"src": "Mere-exposure effect"
+},
+{
+"id": "w029",
+"t": "We remember beginnings and endings",
+"b": "Given a list to remember, people best recall the first few items and the last few, while the middle blurs. This serial position effect shapes everything from shopping lists to which job candidate an interviewer remembers.",
+"q": {
+"p": "Which items in a list do people remember best?",
+"o": [
+"The first and last",
+"The middle ones",
+"Only the longest"
+],
+"a": 0
+},
+"rq": {
+"p": "What is this pattern called?",
+"o": [
+"Serial position effect",
+"Anchoring",
+"Peak-end rule"
+],
+"a": 0
+},
+"why": "Early items get rehearsed; late items are still fresh.",
+"src": "Serial-position effect"
+},
+{
+"id": "w030",
+"t": "Onions make you cry with a gas",
+"b": "Cutting an onion breaks its cells, mixing chemicals that create a gas called syn-propanethial-S-oxide. When it reaches your eyes it irritates them, and they make tears to wash it away. Chilling the onion first slows the reaction.",
+"q": {
+"p": "Why do onions make you cry?",
+"o": [
+"They release an irritating gas",
+"Their juice splashes your eyes",
+"The smell is sad"
+],
+"a": 0
+},
+"rq": {
+"p": "What reduces onion tears?",
+"o": [
+"Chilling the onion first",
+"Cutting it slowly",
+"Using a blunt knife"
+],
+"a": 0
+},
+"why": "Cold slows the chemical reaction that makes the gas.",
+"src": "Syn-Propanethial-S-oxide"
+},
+{
+"id": "w031",
+"t": "Chillies trick your heat sensors",
+"b": "Capsaicin, the active chemical in chillies, binds to the same nerve receptors that detect real heat. Your brain gets a 'burning' signal with no actual temperature change. Milk helps because its casein protein carries capsaicin away.",
+"q": {
+"p": "Does chilli actually raise the temperature in your mouth?",
+"o": [
+"No, it tricks heat receptors",
+"Yes, by several degrees",
+"Only with seeds"
+],
+"a": 0
+},
+"rq": {
+"p": "Why does milk help with chilli burn?",
+"o": [
+"Its casein protein carries capsaicin away",
+"It's cold",
+"It's acidic"
+],
+"a": 0
+},
+"why": "Capsaicin is oily, so water just spreads it around.",
+"src": "Capsaicin"
+},
+{
+"id": "w032",
+"t": "Mint tricks your cold sensors",
+"b": "Menthol in mint activates the same receptors that sense cold, called TRPM8. That's why mint feels cool even at room temperature, and why menthol is used in some cooling creams.",
+"q": {
+"p": "Why does mint feel cold?",
+"o": [
+"Menthol triggers cold receptors",
+"It lowers mouth temperature",
+"It contains ice crystals"
+],
+"a": 0
+},
+"rq": {
+"p": "Which chemical in mint causes the effect?",
+"o": [
+"Menthol",
+"Capsaicin",
+"Caffeine"
+],
+"a": 0
+},
+"why": "It's the mirror image of how chilli fakes heat.",
+"src": "Menthol"
+},
+{
+"id": "w033",
+"t": "Popcorn pops from steam pressure",
+"b": "Each popcorn kernel holds a little water inside a tough shell. Heated to about 180 °C, the water turns to steam and the pressure builds until the shell bursts. The starchy inside puffs into foam and sets.",
+"q": {
+"p": "What makes popcorn pop?",
+"o": [
+"Steam pressure inside the kernel",
+"Air pockets exploding",
+"Oil soaking in"
+],
+"a": 0
+},
+"rq": {
+"p": "Why do some kernels never pop?",
+"o": [
+"Their shells leak or they're too dry",
+"They're too big",
+"They're a different plant"
+],
+"a": 0
+},
+"why": "No sealed water, no pressure.",
+"src": "Popcorn"
+},
+{
+"id": "w034",
+"t": "Yeast makes bread rise",
+"b": "Yeast are tiny fungi that eat sugars in dough and give off carbon dioxide gas. Stretchy gluten traps the bubbles, so the dough rises. Baking kills the yeast and sets the bubbly structure.",
+"q": {
+"p": "What gas makes bread rise?",
+"o": [
+"Carbon dioxide",
+"Oxygen",
+"Steam only"
+],
+"a": 0
+},
+"rq": {
+"p": "What traps the gas bubbles in dough?",
+"o": [
+"Gluten",
+"Salt",
+"Butter"
+],
+"a": 0
+},
+"why": "Kneading builds the gluten network.",
+"src": "Yeast"
+},
+{
+"id": "w035",
+"t": "Salt makes ice melt below zero",
+"b": "Salt dissolves into the thin film of water on ice and lowers the temperature at which it freezes. The salty water stays liquid at temperatures where pure water would freeze, so the ice melts. It stops working well below about −10 °C.",
+"q": {
+"p": "How does road salt melt ice?",
+"o": [
+"It lowers water's freezing point",
+"It heats the road",
+"It absorbs the ice"
+],
+"a": 0
+},
+"rq": {
+"p": "When does road salt become much less effective?",
+"o": [
+"In very cold weather",
+"On sunny days",
+"On wet days"
+],
+"a": 0
+},
+"why": "Salt gets in the way of water forming ice crystals.",
+"src": "Freezing-point depression"
+},
+{
+"id": "w036",
+"t": "Soap rips viruses apart",
+"b": "Soap molecules have one end that loves water and another that loves fats and oils. The fat-loving ends wedge into the oily outer layer of many viruses and germs, breaking them apart, and the water washes them away.",
+"q": {
+"p": "How does soap destroy many viruses?",
+"o": [
+"It breaks their fatty outer layer",
+"It poisons them",
+"It freezes them"
+],
+"a": 0
+},
+"rq": {
+"p": "What do soap molecules' two ends like?",
+"o": [
+"Water and fat",
+"Salt and sugar",
+"Heat and cold"
+],
+"a": 0
+},
+"why": "Twenty seconds of scrubbing gives soap time to work.",
+"src": "Soap"
+},
+{
+"id": "w037",
+"t": "Stainless steel heals itself",
+"b": "Stainless steel contains at least about 10.5% chromium. The chromium reacts with oxygen to form an invisible layer that protects the iron beneath from rust. If scratched, the layer quickly re-forms.",
+"q": {
+"p": "What stops stainless steel rusting?",
+"o": [
+"A chromium layer that re-forms",
+"A plastic coating",
+"Paint"
+],
+"a": 0
+},
+"rq": {
+"p": "What happens if stainless steel gets scratched?",
+"o": [
+"The protective layer re-forms",
+"It rusts immediately",
+"It cracks"
+],
+"a": 0
+},
+"why": "Chromium oxide is tough and self-repairing.",
+"src": "Stainless steel"
+},
+{
+"id": "w038",
+"t": "Metal isn't colder than wood",
+"b": "In the same room, a metal bench and a wooden one are the same temperature. Metal feels colder because it conducts heat away from your skin much faster. Your nerves sense heat loss, not temperature.",
+"q": {
+"p": "In the same room, a metal spoon and a wooden spoon are…",
+"o": [
+"The same temperature",
+"The metal one colder",
+"The wooden one colder"
+],
+"a": 0
+},
+"rq": {
+"p": "Why does metal feel colder?",
+"o": [
+"It draws heat from skin faster",
+"It's denser",
+"It's always colder"
+],
+"a": 0
+},
+"why": "Skin senses the rate of heat flow.",
+"src": "Thermal conductivity"
+},
+{
+"id": "w039",
+"t": "A vacuum flask stops heat three ways",
+"b": "A vacuum flask has two walls with a vacuum between them, so heat can't conduct or move by air currents. The walls are silvered to reflect radiated heat. James Dewar invented it in 1892 for keeping chemicals cold.",
+"q": {
+"p": "What's between the walls of a vacuum flask?",
+"o": [
+"A vacuum",
+"Insulating foam",
+"Water"
+],
+"a": 0
+},
+"rq": {
+"p": "What was the vacuum flask first invented for?",
+"o": [
+"Keeping chemicals cold",
+"Keeping tea hot",
+"Storing milk"
+],
+"a": 0
+},
+"why": "No matter between the walls means no conduction.",
+"src": "Vacuum flask"
+},
+{
+"id": "w040",
+"t": "Old bulbs were mostly heaters",
+"b": "A traditional incandescent bulb turns only about 5% of its electricity into visible light; the rest becomes heat. LEDs make the same light using around 80 to 90% less energy.",
+"q": {
+"p": "How much of an old bulb's energy became light?",
+"o": [
+"About 5%",
+"About 50%",
+"About 95%"
+],
+"a": 0
+},
+"rq": {
+"p": "How much less energy do LEDs typically use?",
+"o": [
+"About 80 to 90% less",
+"About 10% less",
+"The same"
+],
+"a": 0
+},
+"why": "Incandescent bulbs glow by heating a wire white-hot.",
+"src": "Incandescent light bulb"
+},
+{
+"id": "w041",
+"t": "Electric cars recharge when braking",
+"b": "When an electric car slows down, its motor can run in reverse as a generator, turning the car's motion back into electricity for the battery. This regenerative braking also saves wear on the brake pads.",
+"q": {
+"p": "What happens to an electric car's energy when it brakes?",
+"o": [
+"Some goes back into the battery",
+"It's all lost as heat",
+"It powers the radio only"
+],
+"a": 0
+},
+"rq": {
+"p": "What does the motor become during regenerative braking?",
+"o": [
+"A generator",
+"A heater",
+"A fan"
+],
+"a": 0
+},
+"why": "Motors and generators are the same machine run in opposite directions.",
+"src": "Regenerative braking"
+},
+{
+"id": "w042",
+"t": "Planes cruise high to save fuel",
+"b": "Airliners usually cruise around 10 to 12 km up. The air there is much thinner, so there's less drag, and jet engines run efficiently. It also puts them above most weather.",
+"q": {
+"p": "Why do airliners fly so high?",
+"o": [
+"Thinner air means less drag",
+"To avoid birds only",
+"It's closer to the Sun"
+],
+"a": 0
+},
+"rq": {
+"p": "About how high do airliners usually cruise?",
+"o": [
+"10 to 12 km",
+"1 to 2 km",
+"50 km"
+],
+"a": 0
+},
+"why": "Less air to push through means less fuel burned.",
+"src": "Cruise (aeronautics)"
+},
+{
+"id": "w043",
+"t": "Plane windows are round for a reason",
+"b": "In 1954, two de Havilland Comet jets broke apart in flight. Investigators traced metal fatigue cracks to the sharp corners of a rectangular opening in the cabin roof, where stress concentrates. Rounded openings spread stress evenly, which is why airliner windows are rounded.",
+"q": {
+"p": "Why are airliner windows rounded?",
+"o": [
+"Corners concentrate stress",
+"They look nicer",
+"They're cheaper to make"
+],
+"a": 0
+},
+"rq": {
+"p": "Which aircraft disasters led to round windows?",
+"o": [
+"The de Havilland Comet",
+"Concorde",
+"The Wright Flyer"
+],
+"a": 0
+},
+"why": "Repeated pressurisation stresses the cabin each flight.",
+"src": "De Havilland Comet"
+},
+{
+"id": "w044",
+"t": "That tiny hole in plane windows",
+"b": "Airliner windows have several layers. A tiny 'breather hole' in the middle pane lets air pressure equalise between layers, so the outer pane takes the main load. It also helps stop the window fogging up.",
+"q": {
+"p": "What is the tiny hole in a plane window for?",
+"o": [
+"Balancing pressure between panes",
+"Letting in fresh air",
+"Draining rain"
+],
+"a": 0
+},
+"rq": {
+"p": "Which pane takes the main pressure load?",
+"o": [
+"The outer pane",
+"The inner pane",
+"The middle pane"
+],
+"a": 0
+},
+"why": "The inner panes are backups.",
+"src": "Airplane window",
+"srcUrl": "https://en.wikipedia.org/w/index.php?search=aircraft+window+breather+hole"
+},
+{
+"id": "w045",
+"t": "Why your ears pop",
+"b": "A narrow channel called the Eustachian tube links your middle ear to the back of your throat. When outside pressure changes, swallowing or yawning opens it, letting air rush through to equalise pressure, which you feel as a pop.",
+"q": {
+"p": "What equalises pressure in your ears?",
+"o": [
+"A tube to your throat",
+"Your eardrum stretching",
+"Your nose only"
+],
+"a": 0
+},
+"rq": {
+"p": "What helps your ears pop on a plane?",
+"o": [
+"Swallowing or yawning",
+"Holding your breath",
+"Covering your ears"
+],
+"a": 0
+},
+"why": "Muscles that open the tube work when you swallow.",
+"src": "Eustachian tube"
+},
+{
+"id": "w046",
+"t": "Lift safety brakes made skyscrapers possible",
+"b": "In 1854, Elisha Otis stood on a lift platform and had its only rope cut in front of a crowd in New York. His spring-loaded safety brake caught it. Safe lifts made tall buildings practical.",
+"q": {
+"p": "What did Elisha Otis do to show off his invention?",
+"o": [
+"Had his lift's rope cut",
+"Rode it to the Moon",
+"Built the Empire State Building"
+],
+"a": 0
+},
+"rq": {
+"p": "Why did safe lifts matter?",
+"o": [
+"They made tall buildings practical",
+"They were faster than stairs",
+"They used less electricity"
+],
+"a": 0
+},
+"why": "Fear of falling had kept buildings short.",
+"src": "Elisha Otis"
+},
+{
+"id": "w047",
+"t": "Ships float by pushing water aside",
+"b": "A steel ship floats because its hollow hull pushes aside a weight of water equal to its own weight before it sinks too far. This is Archimedes' principle. Squash the same steel into a solid lump and it would sink.",
+"q": {
+"p": "Why does a heavy steel ship float?",
+"o": [
+"Its hull displaces enough water",
+"Steel is lighter than water",
+"Air tanks hold it up"
+],
+"a": 0
+},
+"rq": {
+"p": "Whose principle explains floating?",
+"o": [
+"Archimedes",
+"Newton",
+"Pythagoras"
+],
+"a": 0
+},
+"why": "Shape matters: a hull displaces far more water than a lump.",
+"src": "Archimedes' principle"
+},
+{
+"id": "w048",
+"t": "Antibiotics don't work on viruses",
+"b": "Antibiotics attack features of bacteria, such as their cell walls. Viruses don't have those features, so antibiotics don't help with colds or flu. Using them unnecessarily helps bacteria evolve resistance.",
+"q": {
+"p": "Do antibiotics treat a common cold?",
+"o": [
+"No, colds are viral",
+"Yes",
+"Only strong ones"
+],
+"a": 0
+},
+"rq": {
+"p": "What does overusing antibiotics cause?",
+"o": [
+"Resistant bacteria",
+"Stronger viruses",
+"Allergies to colds"
+],
+"a": 0
+},
+"why": "Bacteria that survive the drug pass on their resistance.",
+"src": "Antibiotic"
+},
+{
+"id": "w049",
+"t": "Face unlock uses thousands of invisible dots",
+"b": "Apple's Face ID projects over 30,000 invisible infrared dots onto your face and reads how they land, building a 3D map. That's why a flat photo can't fool it the way it fools simpler 2D camera systems.",
+"q": {
+"p": "Why can't a photo fool Face ID?",
+"o": [
+"It maps your face in 3D",
+"It checks your heartbeat",
+"It needs your voice"
+],
+"a": 0
+},
+"rq": {
+"p": "What does Face ID project onto your face?",
+"o": [
+"Invisible infrared dots",
+"Ultraviolet light",
+"Laser lines you can see"
+],
+"a": 0
+},
+"why": "Depth information is hard to fake with a picture.",
+"src": "Face ID"
+},
+{
+"id": "w050",
+"t": "Toast often lands butter side down",
+"b": "Physicist Robert Matthews showed that a slice of toast sliding off a typical table only has time to make about half a rotation before landing. So if it starts butter side up, it tends to land butter side down.",
+"q": {
+"p": "Why does dropped toast often land butter side down?",
+"o": [
+"Table height allows about half a turn",
+"Butter is heavier",
+"Bad luck"
+],
+"a": 0
+},
+"rq": {
+"p": "What would help toast land butter side up?",
+"o": [
+"A much taller table",
+"A colder kitchen",
+"Thinner butter"
+],
+"a": 0
+},
+"why": "Matthews won an Ig Nobel Prize for the study in 1996.",
+"src": "Buttered toast phenomenon"
+}
+]
