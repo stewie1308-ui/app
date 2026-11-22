@@ -22,6 +22,41 @@ function themePicker(app) {
   return wrap;
 }
 
+function reminderSection(app) {
+  const note = h('p', { class: 'note', role: 'status' });
+  const time = h('input', { type: 'time', class: 'time-input', 'aria-label': 'Reminder time', value: app.state.settings.reminder?.time || '19:00' });
+  time.addEventListener('change', () => {
+    if (!/^\d{2}:\d{2}$/.test(time.value)) return;
+    app.update((s) => ({ ...s, settings: { ...s.settings, reminder: { ...s.settings.reminder, time: time.value } } }));
+    note.className = 'note'; note.textContent = `Reminder set for ${time.value} each day.`;
+  });
+  const timeRow = h('label', { class: 'time-row' }, h('span', {}, 'Remind me at'), time);
+  const seg = h('div', { class: 'segmented', role: 'group', 'aria-label': 'Daily reminder' });
+  const draw = () => {
+    const on = !!app.state.settings.reminder?.on;
+    timeRow.hidden = !on;
+    seg.replaceChildren(...[[false, 'Off'], [true, 'On']].map(([v, label]) => h('button', {
+      'aria-pressed': String(on === v),
+      onclick: async () => {
+        if (v && !(await app.allowNotifications())) {
+          note.className = 'note error';
+          note.textContent = "Notifications are turned off for Inkling. Allow them in your phone's settings, then try again.";
+          return;
+        }
+        app.update((s) => ({ ...s, settings: { ...s.settings, reminder: { time: '19:00', ...s.settings.reminder, on: v } } }));
+        note.className = 'note';
+        note.textContent = v ? `Reminder set for ${app.state.settings.reminder.time} each day.` : '';
+        draw();
+      },
+    }, label)));
+  };
+  draw();
+  return h('section', { class: 'group', 'aria-labelledby': 'rem-h' },
+    h('h2', { id: 'rem-h' }, 'Daily reminder'),
+    h('p', {}, "One quiet nudge at a time you choose. It skips days you've already done your cards."),
+    seg, timeRow, note);
+}
+
 function packsSection(app) {
   const list = h('ul', { class: 'pack-list' });
   const status = h('p', { class: 'note', role: 'status' });
@@ -96,6 +131,7 @@ export function renderSettings(app, params) {
       h('h2', { id: 'size-h' }, 'Cards per session'),
       h('p', {}, 'Reviews come first, with room kept for new cards.'),
       sizePicker(app)),
+    reminderSection(app),
     h('section', { class: 'group', 'aria-labelledby': 'theme-h' },
       h('h2', { id: 'theme-h' }, 'Appearance'),
       h('p', {}, 'Auto matches your phone, so night mode turns on when your phone goes dark.'),

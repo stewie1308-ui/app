@@ -6,7 +6,7 @@ export function defaultState() {
     version: 1,
     cards: {},
     streak: { count: 0, best: 0, lastDay: null, freezesLeft: 2, freezeWeek: null },
-    settings: { sessionSize: 5, theme: 'auto' },
+    settings: { sessionSize: 5, theme: 'auto', reminder: { on: false, time: '19:00' } },
     session: null,
     packs: {},
     browsed: {},

@@ -9,6 +9,10 @@
     "SystemBars": {
       "insetsHandling": "css",
       "style": "LIGHT"
+    },
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_inkling",
+      "iconColor": "#2B2620"
     }
   }
 }
