@@ -8,7 +8,8 @@ import { renderBrowse } from './ui/browse.js';
 import { renderStats } from './ui/stats.js';
 import { renderSettings } from './ui/settings.js';
 import { closeSheet } from './ui/dom.js';
-import { Capacitor, registerPlugin } from '../vendor/capacitor-core.js';
+import { Capacitor, registerPlugin, SystemBars } from '../vendor/capacitor-core.js';
+import { applyTheme } from './theme.js';
 
 const root = document.getElementById('app');
 const VIEWS = { home: renderHome, card: renderCard, browse: renderBrowse, stats: renderStats, settings: renderSettings };
@@ -27,10 +28,16 @@ const app = {
     saveState(this.state);
     this.refreshCards();
   },
+  applyTheme() {
+    applyTheme(this.state.settings.theme, (t) => {
+      if (Capacitor.isNativePlatform()) SystemBars.setStyle({ style: t === 'dark' ? 'DARK' : 'LIGHT' }).catch(() => {});
+    });
+  },
   reset() {
     this.state = defaultState();
     saveState(this.state);
     this.refreshCards();
+    this.applyTheme();
   },
   refreshCards() {
     this.cards = allCards(this.starter, this.state);
@@ -65,6 +72,9 @@ function setupBackButton() {
   const App = registerPlugin('App');
   App.addListener('backButton', () => { if (!app.back()) App.exitApp(); });
 }
+
+app.applyTheme();
+globalThis.matchMedia?.('(prefers-color-scheme: dark)').addEventListener?.('change', () => app.applyTheme());
 
 async function boot() {
   try {

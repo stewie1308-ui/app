@@ -16,10 +16,12 @@ await mkdir('.shots', { recursive: true });
 const browser = await puppeteer.launch({ executablePath: '/usr/bin/google-chrome', args: ['--no-sandbox', '--disable-gpu'] });
 const page = await browser.newPage();
 await page.setViewport({ width: 412, height: 915, deviceScaleFactor: 2, isMobile: true, hasTouch: true });
+const DARK = process.env.DARK === '1';
+if (DARK) await page.emulateMediaFeatures([{ name: 'prefers-color-scheme', value: 'dark' }]);
 const errors = [];
 page.on('pageerror', (e) => errors.push(e.message));
 page.on('console', (m) => { if (m.type() === 'error') errors.push(m.text()); });
-const shot = async (name, full = false) => { await new Promise((r) => setTimeout(r, 700)); await page.screenshot({ path: `.shots/${name}.png`, fullPage: full }); console.log('shot', name); };
+const shot = async (name, full = false) => { await new Promise((r) => setTimeout(r, 700)); await page.screenshot({ path: `.shots/${DARK ? 'dark-' : ''}${name}.png`, fullPage: full }); console.log('shot', name); };
 const click = async (text) => {
   const ok = await page.evaluate((t) => { const b = [...document.querySelectorAll('button')].find((x) => x.textContent.trim().startsWith(t)); if (b) { b.click(); return true; } return false; }, text);
   if (!ok) throw new Error(`no button "${text}"`);

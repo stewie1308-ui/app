@@ -30,6 +30,26 @@
   --bottom: max(var(--safe-area-inset-bottom, env(safe-area-inset-bottom, 0px)), 14px);
   color-scheme: light;
 }
+:root[data-theme="dark"] {
+  /* Night: warm ink-on-charcoal, same structure */
+  --paper: #1F1C18;
+  --card: #2A2621;
+  --ink: #EDE5D6;
+  --faded: #A99F90;
+  --rule: #3E3831;
+  --science: #9DB592;
+  --history: #DB8D69;
+  --how: #D8AE55;
+  --words: #93A9BF;
+  --right: #8FBD86;
+  --wrong: #E58A72;
+  --note: #A3B7CC;
+  color-scheme: dark;
+}
+:root[data-theme="dark"] .today { box-shadow: none; }
+:root[data-theme="dark"] .icon-btn:active { background: rgba(237,229,214,.08); }
+:root[data-theme="dark"] .bar-track { background: rgba(237,229,214,.08); }
+:root[data-theme="dark"] .scrim { background: rgba(0,0,0,.55); }
 .t-science { --topic: var(--science); }
 .t-history { --topic: var(--history); }
 .t-how { --topic: var(--how); }
@@ -66,12 +86,12 @@ a { color: inherit; }
   width: 44px; height: 44px; display: grid; place-items: center;
   background: none; border: 0; border-radius: 50%; cursor: pointer; color: var(--ink);
 }
-.icon-btn:active { background: rgba(43,38,32,.07); }
+.icon-btn:active { background: color-mix(in srgb, var(--ink) 8%, transparent); }
 .icon-btn svg { width: 24px; height: 24px; }
 .bottombar {
   position: fixed; left: 0; right: 0; bottom: 0;
   padding: 12px 22px var(--bottom);
-  background: linear-gradient(to top, var(--paper) 70%, rgba(246,240,228,0));
+  background: linear-gradient(to top, var(--paper) 70%, color-mix(in srgb, var(--paper) 0%, transparent));
 }
 .bottombar-inner { max-width: 34rem; margin: 0 auto; display: flex; gap: 10px; }
 

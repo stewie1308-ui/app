@@ -11,6 +11,17 @@ function sizePicker(app) {
   return wrap;
 }
 
+function themePicker(app) {
+  const wrap = h('div', { class: 'segmented', role: 'group', 'aria-label': 'Appearance' });
+  const opts = [['auto', 'Auto'], ['light', 'Light'], ['dark', 'Dark']];
+  const draw = () => wrap.replaceChildren(...opts.map(([v, label]) => h('button', {
+    'aria-pressed': String((app.state.settings.theme || 'auto') === v),
+    onclick: () => { app.update((s) => ({ ...s, settings: { ...s.settings, theme: v } })); app.applyTheme(); draw(); },
+  }, label)));
+  draw();
+  return wrap;
+}
+
 function packsSection(app) {
   const list = h('ul', { class: 'pack-list' });
   const status = h('p', { class: 'note', role: 'status' });
@@ -85,6 +96,10 @@ export function renderSettings(app, params) {
       h('h2', { id: 'size-h' }, 'Cards per session'),
       h('p', {}, 'Reviews come first, with room kept for new cards.'),
       sizePicker(app)),
+    h('section', { class: 'group', 'aria-labelledby': 'theme-h' },
+      h('h2', { id: 'theme-h' }, 'Appearance'),
+      h('p', {}, 'Auto matches your phone, so night mode turns on when your phone goes dark.'),
+      themePicker(app)),
     packsSection(app),
     h('section', { class: 'group', 'aria-labelledby': 'reset-h' },
       h('h2', { id: 'reset-h' }, 'Start over'),
