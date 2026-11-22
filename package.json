@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Inkling: a calm, offline micro-learning app for curious people.",
   "scripts": {
-    "test": "TZ=Europe/London node --test test/",
+    "test": "TZ=Europe/London node --test test/*.test.mjs",
     "content": "node scripts/build-content.mjs",
     "validate": "node scripts/validate.mjs"
   },
