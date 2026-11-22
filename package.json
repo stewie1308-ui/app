@@ -6,7 +6,7 @@
   "description": "Inkling: a calm, offline micro-learning app for curious people.",
   "scripts": {
     "test": "TZ=Europe/London node --test test/*.test.mjs",
-    "content": "node scripts/build-content.mjs",
+    "content": "node scripts/build-content.mjs && node scripts/build-packs.mjs",
     "validate": "node scripts/validate.mjs"
   },
   "license": "MIT"

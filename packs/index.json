@@ -1,0 +1,13 @@
+{
+ "version": 1,
+ "packs": [
+  {
+   "id": "weird-animals",
+   "title": "Weird animals",
+   "description": "25 creatures that break the rules.",
+   "count": 25,
+   "version": 1,
+   "file": "weird-animals.json"
+  }
+ ]
+}
