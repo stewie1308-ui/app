@@ -9,5 +9,10 @@
     "content": "node scripts/build-content.mjs && node scripts/build-packs.mjs",
     "validate": "node scripts/validate.mjs"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource-variable/source-sans-3": "^5.3.1",
+    "puppeteer-core": "^25.18.1"
+  }
 }
