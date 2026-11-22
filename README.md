@@ -16,6 +16,8 @@ Every push to `main` builds a new version automatically. To update, install the 
 
 - 400 starter cards across Science & space, History & oddities, How things work, and Words & ideas.
 - Card packs in `packs/`, downloaded in the app via Settings → Get more cards.
+- Rabbit holes: "Tell me more" links to related cards, using subject tags in `content/tags.txt`.
+- A weekly recap on Sundays, a daily reminder, night mode, and a home-screen widget showing learned facts (`android/.../FactWidget.java`).
 - Plain HTML, CSS and JavaScript in `www/`, wrapped as an Android app with Capacitor.
 
 ## Adding cards
