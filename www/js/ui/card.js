@@ -3,7 +3,7 @@ import { h, icon, inkMark, TOPIC } from './dom.js';
 import { renderVisual } from './visuals.js';
 import { orderOptions } from '../format.js';
 import { currentSession, sessionDone, answer } from '../session.js';
-import { pickRabbit, addRabbit } from '../rabbit.js';
+import { rabbitTrail } from '../rabbit.js';
 
 const KIND_LABEL = { new: 'New', review: 'Review', recheck: 'Second look', rabbit: 'Rabbit hole' };
 
@@ -95,8 +95,8 @@ export function renderCard(app) {
           h('small', {}, sure && item.kind !== 'recheck' ? "Surprises stick. You'll see this again at the end." : 'It will come back tomorrow.')));
     revealArea.replaceChildren(h('div', { class: 'reveal reveal-enter' }, verdict, factBlock(card)));
     const last = app.state.session.index >= app.state.session.queue.length;
-    const rabbit = pickRabbit(card, app.state, app.byId);
-    const more = rabbit && h('button', { class: 'btn quiet', onclick: () => { app.update((s) => addRabbit(s, rabbit)); app.render(); } }, 'Tell me more');
+    const hasMore = rabbitTrail(card, app.byId, new Set([card.id]), 1).length > 0;
+    const more = hasMore && h('button', { class: 'btn quiet', onclick: () => app.go('rabbit', { from: card.id }) }, 'Tell me more');
     bar.replaceChildren(h('div', { class: 'bottombar-inner' }, more, h('button', { class: 'btn', onclick: () => app.render() }, last ? 'Finish' : 'Next card')));
     bar.querySelector('button').focus({ preventScroll: true, focusVisible: false });
   }

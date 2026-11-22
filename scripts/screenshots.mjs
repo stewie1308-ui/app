@@ -39,6 +39,9 @@ await shot('03-reveal', true);
 if (await page.evaluate(() => [...document.querySelectorAll('button')].some((b) => b.textContent === 'Tell me more'))) {
   await click('Tell me more');
   await shot('03b-rabbit');
+  await click('Keep going').catch(() => {});
+  await shot('03c-rabbit-deeper', true);
+  await click('Back to my cards');
 }
 for (let i = 0; i < 12; i++) {
   const next = await page.evaluate(() => !!document.querySelector('.option:not([disabled])'));

@@ -8,6 +8,7 @@ import { renderBrowse } from './ui/browse.js';
 import { renderStats } from './ui/stats.js';
 import { renderSettings } from './ui/settings.js';
 import { renderRecap } from './ui/recap.js';
+import { renderRabbit } from './ui/rabbit.js';
 import { closeSheet } from './ui/dom.js';
 import { Capacitor, registerPlugin, SystemBars } from '../vendor/capacitor-core.js';
 import { applyTheme } from './theme.js';
@@ -19,7 +20,7 @@ const Notes = Capacitor.isNativePlatform() ? registerPlugin('LocalNotifications'
 const Widget = Capacitor.isNativePlatform() ? registerPlugin('InklingWidget') : null;
 
 const root = document.getElementById('app');
-const VIEWS = { home: renderHome, card: renderCard, browse: renderBrowse, stats: renderStats, settings: renderSettings, recap: renderRecap };
+const VIEWS = { home: renderHome, card: renderCard, browse: renderBrowse, stats: renderStats, settings: renderSettings, recap: renderRecap, rabbit: renderRabbit };
 
 const app = {
   state: loadState(),
@@ -93,7 +94,6 @@ const app = {
     if (closeSheet()) return true;
     if (this.view === 'home') return false;
     this.view = this.stack.pop() || 'home';
-    if (this.view === 'card') this.view = 'home';
     this.params = {};
     this.render();
     return true;

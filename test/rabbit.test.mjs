@@ -1,8 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { computeRelated } from '../scripts/related.mjs';
-import { pickRabbit, addRabbit } from '../www/js/rabbit.js';
-import { startSession, makeRng } from '../www/js/session.js';
+import { rabbitTrail, markRead } from '../www/js/rabbit.js';
 import { defaultState } from '../www/js/storage.js';
 
 const c = (id, title, body, topic = 'science') => ({ id, topic, title, body, why: '' });
@@ -42,33 +41,32 @@ test('computeRelated leaves out cards with nothing in common', () => {
 
 const cards = [
   { id: 'a', topic: 'science', related: ['b', 'c'] },
-  { id: 'b', topic: 'science', related: ['a'] },
-  { id: 'c', topic: 'science', related: [] },
-  { id: 'd', topic: 'history', related: [] },
+  { id: 'b', topic: 'science', related: ['a', 'd'] },
+  { id: 'c', topic: 'science', related: ['a'] },
+  { id: 'd', topic: 'history', related: ['e'] },
+  { id: 'e', topic: 'history', related: [] },
 ];
 const byId = new Map(cards.map((x) => [x.id, x]));
 
-test('pickRabbit returns the first related card not yet seen and not already queued', () => {
-  const s = defaultState();
-  s.cards.b = { box: 1 };
-  s.session = { day: 'd', queue: [{ id: 'a', kind: 'new' }], index: 1, results: [] };
-  assert.equal(pickRabbit(byId.get('a'), s, byId), 'c');
-  s.session.queue.push({ id: 'c', kind: 'new' });
-  assert.equal(pickRabbit(byId.get('a'), s, byId), null);
+test('rabbitTrail gives related facts to read, skipping ones already shown', () => {
+  assert.deepEqual(rabbitTrail(byId.get('a'), byId, new Set(['a']), 2), ['b', 'c']);
+  assert.deepEqual(rabbitTrail(byId.get('a'), byId, new Set(['a', 'b']), 1), ['c']);
 });
 
-test('pickRabbit ignores related ids that no longer exist', () => {
-  const s = defaultState();
-  s.session = { day: 'd', queue: [], index: 0, results: [] };
-  assert.equal(pickRabbit({ id: 'x', related: ['ghost'] }, s, byId), null);
+test('rabbitTrail digs a level deeper when the first level runs out', () => {
+  assert.deepEqual(rabbitTrail(byId.get('a'), byId, new Set(['a']), 3), ['b', 'c', 'd']);
 });
 
-test('addRabbit puts the related card next in the session', () => {
-  let s = startSession(cards, { ...defaultState(), settings: { sessionSize: 3 } }, '2026-11-22', makeRng(1));
-  s = { ...s, session: { ...s.session, index: 1 } };
-  const before = s.session.queue.length;
-  const next = addRabbit(s, 'zz');
-  assert.equal(next.session.queue.length, before + 1);
-  assert.deepEqual(next.session.queue[1], { id: 'zz', kind: 'rabbit' });
-  assert.equal(s.session.queue.length, before); // original untouched
+test('rabbitTrail ignores related ids that no longer exist', () => {
+  assert.deepEqual(rabbitTrail({ id: 'x', related: ['ghost', 'e'] }, byId, new Set(['x']), 3), ['e']);
+});
+
+test('markRead files unseen facts as learned so they come back as review questions tomorrow', () => {
+  const s = defaultState();
+  s.cards.b = { box: 3, due: '2026-12-01', seen: 4, right: 4, wrong: 0, mastered: false, first: '2026-11-01' };
+  const next = markRead(s, ['b', 'c'], '2026-11-22');
+  assert.deepEqual(next.cards.b, s.cards.b); // already known: untouched
+  assert.deepEqual(next.cards.c, { box: 0, due: '2026-11-23', seen: 0, right: 0, wrong: 0, mastered: false, first: '2026-11-22', read: true });
+  assert.equal(s.cards.c, undefined); // original untouched
+  assert.equal(next.streak.count, s.streak.count); // reading isn't answering
 });
