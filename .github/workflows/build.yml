@@ -16,31 +16,28 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 21
 
-      - uses: android-actions/setup-android@v3
+      # The GitHub runner image already includes the Android SDK.
+      - name: Check the Android SDK
+        run: |
+          echo "ANDROID_HOME=$ANDROID_HOME"
+          ls "$ANDROID_HOME/platforms" | tail -3
 
-      - name: Install
-        run: npm ci
-
-      - name: Test
-        run: npm test
-
-      - name: Build cards and packs
-        run: npm run content
-
-      - name: Copy the app into the Android project
-        run: npx cap sync android
+      - name: Install, test and build cards
+        run: |
+          set -o pipefail
+          { npm ci && npm test && npm run content && npx cap sync android; } 2>&1 | tee -a "$RUNNER_TEMP/build.log"
 
       - name: Use signing key from secrets, if set
         env:
@@ -59,12 +56,13 @@ jobs:
           INKLING_KEY_PASS: ${{ secrets.INKLING_STORE_PASS }}
           INKLING_KEY_ALIAS: inkling
         run: |
+          set -o pipefail
           chmod +x gradlew
-          ./gradlew assembleRelease --no-daemon --stacktrace
+          ./gradlew assembleRelease --no-daemon 2>&1 | tee -a "$RUNNER_TEMP/build.log"
           cp app/build/outputs/apk/release/app-release.apk "$GITHUB_WORKSPACE/Inkling.apk"
 
       - name: Keep the APK with this run
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: Inkling
           path: Inkling.apk
@@ -77,3 +75,15 @@ jobs:
             --title "Inkling 1.0.${{ github.run_number }}" \
             --notes "Download Inkling.apk on your Android phone and open it to install or update. Your progress is kept when updating." \
             --latest
+
+      - name: Report the error
+        if: failure()
+        run: |
+          touch "$RUNNER_TEMP/build.log"
+          python3 - "$RUNNER_TEMP/build.log" <<'PY'
+          import sys
+          lines = open(sys.argv[1], errors="replace").read().splitlines()
+          start = next((i for i, l in enumerate(lines) if "What went wrong" in l or "ERR!" in l or "not ok" in l), max(0, len(lines) - 40))
+          text = "\n".join(lines[start:start + 40]) or "No log captured (failed in a setup step)."
+          print("::error title=Build failed::" + text.replace("%", "%25").replace("\r", "").replace("\n", "%0A"))
+          PY
