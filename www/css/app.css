@@ -61,9 +61,11 @@ a { color: inherit; }
 .screen {
   min-height: 100vh; min-height: 100dvh;
   max-width: 34rem; margin: 0 auto;
-  padding: calc(var(--top) + 8px) 22px calc(var(--bottom) + 96px);
+  padding: calc(var(--top) + 8px) 22px calc(var(--bottom) + 20px);
   display: flex; flex-direction: column;
 }
+/* Only screens with a fixed bottom bar need room reserved for it. */
+.screen.has-bar { padding-bottom: calc(var(--bottom) + 96px); }
 .topbar { display: flex; align-items: center; justify-content: space-between; min-height: 44px; margin-bottom: 8px; }
 .wordmark { font: 600 1.6rem/1 var(--serif); font-variation-settings: 'opsz' 72, 'SOFT' 100, 'WONK' 1; letter-spacing: -0.01em; margin: 0; }
 .icon-btn {

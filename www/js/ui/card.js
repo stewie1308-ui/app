@@ -33,7 +33,7 @@ function renderDone(app, session) {
   const back = results.filter((r) => !r.correct && r.kind !== 'recheck').length;
   const head = right === results.length ? 'A clean sweep.' : right >= results.length / 2 ? 'Nicely done.' : 'Good effort. Those will stick next time.';
   const seenIds = [...new Set(results.map((r) => r.id))];
-  return h('div', { class: 'screen' },
+  return h('div', { class: 'screen has-bar' },
     h('header', { class: 'topbar' }, h('p', { class: 'wordmark' }, 'Inkling')),
     h('h1', { class: 'done-head' }, head),
     h('p', { class: 'done-sub' }, back ? `${back === 1 ? 'One card comes' : `${back} cards come`} back tomorrow for another try.` : 'Everything you got right will come back later, just before you might forget it.'),
@@ -99,7 +99,7 @@ export function renderCard(app) {
 
   const hint = h('p', { class: 'sure-hint' }, 'Guessing is fine. Tap "I\'m sure" first if you are.');
   const topic = TOPIC[card.topic];
-  return h('div', { class: 'screen' },
+  return h('div', { class: 'screen has-bar' },
     header(app, session),
     h('article', { class: `leaf t-${card.topic}` },
       h('p', { class: 'leaf-topic' }, icon(topic.icon), topic.name, h('span', { class: 'kind' }, item.kind === 'new' ? '' : KIND_LABEL[item.kind])),
