@@ -13,7 +13,7 @@ The user picked the "Paper & Ink" direction from the Higgsfield concepts. Cream 
 | sage `#7A9471`, terracotta `#B8613E`, ochre `#C4932F`, slate `#5C7185` | | topic colours (science, history, how, words) |
 | right `#4F7A4A`, wrong `#A8432F` | | answer feedback |
 
-- **Type:** Fraunces (variable, optical size) for questions, titles and numbers. Source Sans 3 for body text and controls. Sentence case everywhere, with no all-caps labels.
+- **Type (chosen by the user, option 4):** Literata (variable, optical size) for everything you read and tap. Caveat handwriting in blue-grey ink (`#5C7185`) only for margin notes: the right/wrong verdict and the one-line 'why'. Sentence case everywhere.
 - **Layout:** a single left-aligned column, max 34rem wide. Every card has a **notebook margin line** in its topic colour running down the left. Primary actions sit in a bottom bar within thumb reach.
 
 ```
