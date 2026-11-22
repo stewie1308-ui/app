@@ -91,9 +91,12 @@ export function answer(state, today, { id, kind, correct, sure }) {
   const queue = [...s.queue];
   const hasRecheck = queue.some((x) => x.id === id && x.kind === 'recheck');
   if (sure && !correct && kind !== 'recheck' && !hasRecheck) queue.push({ id, kind: 'recheck' });
+  const day = state.log?.[today] || { answered: 0, right: 0 };
+  const log = { ...(state.log || {}), [today]: { answered: day.answered + 1, right: day.right + (correct ? 1 : 0) } };
   return {
     ...state,
     cards,
+    log,
     streak: recordActivity(state.streak, today),
     session: {
       ...s,

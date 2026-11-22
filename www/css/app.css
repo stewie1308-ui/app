@@ -122,6 +122,16 @@ a { color: inherit; }
 .today .btn { width: 100%; }
 .today .done-mark { display: flex; gap: 10px; align-items: center; margin-bottom: 14px; }
 .today .done-mark svg { width: 30px; height: 30px; color: var(--right); flex: none; }
+.recap-banner {
+  width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  margin: 10px 0 14px; padding: 11px 14px 11px 16px; cursor: pointer; text-align: left;
+  background: transparent; border: 1.5px solid var(--note); border-radius: 14px; color: var(--ink);
+}
+.recap-banner span { display: flex; flex-direction: column; gap: 2px; }
+.recap-banner b { font: 600 1.35rem/1.1 var(--hand); color: var(--note); }
+.recap-banner small { color: var(--faded); font-size: .875rem; }
+.recap-banner .chev { width: 20px; height: 20px; transform: rotate(180deg); color: var(--note); flex: none; }
+.recap-note { font: 500 1.4rem/1.2 var(--hand); color: var(--note); margin: -6px 0 22px; }
 .section-title { font: 500 1.15rem/1.2 var(--serif); margin: 0 0 12px; }
 .topics { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 0 0 18px; padding: 0; list-style: none; }
 .topic-tile {

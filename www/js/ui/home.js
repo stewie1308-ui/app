@@ -1,6 +1,7 @@
 import { h, icon, TOPIC, TOPIC_KEYS } from './dom.js';
 import { greeting } from '../format.js';
 import { streakAlive } from '../streak.js';
+import { recapBanner } from './recap.js';
 import { currentSession, sessionDone, startSession, buildSession, makeRng, seedFor } from '../session.js';
 
 function streakLine(state, today) {
@@ -61,8 +62,14 @@ export function renderHome(app) {
     h('header', { class: 'topbar' },
       h('p', { class: 'wordmark' }, 'Inkling'),
       h('button', { class: 'icon-btn', 'aria-label': 'Settings', onclick: () => app.go('settings') }, icon('cog'))),
-    h('h1', { class: 'greeting' }, greeting(new Date().getHours())),
-    streakLine(app.state, today),
+    ...(() => {
+      // On recap days the banner takes the greeting's place so the page still fits one screen.
+      const banner = recapBanner(app);
+      const hello = greeting(new Date().getHours());
+      return banner
+        ? [h('h1', { class: 'sr-only' }, hello), banner, streakLine(app.state, today)]
+        : [h('h1', { class: 'greeting' }, hello), streakLine(app.state, today)];
+    })(),
     todayCard(app, today),
     h('h2', { class: 'section-title' }, 'Browse a topic'),
     h('ul', { class: 'topics' }, TOPIC_KEYS.map((t) => h('li', {},

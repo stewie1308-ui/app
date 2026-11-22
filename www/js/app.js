@@ -7,12 +7,13 @@ import { renderCard } from './ui/card.js';
 import { renderBrowse } from './ui/browse.js';
 import { renderStats } from './ui/stats.js';
 import { renderSettings } from './ui/settings.js';
+import { renderRecap } from './ui/recap.js';
 import { closeSheet } from './ui/dom.js';
 import { Capacitor, registerPlugin, SystemBars } from '../vendor/capacitor-core.js';
 import { applyTheme } from './theme.js';
 
 const root = document.getElementById('app');
-const VIEWS = { home: renderHome, card: renderCard, browse: renderBrowse, stats: renderStats, settings: renderSettings };
+const VIEWS = { home: renderHome, card: renderCard, browse: renderBrowse, stats: renderStats, settings: renderSettings, recap: renderRecap };
 
 const app = {
   state: loadState(),

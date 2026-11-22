@@ -10,6 +10,8 @@ export function defaultState() {
     session: null,
     packs: {},
     browsed: {},
+    log: {},
+    recapSeen: null,
   };
 }
 
@@ -33,6 +35,7 @@ export function loadState(store = defaultStore()) {
     settings: { ...base.settings, ...(saved.settings || {}) },
     packs: { ...(saved.packs || {}) },
     browsed: { ...(saved.browsed || {}) },
+    log: { ...(saved.log || {}) },
     session: saved.session ?? null,
   };
 }
