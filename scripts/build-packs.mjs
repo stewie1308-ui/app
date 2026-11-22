@@ -1,6 +1,7 @@
 // Builds packs/<id>.json and packs/index.json from content/packs/*.json (short-key format).
 import { readdirSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { normalizeCard, validateCards } from './content-lib.mjs';
+import { computeRelated } from './related.mjs';
 
 const starterIds = new Set(JSON.parse(readFileSync('www/content/starter.json', 'utf8')).map((c) => c.id));
 const index = [];
@@ -12,6 +13,8 @@ for (const file of readdirSync('content/packs').filter((f) => f.endsWith('.json'
   const errs = validateCards(cards);
   for (const c of cards) if (starterIds.has(c.id)) errs.push(`${c.id}: clashes with a starter card id`);
   if (errs.length) { console.error(`${file}:\n${errs.join('\n')}`); failed = true; continue; }
+  const related = computeRelated(cards, 3);
+  for (const c of cards) c.related = related[c.id];
   const pack = { id: raw.id, title: raw.title, description: raw.description, version: raw.version, cards };
   writeFileSync(`packs/${raw.id}.json`, JSON.stringify(pack));
   index.push({ id: raw.id, title: raw.title, description: raw.description, count: cards.length, version: raw.version, file: `${raw.id}.json` });

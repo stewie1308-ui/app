@@ -36,6 +36,10 @@ await shot('02-question');
 await click("I'm sure");
 await page.evaluate(() => document.querySelectorAll('.option')[1].click());
 await shot('03-reveal', true);
+if (await page.evaluate(() => [...document.querySelectorAll('button')].some((b) => b.textContent === 'Tell me more'))) {
+  await click('Tell me more');
+  await shot('03b-rabbit');
+}
 for (let i = 0; i < 12; i++) {
   const next = await page.evaluate(() => !!document.querySelector('.option:not([disabled])'));
   if (!next) { const fin = await page.evaluate(() => [...document.querySelectorAll('button')].find((b) => /Next card|Finish/.test(b.textContent))); if (!fin) break; }

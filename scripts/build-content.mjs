@@ -1,6 +1,7 @@
 // Merges content/<topic>*.json into www/content/starter.json, validating as it goes.
 import { readdirSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { normalizeCard, validateCards, TOPICS } from './content-lib.mjs';
+import { computeRelated } from './related.mjs';
 
 const cards = [];
 for (const file of readdirSync('content').filter((f) => f.endsWith('.json')).sort()) {
@@ -13,6 +14,14 @@ for (const file of readdirSync('content').filter((f) => f.endsWith('.json')).sor
 }
 const errs = validateCards(cards);
 if (errs.length) { console.error(errs.join('\n')); process.exit(1); }
+// Subject tags (content/tags.txt) steer which cards link as rabbit holes.
+const tags = Object.fromEntries(readFileSync('content/tags.txt', 'utf8').split('\n')
+  .filter((l) => l.trim() && !l.startsWith('#')).map((l) => { const [id, ...t] = l.trim().split(/\s+/); return [id, t]; }));
+for (const c of cards) c.tags = tags[c.id] || [];
+const untagged = cards.filter((c) => !c.tags.length).map((c) => c.id);
+if (untagged.length) console.warn(`No tags for: ${untagged.join(', ')}`);
+const related = computeRelated(cards);
+for (const c of cards) { c.related = related[c.id]; delete c.tags; }
 mkdirSync('www/content', { recursive: true });
 writeFileSync('www/content/starter.json', JSON.stringify(cards));
 const counts = Object.fromEntries(TOPICS.map((t) => [t, cards.filter((c) => c.topic === t).length]));

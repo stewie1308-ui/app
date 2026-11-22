@@ -1,0 +1,402 @@
+# Subject tags used to link related cards ("rabbit holes"). One line per card: id tag tag ...
+# Cards sharing tags are linked first; shared wording breaks ties.
+h001 universities aztecs old-vs-new
+h002 egypt old-vs-new space-race
+h003 egypt extinct-animals old-vs-new
+h004 napoleon myths france
+h005 vikings myths
+h006 china myths space-views
+h007 rome cleaning
+h008 wars britain
+h009 france buildings radio
+h010 inventions telecoms old-vs-new
+h011 games japan companies
+h012 egypt pyramids myths
+h013 myths earth-shape medieval
+h014 london disasters
+h015 food ancient-writing drinks
+h016 games medieval
+h017 food myths plants
+h018 radioactivity scientists
+h019 rome buildings records
+h020 olympics greece
+h021 olympics metals
+h022 universities maths old-vs-new
+h023 ships disasters
+h024 food inventions
+h025 flight inventions
+h026 computers accidents bugs
+h027 internet accidents drinks
+h028 inventions nature-inspired accidents
+h029 inventions accidents kitchen-tech
+h030 medicine accidents scientists
+h031 inventions accidents
+h032 drinks companies
+h033 buildings metals colour
+h034 london buildings myths
+h035 calendars britain time
+h036 colour rome sea-life
+h037 art france crime
+h038 scientists einstein
+h039 scientists money crime
+h040 computers scientists maths
+h041 egypt ancient-writing
+h042 britain prehistory stones
+h043 rome volcanoes ancient-writing
+h044 greece earth-shape maths
+h045 greece computers space
+h046 rome britain walls
+h047 disease medieval disasters
+h048 money bubbles plants
+h049 london transport
+h050 myths saints ireland
+h051 france medieval wars
+h052 empires asia wars
+h053 empires americas buildings
+h054 statues islands
+h055 medieval oddities psychology
+h056 wars animals australia oddities
+h057 disasters food oddities
+h058 london disease engineering
+h059 olympics oddities sport
+h060 ancient-writing jokes
+h061 universities africa
+h062 money china inventions
+h063 china inventions chemistry
+h064 printing china inventions
+h065 india protest salt
+h066 germany cold-war accidents
+h067 space-race computers
+h068 wonders egypt greece
+h069 radio inventions film
+h070 scotland royalty animals
+h071 royalty britain
+h072 rome food
+h073 france crime
+h074 drinks companies germany wars
+h075 clothes inventions
+h076 volcanoes weather books
+h077 volcanoes sound disasters
+h078 egypt archaeology
+h079 libraries egypt books
+h080 egypt cats animals
+h081 food status britain
+h082 printing religion germany
+h083 photography inventions france
+h084 keyboards inventions typing
+h085 royalty france records
+h086 calendars egypt time
+h087 royalty britain crime
+h088 myths americas crime
+h089 pyramids egypt records buildings
+h090 buildings records britain
+h091 africa libraries books
+h092 africa money royalty
+h093 wars france britain medieval
+h094 toys companies engineering
+h095 rome fire
+h096 food medicine myths
+h097 sport presidents
+h098 rome buildings sport
+h099 transport britain law
+h100 greece empires wars
+w001 kitchen-tech microwaves physics
+w002 phones electricity
+w003 sound headphones
+w004 gps einstein satellites time
+w005 gps satellites
+w006 kitchen-tech heat
+w007 flight physics myths
+w008 light colour sky
+w009 money cards security
+w010 money cards radio
+w011 codes error-correction
+w012 codes shops
+w013 radio microwaves internet
+w014 radio vikings names
+w015 internet names
+w016 security passwords
+w017 security internet
+w018 security internet privacy
+w019 phones batteries
+w020 money maths
+w021 money banks
+w022 money banks
+w023 psychology decisions
+w024 psychology decisions money
+w025 memory learning
+w026 memory learning
+w027 psychology attention
+w028 psychology advertising
+w029 memory psychology
+w030 food chemistry senses
+w031 food senses heat
+w032 food senses heat
+w033 food heat physics
+w034 food chemistry
+w035 ice chemistry
+w036 cleaning chemistry disease
+w037 metals chemistry
+w038 heat senses physics
+w039 heat inventions
+w040 electricity light energy
+w041 cars energy electricity
+w042 flight air
+w043 flight engineering disasters
+w044 flight air
+w045 air human-body
+w046 buildings engineering inventions
+w047 ships physics
+w048 medicine disease
+w049 phones security light
+w050 physics oddities kitchen-tech
+w051 keyboards typing
+w052 internet books security
+w053 internet ocean
+w054 internet
+w055 screens colour light
+w056 shops psychology money
+w057 oddities psychology transport
+w058 calendars time space
+w059 time china
+w060 time germany energy
+w061 time physics atoms
+w062 time maths ancient-writing
+w063 money decisions
+w064 money internet
+w065 sleep human-body brain
+w066 food myths psychology
+w067 human-body myths
+w068 brain learning memory
+w069 learning habits psychology
+w070 brain attention psychology
+w071 senses food smell
+w072 drinks caffeine
+w073 drinks physics
+w074 drinks physics chemistry
+w075 buildings engineering
+w076 engineering disasters air
+w077 electricity energy
+w078 electricity
+w079 electricity safety
+w080 electricity safety britain
+w081 energy light electricity
+w082 energy air electricity
+w083 phones physics
+w084 phones magnetism
+w085 computers icons
+w086 phones myths
+w087 flight safety colour
+w088 inventions shops oddities
+w089 transport inventions nature-inspired
+w090 transport london inventions
+w091 shops psychology sound
+w092 ice physics myths
+w093 kitchen-tech chemistry accidents
+w094 drinks physics
+w095 chemistry colour metals
+w096 physics shapes
+w097 clothes inventions
+w098 human-body blood
+w099 human-body
+w100 human-body psychology
+s001 planets venus space
+s002 stars space density
+s003 sun light space
+s004 plants food myths
+s005 sea-life animal-bodies blood
+s006 ice water physics
+s007 planets density space
+s008 earth-shape mountains
+s009 sharks evolution sea-life prehistory
+s010 tiny-animals space survival
+s011 food honey bees
+s012 human-body bones
+s013 weather heat sun
+s014 moon space
+s015 moon earth time
+s016 planets mars mountains volcanoes
+s017 sun space size
+s018 space sound
+s019 space cold
+s020 animals oddities
+s021 birds animal-minds
+s022 animals oddities animal-senses
+s023 birds flight
+s024 myths physics
+s025 chemistry carbon
+s026 atoms physics
+s027 earth-inside heat sun
+s028 planets venus heat
+s029 planets space time
+s030 moon space
+s031 planets weather space size
+s032 physics space sun
+s033 ocean plants air
+s034 animal-minds animals
+s035 insects size
+s036 insects animal-senses
+s037 blood human-body myths
+s038 senses human-body myths
+s039 senses myths food
+s040 earth weather cold
+s041 light space speed
+s042 planets space time
+s043 planets mars light colour
+s044 plants stars size
+s045 human-body dna size
+s046 human-body heart blood
+s047 human-body blood
+s048 sun chemistry scientists
+s049 space physics
+s050 space space-race
+s051 space space-race
+s052 space human-body bones
+s053 human-body
+s054 animal-bodies bones mammals
+s055 animal-bodies mammals
+s056 big-cats animals sound
+s057 birds colour food
+s058 sea-life animal-bodies brain
+s059 sea-life survival
+s060 sea-life animal-bodies speed
+s061 insects bees animal-minds
+s062 birds animal-bodies
+s063 sea-life electricity
+s064 plants speed
+s065 smell weather senses
+s066 magnetism earth-inside
+s067 magnetism earth-inside
+s068 earth sun seasons
+s069 moon earthquakes
+s070 moon myths light
+s071 space light
+s072 space light stars
+s073 sound water physics
+s074 animal-senses myths mammals
+s075 birds ocean records
+s076 birds records seasons
+s077 animal-bodies survival
+s078 brain energy
+s079 brain myths
+s080 brain caffeine sleep
+s081 human-body evolution
+s082 air chemistry
+s083 weather water
+s084 light colour weather
+s085 ice colour weather
+s086 ocean mountains
+s087 earth-inside earthquakes
+s088 dinosaurs prehistory
+s089 dinosaurs birds evolution
+s090 sea-life animal-minds brain
+s091 birds animal-minds
+s092 sea-life sleep brain mammals
+s093 cats senses food
+s094 smell senses dogs
+s095 space time
+s096 chemistry stars
+s097 mammals animal-bodies
+s098 planets space
+s099 bees insects colour animal-senses
+s100 human-body
+i001 food etymology borrowed-words
+i002 etymology computers
+i003 etymology human-body
+i004 etymology meaning-change
+i005 etymology meaning-change
+i006 etymology myths greece
+i007 etymology stars
+i008 etymology disease
+i009 etymology myths
+i010 etymology americas
+i011 etymology meaning-change
+i012 etymology books coined-words
+i013 etymology coined-words
+i014 etymology coined-words books
+i015 dictionaries words
+i016 dictionaries words accidents
+i017 languages
+i018 languages alphabets
+i019 languages
+i020 languages
+i021 wordplay grammar
+i022 wordplay mishearing
+i023 wordplay mishearing
+i024 words psychology
+i025 words memory brain
+i026 robots psychology
+i027 philosophy paradoxes
+i028 philosophy thinking-tools
+i029 thinking-tools psychology
+i030 philosophy paradoxes maths
+i031 philosophy ethics cars
+i032 philosophy greece
+i033 philosophy
+i034 philosophy calm
+i035 thinking-tools decisions games
+i036 thinking-tools economics
+i037 thinking-tools economics
+i038 thinking-tools economics
+i039 thinking-tools decisions wars
+i040 thinking-tools internet
+i041 thinking-tools decisions money
+i042 thinking-tools psychology
+i043 thinking-tools decisions
+i044 thinking-tools time habits
+i045 thinking-tools time
+i046 thinking-tools
+i047 thinking-tools maths
+i048 thinking-tools economics decisions
+i049 art painters
+i050 art painters
+i051 art painters
+i052 art maths myths
+i053 art colour
+i054 art colour
+i055 music composers
+i056 music law
+i057 music composers
+i058 maths paper
+i059 maths numbers india
+i060 maths numbers
+i061 maths probability
+i062 maths probability
+i063 maths numbers
+i064 maths numbers money
+i065 maths space
+i066 networks psychology
+i067 networks psychology brain
+i068 etymology borrowed-words
+i069 etymology borrowed-words food
+i070 symbols alphabets
+i071 symbols japan phones
+i072 keyboards wordplay
+i073 ancient-writing
+i074 ancient-writing money
+i075 ancient-writing greece
+i076 etymology dogs
+i077 wordplay
+i078 wordplay
+i079 languages myths
+i080 etymology drinks
+i081 etymology myths
+i082 etymology myths
+i083 etymology myths
+i084 philosophy greece
+i085 philosophy greece
+i086 philosophy ethics
+i087 philosophy greece
+i088 philosophy habits
+i089 music myths brain
+i090 wordplay typing
+i091 wordplay alphabets
+i092 wordplay scientists
+i093 grammar
+i094 coined-words books
+i095 etymology telecoms
+i096 ancient-writing
+i097 symbols telecoms
+i098 books mysteries
+i099 books philosophy libraries
+i100 memory learning

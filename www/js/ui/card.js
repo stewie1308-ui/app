@@ -3,8 +3,9 @@ import { h, icon, inkMark, TOPIC } from './dom.js';
 import { renderVisual } from './visuals.js';
 import { orderOptions } from '../format.js';
 import { currentSession, sessionDone, answer } from '../session.js';
+import { pickRabbit, addRabbit } from '../rabbit.js';
 
-const KIND_LABEL = { new: 'New', review: 'Review', recheck: 'Second look' };
+const KIND_LABEL = { new: 'New', review: 'Review', recheck: 'Second look', rabbit: 'Rabbit hole' };
 
 export function factBlock(card) {
   return h('div', {},
@@ -62,7 +63,8 @@ export function renderCard(app) {
     app.update((s) => ({ ...s, session: { ...s.session, index: s.session.index + 1 } }));
     return renderCard(app);
   }
-  const quiz = orderOptions(item.kind === 'new' ? card.q : card.rq, `${card.id}|${today}|${item.kind}`);
+  const firstTime = item.kind === 'new' || item.kind === 'rabbit';
+  const quiz = orderOptions(firstTime ? card.q : card.rq, `${card.id}|${today}|${item.kind}`);
   let sure = false;
   let answered = false;
 
@@ -93,7 +95,9 @@ export function renderCard(app) {
           h('small', {}, sure && item.kind !== 'recheck' ? "Surprises stick. You'll see this again at the end." : 'It will come back tomorrow.')));
     revealArea.replaceChildren(h('div', { class: 'reveal reveal-enter' }, verdict, factBlock(card)));
     const last = app.state.session.index >= app.state.session.queue.length;
-    bar.replaceChildren(h('div', { class: 'bottombar-inner' }, h('button', { class: 'btn', onclick: () => app.render() }, last ? 'Finish' : 'Next card')));
+    const rabbit = pickRabbit(card, app.state, app.byId);
+    const more = rabbit && h('button', { class: 'btn quiet', onclick: () => { app.update((s) => addRabbit(s, rabbit)); app.render(); } }, 'Tell me more');
+    bar.replaceChildren(h('div', { class: 'bottombar-inner' }, more, h('button', { class: 'btn', onclick: () => app.render() }, last ? 'Finish' : 'Next card')));
     bar.querySelector('button').focus({ preventScroll: true, focusVisible: false });
   }
 
