@@ -7,7 +7,7 @@
   "scripts": {
     "test": "TZ=Europe/London node --test test/*.test.mjs",
     "content": "node scripts/build-content.mjs && node scripts/build-packs.mjs",
-    "validate": "node scripts/validate.mjs"
+    "vendor": "node -e \"const fs=require('fs');fs.mkdirSync('www/vendor',{recursive:true});fs.writeFileSync('www/vendor/capacitor-core.js',fs.readFileSync('node_modules/@capacitor/core/dist/index.js','utf8').replace(/\\n\\/\\/# sourceMappingURL.*/,''))\""
   },
   "license": "MIT",
   "devDependencies": {

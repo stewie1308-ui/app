@@ -8,6 +8,7 @@ import { renderBrowse } from './ui/browse.js';
 import { renderStats } from './ui/stats.js';
 import { renderSettings } from './ui/settings.js';
 import { closeSheet } from './ui/dom.js';
+import { Capacitor, registerPlugin } from '../vendor/capacitor-core.js';
 
 const root = document.getElementById('app');
 const VIEWS = { home: renderHome, card: renderCard, browse: renderBrowse, stats: renderStats, settings: renderSettings };
@@ -60,10 +61,9 @@ const app = {
 };
 
 function setupBackButton() {
-  const cap = window.Capacitor;
-  if (!cap?.isNativePlatform?.()) return;
-  const App = cap.registerPlugin ? cap.registerPlugin('App') : cap.Plugins?.App;
-  App?.addListener?.('backButton', () => { if (!app.back()) App.exitApp(); });
+  if (!Capacitor.isNativePlatform()) return;
+  const App = registerPlugin('App');
+  App.addListener('backButton', () => { if (!app.back()) App.exitApp(); });
 }
 
 async function boot() {
