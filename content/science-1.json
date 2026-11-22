@@ -1,0 +1,721 @@
+[
+{
+"id": "s001",
+"t": "Venus spins slower than it orbits",
+"b": "Venus takes about 243 Earth days to spin once on its axis, but only about 225 days to go around the Sun. So one full rotation of Venus lasts longer than its year. It also spins backwards compared with most planets.",
+"q": {
+"p": "On Venus, which takes longer?",
+"o": [
+"One spin on its axis",
+"One trip around the Sun"
+],
+"a": 0
+},
+"rq": {
+"p": "About how long does Venus take to spin once?",
+"o": [
+"243 Earth days",
+"24 hours",
+"10 Earth days"
+],
+"a": 0
+},
+"why": "243 days to rotate beats 225 days to orbit.",
+"src": "Venus",
+"vis": {
+"type": "compare",
+"items": [
+{
+"label": "One spin",
+"value": 243,
+"unit": "days"
+},
+{
+"label": "One orbit",
+"value": 225,
+"unit": "days"
+}
+]
+}
+},
+{
+"id": "s002",
+"t": "Neutron stars are unbelievably dense",
+"b": "A neutron star packs more mass than our Sun into a ball about 20 km across. NASA says a sugar-cube-sized lump of its material would weigh around a billion tonnes on Earth.",
+"q": {
+"p": "A sugar cube of neutron star material would weigh about…",
+"o": [
+"A billion tonnes",
+"A tonne",
+"As much as a car"
+],
+"a": 0
+},
+"rq": {
+"p": "Roughly how wide is a neutron star?",
+"o": [
+"About 20 km",
+"About 20,000 km",
+"About as wide as the Sun"
+],
+"a": 0
+},
+"why": "Atoms are crushed until mostly neutrons remain, packed tight.",
+"src": "Neutron star"
+},
+{
+"id": "s003",
+"t": "Sunlight is 8 minutes old",
+"b": "Light from the Sun takes about 8 minutes and 20 seconds to reach Earth. If the Sun vanished, we would keep seeing it, and orbiting it, for those eight minutes.",
+"q": {
+"p": "How old is the sunlight hitting you right now?",
+"o": [
+"About 8 minutes",
+"Brand new",
+"About 8 days"
+],
+"a": 0
+},
+"rq": {
+"p": "If the Sun vanished, how long until we'd notice?",
+"o": [
+"About 8 minutes",
+"Instantly",
+"About an hour"
+],
+"a": 0
+},
+"why": "The Sun is about 150 million km away and light covers about 300,000 km each second.",
+"src": "Sunlight"
+},
+{
+"id": "s004",
+"t": "Bananas are berries, strawberries aren't",
+"b": "To a botanist, a berry is a fleshy fruit grown from one flower with one ovary, usually holding several seeds. Bananas, tomatoes and grapes qualify. Strawberries don't: they grow from a flower's swollen base, and the 'seeds' outside are actually tiny fruits.",
+"q": {
+"p": "Which of these is a true berry, botanically?",
+"o": [
+"Banana",
+"Strawberry",
+"Raspberry"
+],
+"a": 0
+},
+"rq": {
+"p": "What are the 'seeds' on a strawberry's outside?",
+"o": [
+"Tiny separate fruits",
+"Real seeds inside a berry",
+"Hairs"
+],
+"a": 0
+},
+"why": "Berry is a botanical category based on how the fruit forms.",
+"src": "Berry (botany)"
+},
+{
+"id": "s005",
+"t": "Octopuses have three hearts and blue blood",
+"b": "An octopus has two hearts that pump blood through the gills and a third for the rest of the body. Its blood uses a copper-based protein, haemocyanin, to carry oxygen, which turns it blue.",
+"q": {
+"p": "How many hearts does an octopus have?",
+"o": [
+"Three",
+"One",
+"Eight"
+],
+"a": 0
+},
+"rq": {
+"p": "Why is octopus blood blue?",
+"o": [
+"It carries oxygen with copper",
+"It's very cold",
+"It has no oxygen"
+],
+"a": 0
+},
+"why": "Haemocyanin uses copper; our haemoglobin uses iron.",
+"src": "Octopus"
+},
+{
+"id": "s006",
+"t": "Ice floats because water is weird",
+"b": "Most substances are denser as solids. Water expands by about 9% when it freezes, because its molecules lock into an open hexagon pattern. That's why ice floats and lakes freeze from the top down, letting fish survive underneath.",
+"q": {
+"p": "What happens to water's volume when it freezes?",
+"o": [
+"It expands",
+"It shrinks",
+"It stays the same"
+],
+"a": 0
+},
+"rq": {
+"p": "Why do lakes freeze from the top down?",
+"o": [
+"Ice is less dense than water",
+"The bottom is warmer from the Sun",
+"Fish keep it moving"
+],
+"a": 0
+},
+"why": "Hydrogen bonds hold frozen water in a spacious crystal.",
+"src": "Ice"
+},
+{
+"id": "s007",
+"t": "Saturn is less dense than water",
+"b": "Saturn is mostly hydrogen and helium, giving it an average density of about 0.69 grams per cubic centimetre. Water is 1.0. It's the only planet in our solar system less dense than water.",
+"q": {
+"p": "Which planet is less dense than water?",
+"o": [
+"Saturn",
+"Jupiter",
+"Mars"
+],
+"a": 0
+},
+"rq": {
+"p": "What is Saturn mostly made of?",
+"o": [
+"Hydrogen and helium",
+"Rock and iron",
+"Ice and dust"
+],
+"a": 0
+},
+"why": "Gas giants are huge but made of light elements.",
+"src": "Saturn",
+"vis": {
+"type": "compare",
+"items": [
+{
+"label": "Saturn",
+"value": 0.69,
+"unit": "g/cm³"
+},
+{
+"label": "Water",
+"value": 1,
+"unit": "g/cm³"
+},
+{
+"label": "Earth",
+"value": 5.51,
+"unit": "g/cm³"
+}
+]
+}
+},
+{
+"id": "s008",
+"t": "Everest isn't the farthest point from Earth's centre",
+"b": "Earth bulges at the equator. Chimborazo in Ecuador is almost on the equator, so its summit is about 2 km farther from Earth's centre than Everest's, even though Everest is far higher above sea level.",
+"q": {
+"p": "Which summit is farthest from Earth's centre?",
+"o": [
+"Chimborazo",
+"Everest",
+"K2"
+],
+"a": 0
+},
+"rq": {
+"p": "Why does Chimborazo stick out further?",
+"o": [
+"Earth bulges at the equator",
+"It's a volcano",
+"It's still growing fast"
+],
+"a": 0
+},
+"why": "Spinning makes Earth wider around the middle.",
+"src": "Chimborazo"
+},
+{
+"id": "s009",
+"t": "Sharks are older than trees",
+"b": "The earliest shark-like fossils, mainly scales, date back about 450 million years. The first true trees appeared around 385 million years ago. Sharks have outlasted several mass extinctions, including the one that ended the dinosaurs.",
+"q": {
+"p": "Which came first on Earth?",
+"o": [
+"Sharks",
+"Trees"
+],
+"a": 0
+},
+"rq": {
+"p": "Roughly how long ago did sharks appear?",
+"o": [
+"About 450 million years",
+"About 45 million years",
+"About 4.5 million years"
+],
+"a": 0
+},
+"why": "Fossil sharks predate the first forests by tens of millions of years.",
+"src": "Shark",
+"vis": {
+"type": "timeline",
+"points": [
+{
+"label": "First sharks",
+"year": -450000000
+},
+{
+"label": "First trees",
+"year": -385000000
+},
+{
+"label": "Dinosaurs end",
+"year": -66000000
+}
+]
+}
+},
+{
+"id": "s010",
+"t": "Tardigrades survived outer space",
+"b": "Tardigrades, or water bears, are animals about half a millimetre long. In 2007 some were sent into orbit and exposed to the vacuum of space. Many survived and later had healthy offspring. They do it by drying out into a dormant state.",
+"q": {
+"p": "Which animal survived direct exposure to space?",
+"o": [
+"The tardigrade",
+"The cockroach",
+"The ant"
+],
+"a": 0
+},
+"rq": {
+"p": "How do tardigrades survive extremes?",
+"o": [
+"They dry out and go dormant",
+"They grow a shell",
+"They hold their breath"
+],
+"a": 0
+},
+"why": "Dormant tardigrades barely metabolise, so they're hard to damage.",
+"src": "Tardigrade"
+},
+{
+"id": "s011",
+"t": "Sealed honey keeps almost forever",
+"b": "Honey is very low in water and fairly acidic, and bees add an enzyme that produces small amounts of hydrogen peroxide. Microbes struggle to grow in it, so sealed honey can last for years. It may crystallise, but that doesn't mean it has spoiled.",
+"q": {
+"p": "What usually happens to old sealed honey?",
+"o": [
+"It crystallises but is still fine",
+"It goes mouldy",
+"It turns to vinegar"
+],
+"a": 0
+},
+"rq": {
+"p": "Why do microbes struggle in honey?",
+"o": [
+"Too little water and too acidic",
+"It's too cold",
+"It's full of salt"
+],
+"a": 0
+},
+"why": "Sugar draws water out of microbes, drying them out.",
+"src": "Honey"
+},
+{
+"id": "s012",
+"t": "Babies have more bones than adults",
+"b": "A newborn has roughly 270 to 300 bones, many made partly of cartilage. As the child grows, several fuse together, for example in the skull and the base of the spine. Adults usually end up with 206.",
+"q": {
+"p": "Who has more bones?",
+"o": [
+"A newborn baby",
+"An adult",
+"They have the same"
+],
+"a": 0
+},
+"rq": {
+"p": "How many bones does an adult usually have?",
+"o": [
+"206",
+"300",
+"152"
+],
+"a": 0
+},
+"why": "Separate infant bones fuse as we grow.",
+"src": "Human skeleton",
+"vis": {
+"type": "compare",
+"items": [
+{
+"label": "Newborn",
+"value": 300,
+"unit": "bones (up to)"
+},
+{
+"label": "Adult",
+"value": 206,
+"unit": "bones"
+}
+]
+}
+},
+{
+"id": "s013",
+"t": "Lightning is hotter than the Sun's surface",
+"b": "A lightning bolt heats the air around it to about 30,000 °C in a split second. The visible surface of the Sun is about 5,500 °C. The sudden expansion of that superheated air is what we hear as thunder.",
+"q": {
+"p": "Which is hotter?",
+"o": [
+"A lightning bolt",
+"The Sun's surface"
+],
+"a": 0
+},
+"rq": {
+"p": "What causes thunder?",
+"o": [
+"Air expanding from lightning's heat",
+"Clouds bumping together",
+"Rain hitting the ground"
+],
+"a": 0
+},
+"why": "The air in the channel is heated almost instantly and explodes outward.",
+"src": "Lightning",
+"vis": {
+"type": "compare",
+"items": [
+{
+"label": "Lightning",
+"value": 30000,
+"unit": "°C"
+},
+{
+"label": "Sun's surface",
+"value": 5500,
+"unit": "°C"
+}
+]
+}
+},
+{
+"id": "s014",
+"t": "The Moon is drifting away",
+"b": "Astronauts left mirrors on the Moon, and scientists bounce lasers off them. These measurements show the Moon moves about 3.8 cm farther from Earth every year, roughly as fast as your fingernails grow.",
+"q": {
+"p": "What is the Moon doing, very slowly?",
+"o": [
+"Moving away from Earth",
+"Moving closer to Earth",
+"Shrinking"
+],
+"a": 0
+},
+"rq": {
+"p": "How do we measure the Moon's drift?",
+"o": [
+"Lasers bounced off mirrors left by astronauts",
+"Watching it shrink",
+"Satellite photos"
+],
+"a": 0
+},
+"why": "Tides transfer some of Earth's spin energy to the Moon's orbit.",
+"src": "Lunar Laser Ranging experiments"
+},
+{
+"id": "s015",
+"t": "Earth's days are getting longer",
+"b": "The Moon's tides act like a gentle brake on Earth's spin. On average, the day grows longer by roughly 2 milliseconds per century. Hundreds of millions of years ago, a day lasted only about 21 to 22 hours.",
+"q": {
+"p": "What's slowly happening to the length of Earth's day?",
+"o": [
+"It's getting longer",
+"It's getting shorter",
+"It's fixed"
+],
+"a": 0
+},
+"rq": {
+"p": "What mainly slows Earth's spin?",
+"o": [
+"Tides from the Moon",
+"The Sun's heat",
+"Earthquakes"
+],
+"a": 0
+},
+"why": "Tidal friction drains a little of Earth's rotation energy.",
+"src": "Tidal acceleration"
+},
+{
+"id": "s016",
+"t": "Mars has a volcano 2.5 times Everest",
+"b": "Olympus Mons on Mars rises about 22 km, roughly two and a half times the height of Everest above sea level, and spreads about 600 km across. It is one of the largest volcanoes known in the solar system.",
+"q": {
+"p": "Where is the tallest volcano in our solar system found?",
+"o": [
+"Mars",
+"Earth",
+"Venus"
+],
+"a": 0
+},
+"rq": {
+"p": "About how tall is Olympus Mons?",
+"o": [
+"About 22 km",
+"About 9 km",
+"About 2 km"
+],
+"a": 0
+},
+"why": "Lower gravity and no moving plates let Martian volcanoes grow huge.",
+"src": "Olympus Mons",
+"vis": {
+"type": "compare",
+"items": [
+{
+"label": "Olympus Mons",
+"value": 22,
+"unit": "km"
+},
+{
+"label": "Everest",
+"value": 8.8,
+"unit": "km"
+}
+]
+}
+},
+{
+"id": "s017",
+"t": "A million Earths fit inside the Sun",
+"b": "The Sun is about 109 times wider than Earth. Because volume grows with the cube of width, you could fit roughly 1.3 million Earths inside it. The Sun holds about 99.8% of all the mass in the solar system.",
+"q": {
+"p": "Roughly how many Earths could fit inside the Sun?",
+"o": [
+"About 1.3 million",
+"About 100",
+"About 1,000"
+],
+"a": 0
+},
+"rq": {
+"p": "What share of the solar system's mass is in the Sun?",
+"o": [
+"About 99.8%",
+"About 50%",
+"About 75%"
+],
+"a": 0
+},
+"why": "109 times wider means about 109³ ≈ 1.3 million times the volume.",
+"src": "Sun"
+},
+{
+"id": "s018",
+"t": "Space is silent",
+"b": "Sound is a vibration passing through matter, like air or water. Space is a near-perfect vacuum, so there's almost nothing to carry it. Astronauts talk by radio, which uses light-speed electromagnetic waves that don't need air.",
+"q": {
+"p": "Could you hear an explosion in space?",
+"o": [
+"No, there's nothing to carry sound",
+"Yes, but quieter",
+"Yes, it would be louder"
+],
+"a": 0
+},
+"rq": {
+"p": "Why can radio work in space when sound can't?",
+"o": [
+"Radio waves don't need matter to travel",
+"Radio is louder",
+"Spacesuits amplify it"
+],
+"a": 0
+},
+"why": "Sound needs molecules to bump into each other.",
+"src": "Vacuum"
+},
+{
+"id": "s019",
+"t": "The coldest known place is a nebula",
+"b": "The Boomerang Nebula, about 5,000 light-years away, sits at about 1 degree above absolute zero. That's colder than the faint afterglow of the Big Bang that fills space. Gas rushing out of a dying star cools as it expands.",
+"q": {
+"p": "Where is the coldest natural place known in the universe?",
+"o": [
+"A nebula",
+"Antarctica",
+"Pluto"
+],
+"a": 0
+},
+"rq": {
+"p": "How does the Boomerang Nebula get so cold?",
+"o": [
+"Gas cools as it rapidly expands",
+"It's far from every star",
+"It's made of ice"
+],
+"a": 0
+},
+"why": "Rapidly expanding gas cools, like spray from an aerosol can.",
+"src": "Boomerang Nebula"
+},
+{
+"id": "s020",
+"t": "Wombats poo cubes",
+"b": "Wombats produce cube-shaped droppings, the only animal known to do so. A 2018 study found the last part of their intestine stretches unevenly, with stiffer and stretchier sections that shape the poo into cubes. Wombats use the piles to mark territory.",
+"q": {
+"p": "Which animal produces cube-shaped poo?",
+"o": [
+"Wombat",
+"Kangaroo",
+"Koala"
+],
+"a": 0
+},
+"rq": {
+"p": "What shapes wombat poo into cubes?",
+"o": [
+"Uneven stretchiness in the intestine",
+"Their square bottom",
+"Chewing square leaves"
+],
+"a": 0
+},
+"why": "Different parts of the gut wall stretch differently.",
+"src": "Wombat"
+},
+{
+"id": "s021",
+"t": "Crows remember faces",
+"b": "In a University of Washington study, researchers wore a particular mask while trapping crows. For years afterwards, crows scolded anyone wearing that mask, including birds that were never trapped. They seemed to learn the face from others.",
+"q": {
+"p": "What did crows do years after seeing a 'dangerous' mask?",
+"o": [
+"Scolded anyone wearing it",
+"Forgot it within days",
+"Ignored people completely"
+],
+"a": 0
+},
+"rq": {
+"p": "How did untrapped crows learn to fear the mask?",
+"o": [
+"From other crows",
+"From TV",
+"By instinct alone"
+],
+"a": 0
+},
+"why": "Crows have excellent memory and share warnings socially.",
+"src": "American crow"
+},
+{
+"id": "s022",
+"t": "The platypus breaks the rules",
+"b": "The platypus is a mammal that lays eggs. Males have venomous spurs on their back legs. It hunts underwater with its eyes, ears and nose shut, sensing the tiny electric fields of prey through its bill.",
+"q": {
+"p": "How does a platypus find food underwater?",
+"o": [
+"It senses electric fields",
+"It uses its eyes",
+"It follows smells"
+],
+"a": 0
+},
+"rq": {
+"p": "Which of these is true of the platypus?",
+"o": [
+"It's a mammal that lays eggs",
+"It's a bird",
+"It's a reptile with fur"
+],
+"a": 0
+},
+"why": "Its bill has thousands of electroreceptors.",
+"src": "Platypus"
+},
+{
+"id": "s023",
+"t": "Hummingbirds can fly backwards",
+"b": "Hummingbirds can twist their wings in a figure-eight pattern, getting lift on both the forward and back strokes. That lets them hover in place and fly backwards. No other bird sustains backward flight like that.",
+"q": {
+"p": "Which bird can fly backwards?",
+"o": [
+"Hummingbird",
+"Swallow",
+"Eagle"
+],
+"a": 0
+},
+"rq": {
+"p": "What lets hummingbirds hover?",
+"o": [
+"Lift on both wing strokes",
+"Very light bones only",
+"Wind from flowers"
+],
+"a": 0
+},
+"why": "Their shoulder joint lets the wing rotate almost fully.",
+"src": "Hummingbird"
+},
+{
+"id": "s024",
+"t": "Old windows aren't melting",
+"b": "A popular myth says glass is a slow liquid, so old windows are thicker at the bottom. In fact, early glassmaking produced uneven panes and builders often set the thick edge downward. At room temperature glass would need far longer than the universe's age to flow visibly.",
+"q": {
+"p": "Why are some old window panes thicker at the bottom?",
+"o": [
+"They were made uneven and fitted that way",
+"Glass slowly flows down",
+"Rain wore away the top"
+],
+"a": 0
+},
+"rq": {
+"p": "At room temperature, does glass flow visibly over centuries?",
+"o": [
+"No",
+"Yes, a few millimetres",
+"Yes, it drips"
+],
+"a": 0
+},
+"why": "Glass is an amorphous solid with no measurable flow at room temperature.",
+"src": "Glass"
+},
+{
+"id": "s025",
+"t": "Diamond and pencil lead are the same element",
+"b": "Diamond and graphite, the 'lead' in pencils, are both pure carbon. In diamond each atom bonds tightly to four neighbours in a rigid 3D network. In graphite, atoms form flat sheets that slide over each other, leaving marks on paper.",
+"q": {
+"p": "What do diamonds and pencil 'lead' have in common?",
+"o": [
+"Both are pure carbon",
+"Both contain lead",
+"Both are crystals of quartz"
+],
+"a": 0
+},
+"rq": {
+"p": "Why does graphite leave marks on paper?",
+"o": [
+"Its sheets of atoms slide off",
+"It's soft metal",
+"It contains ink"
+],
+"a": 0
+},
+"why": "Same atoms, different arrangement, very different properties.",
+"src": "Allotropes of carbon"
+}
+]

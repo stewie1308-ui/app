@@ -1,0 +1,740 @@
+[
+{
+"id": "s026",
+"t": "Atoms are almost entirely empty",
+"b": "An atom's nucleus is roughly 100,000 times smaller across than the atom itself. If a nucleus were a pea in the centre of a football stadium, the electrons would be buzzing around the outer stands. Nearly all the mass sits in that tiny centre.",
+"q": {
+"p": "Most of an atom is…",
+"o": [
+"Empty space",
+"Solid nucleus",
+"Electrons packed tightly"
+],
+"a": 0
+},
+"rq": {
+"p": "Where is nearly all of an atom's mass?",
+"o": [
+"In the tiny nucleus",
+"In the electrons",
+"Spread evenly"
+],
+"a": 0
+},
+"why": "Electrons are tiny and spread out; protons and neutrons are heavy and central.",
+"src": "Atom"
+},
+{
+"id": "s027",
+"t": "Earth's core is as hot as the Sun's surface",
+"b": "Earth's inner core is a solid ball of iron and nickel at roughly 5,200 °C, close to the temperature of the Sun's visible surface. It stays solid despite the heat because the pressure down there is immense.",
+"q": {
+"p": "Earth's inner core is about as hot as…",
+"o": [
+"The Sun's surface",
+"Boiling water",
+"A kitchen oven"
+],
+"a": 0
+},
+"rq": {
+"p": "Why is the inner core solid despite the heat?",
+"o": [
+"Enormous pressure",
+"It's made of rock",
+"It's actually cold"
+],
+"a": 0
+},
+"why": "Pressure raises the melting point of iron.",
+"src": "Earth's inner core"
+},
+{
+"id": "s028",
+"t": "Venus is hotter than Mercury",
+"b": "Mercury is closest to the Sun, but Venus is the hottest planet. Its thick carbon dioxide atmosphere traps heat in a runaway greenhouse effect, keeping the surface around 465 °C, hot enough to melt lead, day and night.",
+"q": {
+"p": "Which is the hottest planet?",
+"o": [
+"Venus",
+"Mercury",
+"Mars"
+],
+"a": 0
+},
+"rq": {
+"p": "What makes Venus so hot?",
+"o": [
+"A thick CO₂ atmosphere trapping heat",
+"Being closest to the Sun",
+"Active volcanoes everywhere"
+],
+"a": 0
+},
+"why": "Mercury has almost no atmosphere, so its heat escapes.",
+"src": "Venus",
+"vis": {
+"type": "compare",
+"items": [
+{
+"label": "Venus surface",
+"value": 465,
+"unit": "°C"
+},
+{
+"label": "Mercury (day)",
+"value": 430,
+"unit": "°C"
+}
+]
+}
+},
+{
+"id": "s029",
+"t": "Pluto hasn't finished a lap since we found it",
+"b": "Pluto was discovered in 1930. It takes about 248 Earth years to orbit the Sun, so it won't complete its first full orbit since discovery until around 2178.",
+"q": {
+"p": "Has Pluto completed an orbit since its discovery in 1930?",
+"o": [
+"No",
+"Yes, once",
+"Yes, many times"
+],
+"a": 0
+},
+"rq": {
+"p": "How long is a year on Pluto?",
+"o": [
+"About 248 Earth years",
+"About 12 Earth years",
+"About 2 Earth years"
+],
+"a": 0
+},
+"why": "Far-away planets move slowly on very long paths.",
+"src": "Pluto",
+"vis": {
+"type": "timeline",
+"points": [
+{
+"label": "Discovered",
+"year": 1930
+},
+{
+"label": "Today",
+"year": 2026
+},
+{
+"label": "First lap done",
+"year": 2178
+}
+]
+}
+},
+{
+"id": "s030",
+"t": "Moon footprints could last ages",
+"b": "The Moon has no wind or rain to wear away the footprints left by Apollo astronauts. Only tiny meteorite impacts and solar radiation slowly disturb the dust, so the prints could survive for millions of years.",
+"q": {
+"p": "Why do Apollo footprints survive on the Moon?",
+"o": [
+"No wind or rain",
+"The dust is glued by ice",
+"The Moon is too cold"
+],
+"a": 0
+},
+"rq": {
+"p": "What slowly erodes lunar footprints?",
+"o": [
+"Tiny meteorite impacts",
+"Moonquakes every day",
+"Rain"
+],
+"a": 0
+},
+"why": "Without weather, very little moves the surface.",
+"src": "Moon"
+},
+{
+"id": "s031",
+"t": "Jupiter's storm is bigger than Earth",
+"b": "Jupiter's Great Red Spot is a giant storm wider than Earth. It has been watched continuously since at least the 1830s, though it has been shrinking. Its winds reach several hundred kilometres an hour.",
+"q": {
+"p": "How big is Jupiter's Great Red Spot?",
+"o": [
+"Wider than Earth",
+"About the size of the UK",
+"Smaller than the Moon"
+],
+"a": 0
+},
+"rq": {
+"p": "What is the Great Red Spot?",
+"o": [
+"A huge long-lasting storm",
+"A volcano",
+"A crater"
+],
+"a": 0
+},
+"why": "Jupiter has no solid surface to slow storms down.",
+"src": "Great Red Spot"
+},
+{
+"id": "s032",
+"t": "Trillions of neutrinos pass through you",
+"b": "Neutrinos are ghostly particles made in huge numbers by the Sun's nuclear reactions. Trillions pass through your body every second, day and night, because they rarely interact with anything. They even go straight through the whole Earth.",
+"q": {
+"p": "How many neutrinos pass through your body each second?",
+"o": [
+"Trillions",
+"About ten",
+"None at night"
+],
+"a": 0
+},
+"rq": {
+"p": "Why don't we notice neutrinos?",
+"o": [
+"They almost never interact with matter",
+"They're blocked by skin",
+"They only exist in labs"
+],
+"a": 0
+},
+"why": "Neutrinos have no charge and almost no mass.",
+"src": "Neutrino"
+},
+{
+"id": "s033",
+"t": "Ocean plankton make much of our oxygen",
+"b": "Tiny ocean plants and algae called phytoplankton photosynthesise just like trees. Scientists estimate that the ocean produces around half of Earth's oxygen, much of it by phytoplankton too small to see.",
+"q": {
+"p": "Roughly how much of Earth's oxygen comes from the ocean?",
+"o": [
+"About half",
+"Almost none",
+"About 1%"
+],
+"a": 0
+},
+"rq": {
+"p": "What makes most ocean oxygen?",
+"o": [
+"Phytoplankton",
+"Whales",
+"Coral rocks"
+],
+"a": 0
+},
+"why": "Phytoplankton are vast in number and photosynthesise fast.",
+"src": "Phytoplankton"
+},
+{
+"id": "s034",
+"t": "Rats laugh when tickled",
+"b": "Neuroscientist Jaak Panksepp found that rats make high-pitched chirps when tickled, too high for humans to hear. They chase the tickling hand for more. He argued the chirps are a simple form of laughter.",
+"q": {
+"p": "What do rats do when tickled?",
+"o": [
+"Make ultrasonic 'laughing' chirps",
+"Bite",
+"Freeze in fear"
+],
+"a": 0
+},
+"rq": {
+"p": "Why can't we hear rat laughter?",
+"o": [
+"It's too high-pitched",
+"It's too quiet",
+"Rats laugh silently"
+],
+"a": 0
+},
+"why": "The chirps are around 50 kHz, above human hearing.",
+"src": "Jaak Panksepp"
+},
+{
+"id": "s035",
+"t": "There are about 20 quadrillion ants",
+"b": "A 2022 study estimated about 20 quadrillion ants live on Earth, that's 20,000,000,000,000,000. Together they weigh more than all wild birds and wild mammals combined.",
+"q": {
+"p": "Roughly how many ants are on Earth?",
+"o": [
+"About 20 quadrillion",
+"About 20 billion",
+"About 20 million"
+],
+"a": 0
+},
+"rq": {
+"p": "Ants together weigh more than…",
+"o": [
+"All wild birds and mammals combined",
+"All humans times ten",
+"All fish in the sea"
+],
+"a": 0
+},
+"why": "Ants live almost everywhere on land in huge colonies.",
+"src": "Ant",
+"srcUrl": "https://www.pnas.org/doi/10.1073/pnas.2201550119"
+},
+{
+"id": "s036",
+"t": "Butterflies taste with their feet",
+"b": "Butterflies have taste sensors on their feet. When they land on a leaf, they can tell if it's the right plant to lay eggs on just by standing on it. Their caterpillars will need to eat that plant.",
+"q": {
+"p": "What do butterflies taste with?",
+"o": [
+"Their feet",
+"Their wings",
+"Their antennae only"
+],
+"a": 0
+},
+"rq": {
+"p": "Why do female butterflies 'taste' leaves?",
+"o": [
+"To pick plants for their eggs",
+"To find water",
+"To warm their feet"
+],
+"a": 0
+},
+"why": "Chemoreceptors on the legs detect plant chemicals.",
+"src": "Butterfly"
+},
+{
+"id": "s037",
+"t": "Your blood is never blue",
+"b": "Veins look blue through skin, but the blood inside is always red. It's darker red when low in oxygen. Skin absorbs red light more than blue, and how light scatters makes veins look bluish.",
+"q": {
+"p": "What colour is the blood in your veins?",
+"o": [
+"Dark red",
+"Blue",
+"Purple"
+],
+"a": 0
+},
+"rq": {
+"p": "Why do veins look blue?",
+"o": [
+"How skin absorbs and scatters light",
+"They carry blue blood",
+"They're coated in blue"
+],
+"a": 0
+},
+"why": "Haemoglobin is red with or without oxygen.",
+"src": "Vein"
+},
+{
+"id": "s038",
+"t": "You have more than five senses",
+"b": "Beyond sight, hearing, smell, taste and touch, you sense balance, the position of your limbs, temperature, pain and even how full your bladder is. Scientists count anywhere from about 9 to over 20 senses, depending on how they're defined.",
+"q": {
+"p": "How many senses do humans have?",
+"o": [
+"Many more than five",
+"Exactly five",
+"Four"
+],
+"a": 0
+},
+"rq": {
+"p": "Which is a real sense beyond the classic five?",
+"o": [
+"Sense of balance",
+"Sixth-sense intuition",
+"Sense of luck"
+],
+"a": 0
+},
+"why": "Proprioception tells you where your hand is with your eyes closed.",
+"src": "Sense"
+},
+{
+"id": "s039",
+"t": "The tongue map is a myth",
+"b": "Diagrams once showed the tongue split into zones for sweet, salty, sour and bitter. That came from a misread early-1900s study. In reality, taste buds all over the tongue can detect every basic taste.",
+"q": {
+"p": "Is the tip of your tongue the only place that tastes sweet?",
+"o": [
+"No, all areas taste all tastes",
+"Yes",
+"Only for children"
+],
+"a": 0
+},
+"rq": {
+"p": "Where did the tongue map come from?",
+"o": [
+"A misread early study",
+"Ancient Greek medicine",
+"Modern brain scans"
+],
+"a": 0
+},
+"why": "Receptors for each taste are spread across the tongue.",
+"src": "Tongue map"
+},
+{
+"id": "s040",
+"t": "Antarctica is the biggest desert",
+"b": "A desert is defined by low precipitation, not heat. Inland Antarctica gets about as little as the Sahara, so it counts as a desert, and at around 14 million km² it's the largest on Earth.",
+"q": {
+"p": "What is the world's largest desert?",
+"o": [
+"Antarctica",
+"The Sahara",
+"The Gobi"
+],
+"a": 0
+},
+"rq": {
+"p": "What makes somewhere a desert?",
+"o": [
+"Very little rain or snow",
+"Sand",
+"Heat"
+],
+"a": 0
+},
+"why": "Cold air holds little moisture, so polar regions get little snow.",
+"src": "Antarctica",
+"vis": {
+"type": "compare",
+"items": [
+{
+"label": "Antarctica",
+"value": 14,
+"unit": "million km²"
+},
+{
+"label": "Sahara",
+"value": 9.2,
+"unit": "million km²"
+}
+]
+}
+},
+{
+"id": "s041",
+"t": "Light could circle Earth 7 times a second",
+"b": "Light travels at almost 300,000 km per second. Earth's circumference is about 40,000 km, so in one second a beam could, in theory, go around the planet about seven and a half times.",
+"q": {
+"p": "How many times could light circle Earth in one second?",
+"o": [
+"About 7.5",
+"About 1",
+"About 100"
+],
+"a": 0
+},
+"rq": {
+"p": "Roughly how fast is light?",
+"o": [
+"300,000 km per second",
+"300 km per second",
+"3,000 km per hour"
+],
+"a": 0
+},
+"why": "300,000 ÷ 40,000 ≈ 7.5.",
+"src": "Speed of light"
+},
+{
+"id": "s042",
+"t": "A year on Mercury is 88 days",
+"b": "Mercury is the closest planet to the Sun and moves fastest. It completes an orbit in just 88 Earth days. Because it spins slowly, one sunrise to the next on Mercury lasts about 176 Earth days, two of its years.",
+"q": {
+"p": "How long is a year on Mercury?",
+"o": [
+"88 Earth days",
+"365 Earth days",
+"12 Earth years"
+],
+"a": 0
+},
+"rq": {
+"p": "On Mercury, sunrise to sunrise lasts about…",
+"o": [
+"Two Mercury years",
+"One hour",
+"One Mercury month"
+],
+"a": 0
+},
+"why": "Orbit is fast, spin is slow, so its solar day is very long.",
+"src": "Mercury (planet)"
+},
+{
+"id": "s043",
+"t": "Sunsets on Mars are blue",
+"b": "On Earth, sunsets glow orange-red. On Mars, fine dust in the air scatters blue light forward, close to the direction of the Sun. NASA rovers have photographed cool blue glows around the setting Sun.",
+"q": {
+"p": "What colour are sunsets on Mars?",
+"o": [
+"Blue",
+"Red",
+"Green"
+],
+"a": 0
+},
+"rq": {
+"p": "What causes blue Martian sunsets?",
+"o": [
+"Fine dust scattering blue light",
+"Blue sand",
+"Ice clouds only"
+],
+"a": 0
+},
+"why": "Martian dust particles are just the right size to send blue light forward.",
+"src": "Mars",
+"srcUrl": "https://science.nasa.gov/mars/"
+},
+{
+"id": "s044",
+"t": "More trees on Earth than stars in our galaxy",
+"b": "A 2015 study estimated that Earth has about 3 trillion trees. The Milky Way has somewhere between 100 and 400 billion stars. So trees outnumber our galaxy's stars by several times.",
+"q": {
+"p": "Which is more numerous?",
+"o": [
+"Trees on Earth",
+"Stars in the Milky Way"
+],
+"a": 0
+},
+"rq": {
+"p": "About how many trees are on Earth?",
+"o": [
+"About 3 trillion",
+"About 3 billion",
+"About 3 million"
+],
+"a": 0
+},
+"why": "Satellite data plus ground counts gave the 3-trillion estimate.",
+"src": "Tree",
+"vis": {
+"type": "compare",
+"items": [
+{
+"label": "Trees on Earth",
+"value": 3000,
+"unit": "billion"
+},
+{
+"label": "Milky Way stars",
+"value": 400,
+"unit": "billion (max)"
+}
+]
+}
+},
+{
+"id": "s045",
+"t": "Each of your cells holds 2 metres of DNA",
+"b": "If you uncoiled the DNA in a single human cell and laid it end to end, it would stretch about 2 metres. It fits inside a nucleus far smaller than a pinhead by wrapping around proteins and folding tightly.",
+"q": {
+"p": "How long is the DNA in one of your cells, stretched out?",
+"o": [
+"About 2 metres",
+"About 2 millimetres",
+"About 2 kilometres"
+],
+"a": 0
+},
+"rq": {
+"p": "How does all that DNA fit in a cell?",
+"o": [
+"It's tightly wound around proteins",
+"It's cut into tiny bits",
+"Most of it is outside the cell"
+],
+"a": 0
+},
+"why": "DNA coils around histone proteins, then coils again.",
+"src": "DNA"
+},
+{
+"id": "s046",
+"t": "Your heart beats about 100,000 times a day",
+"b": "At around 70 beats a minute, your heart beats roughly 100,000 times every day. Over a lifetime that's billions of beats, without ever taking a rest.",
+"q": {
+"p": "About how many times does your heart beat each day?",
+"o": [
+"100,000",
+"10,000",
+"1,000,000"
+],
+"a": 0
+},
+"rq": {
+"p": "A typical resting heart rate is about…",
+"o": [
+"70 beats a minute",
+"7 beats a minute",
+"170 beats a minute"
+],
+"a": 0
+},
+"why": "70 × 60 × 24 ≈ 100,800.",
+"src": "Heart"
+},
+{
+"id": "s047",
+"t": "Red blood cells have no nucleus",
+"b": "Human red blood cells push out their nucleus as they mature. That leaves more room for haemoglobin to carry oxygen and lets them bend through tiny capillaries. Without a nucleus they can't repair themselves, so each lasts about 120 days.",
+"q": {
+"p": "What do human red blood cells lack?",
+"o": [
+"A nucleus",
+"A membrane",
+"Haemoglobin"
+],
+"a": 0
+},
+"rq": {
+"p": "How long does a red blood cell usually last?",
+"o": [
+"About 120 days",
+"About 1 day",
+"About 10 years"
+],
+"a": 0
+},
+"why": "Dropping the nucleus frees space for oxygen carriers.",
+"src": "Red blood cell"
+},
+{
+"id": "s048",
+"t": "Helium was found in the Sun first",
+"b": "In 1868 astronomers studying sunlight during an eclipse spotted a mysterious yellow line in its spectrum. It belonged to an unknown element, named helium after Helios, the Greek Sun god. It wasn't found on Earth until 1895.",
+"q": {
+"p": "Where was helium first discovered?",
+"o": [
+"In the Sun",
+"In a gold mine",
+"In balloons"
+],
+"a": 0
+},
+"rq": {
+"p": "What is helium named after?",
+"o": [
+"The Greek Sun god",
+"Its discoverer",
+"The sound it makes"
+],
+"a": 0
+},
+"why": "Each element leaves a unique fingerprint of lines in light.",
+"src": "Helium",
+"vis": {
+"type": "timeline",
+"points": [
+{
+"label": "Seen in Sun",
+"year": 1868
+},
+{
+"label": "Found on Earth",
+"year": 1895
+}
+]
+}
+},
+{
+"id": "s049",
+"t": "Most of the universe is invisible",
+"b": "Ordinary matter, everything made of atoms, is only about 5% of the universe. About 27% is dark matter, which we detect only by its gravity. The remaining 68% is dark energy, which seems to be speeding up the universe's expansion.",
+"q": {
+"p": "What share of the universe is ordinary matter like stars and us?",
+"o": [
+"About 5%",
+"About 50%",
+"About 95%"
+],
+"a": 0
+},
+"rq": {
+"p": "What makes up the biggest share of the universe?",
+"o": [
+"Dark energy",
+"Dark matter",
+"Stars"
+],
+"a": 0
+},
+"why": "Galaxy motions and the cosmic background reveal what we can't see.",
+"src": "Dark energy",
+"vis": {
+"type": "compare",
+"items": [
+{
+"label": "Dark energy",
+"value": 68,
+"unit": "%"
+},
+{
+"label": "Dark matter",
+"value": 27,
+"unit": "%"
+},
+{
+"label": "Ordinary matter",
+"value": 5,
+"unit": "%"
+}
+]
+}
+},
+{
+"id": "s050",
+"t": "Voyager 1 is in interstellar space",
+"b": "Launched in 1977, Voyager 1 crossed into interstellar space in 2012, the first human-made object to do so. It is now over 24 billion km away, and its radio signals take around a day to reach us.",
+"q": {
+"p": "What is the farthest human-made object?",
+"o": [
+"Voyager 1",
+"The Hubble telescope",
+"A Moon rover"
+],
+"a": 0
+},
+"rq": {
+"p": "When did Voyager 1 enter interstellar space?",
+"o": [
+"2012",
+"1977",
+"1999"
+],
+"a": 0
+},
+"why": "It's been flying outward at about 17 km per second for decades.",
+"src": "Voyager 1",
+"vis": {
+"type": "timeline",
+"points": [
+{
+"label": "Launch",
+"year": 1977
+},
+{
+"label": "Interstellar",
+"year": 2012
+},
+{
+"label": "Now",
+"year": 2026
+}
+]
+}
+}
+]
