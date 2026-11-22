@@ -67,7 +67,7 @@ export function renderHome(app) {
     h('h2', { class: 'section-title' }, 'Browse a topic'),
     h('ul', { class: 'topics' }, TOPIC_KEYS.map((t) => h('li', {},
       h('button', { class: `topic-tile t-${t}`, onclick: () => app.go('browse', { topic: t }) },
-        icon(TOPIC[t].icon), h('b', {}, TOPIC[t].name), h('small', {}, `${counts[t].seen} of ${counts[t].total} seen`))))),
+        icon(TOPIC[t].icon), h('span', {}, h('b', {}, TOPIC[t].name), h('small', {}, `${counts[t].seen} of ${counts[t].total} seen`)))))),
     h('nav', { class: 'home-links', 'aria-label': 'More' },
       h('button', { class: 'link-btn', onclick: () => app.go('browse', { topic: 'all' }) }, 'Browse everything'),
       h('button', { class: 'link-btn', onclick: () => app.go('stats') }, 'Your progress')),
