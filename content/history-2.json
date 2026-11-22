@@ -1,0 +1,627 @@
+[
+{
+"id": "h026",
+"t": "The first computer bug was a real moth",
+"b": "In 1947, operators of the Harvard Mark II computer found a moth trapped in a relay. They taped it into the logbook as the 'first actual case of bug being found'. Engineers had already called glitches 'bugs', but this made the joke famous.",
+"q": {
+"p": "What was found inside the Harvard Mark II in 1947?",
+"o": [
+"A moth",
+"A mouse",
+"A spider"
+],
+"a": 0
+},
+"rq": {
+"p": "Did the moth invent the word 'bug' for glitches?",
+"o": [
+"No, engineers already used it",
+"Yes",
+"It was named after a scientist called Bug"
+],
+"a": 0
+},
+"why": "The logbook page is now at the Smithsonian.",
+"src": "Software bug"
+},
+{
+"id": "h027",
+"t": "The first webcam watched a coffee pot",
+"b": "In 1991, scientists at Cambridge University pointed a camera at the coffee pot in the Trojan Room so they could check if it was full without walking down the corridor. In 1993 it went on the web and became world famous.",
+"q": {
+"p": "What did the first webcam show?",
+"o": [
+"A coffee pot",
+"A fish tank",
+"A street"
+],
+"a": 0
+},
+"rq": {
+"p": "Where was the coffee pot webcam?",
+"o": [
+"Cambridge University",
+"MIT",
+"Google"
+],
+"a": 0
+},
+"why": "Saving a wasted trip for coffee was the whole point.",
+"src": "Trojan Room coffee pot"
+},
+{
+"id": "h028",
+"t": "Velcro was inspired by burrs",
+"b": "Swiss engineer George de Mestral noticed burdock burrs clinging to his dog's fur after a walk in 1941. Under a microscope he saw tiny hooks catching on loops, and he spent years designing Velcro to copy them.",
+"q": {
+"p": "What inspired Velcro?",
+"o": [
+"Burrs stuck to a dog",
+"Bird feathers",
+"Gecko feet"
+],
+"a": 0
+},
+"rq": {
+"p": "How do burrs stick?",
+"o": [
+"Tiny hooks catch on loops",
+"They're sticky",
+"Static electricity"
+],
+"a": 0
+},
+"why": "Copying nature in design is called biomimicry.",
+"src": "Velcro"
+},
+{
+"id": "h029",
+"t": "A melted snack led to the microwave oven",
+"b": "In 1945, engineer Percy Spencer was working on radar equipment when he noticed a sweet in his pocket had melted. He tested the effect on popcorn and an egg, and his company Raytheon went on to sell the first microwave ovens.",
+"q": {
+"p": "What tipped off the inventor of the microwave oven?",
+"o": [
+"A melted sweet in his pocket",
+"A burning hand",
+"A cooked bird"
+],
+"a": 0
+},
+"rq": {
+"p": "What was Percy Spencer working on?",
+"o": [
+"Radar equipment",
+"Television",
+"Refrigerators"
+],
+"a": 0
+},
+"why": "Radar uses microwaves, which heat water and fat molecules.",
+"src": "Microwave oven"
+},
+{
+"id": "h030",
+"t": "Penicillin came from a messy lab",
+"b": "In 1928 Alexander Fleming returned from holiday to find mould growing on one of his bacteria dishes. Around the mould, the bacteria had died. That mould produced penicillin, the first widely used antibiotic.",
+"q": {
+"p": "How was penicillin discovered?",
+"o": [
+"Mould contaminated a lab dish",
+"A planned drug trial",
+"From tree bark"
+],
+"a": 0
+},
+"rq": {
+"p": "Who discovered penicillin?",
+"o": [
+"Alexander Fleming",
+"Louis Pasteur",
+"Marie Curie"
+],
+"a": 0
+},
+"why": "Later work by Florey and Chain turned it into a medicine.",
+"src": "Penicillin"
+},
+{
+"id": "h031",
+"t": "Post-it Notes came from a failed glue",
+"b": "In 1968, 3M scientist Spencer Silver was trying to make a super-strong glue and made a weak, reusable one instead. Years later, colleague Art Fry used it to stop bookmarks falling out of his choir hymnbook.",
+"q": {
+"p": "Post-it Notes came from an attempt to make…",
+"o": [
+"A very strong glue",
+"Cheaper paper",
+"A new tape measure"
+],
+"a": 0
+},
+"rq": {
+"p": "What problem did Art Fry want to solve?",
+"o": [
+"Bookmarks falling out of a hymnbook",
+"Messy desks",
+"Lost keys"
+],
+"a": 0
+},
+"why": "A 'failure' found the right problem later.",
+"src": "Post-it Note"
+},
+{
+"id": "h032",
+"t": "Coca-Cola once contained cocaine",
+"b": "Coca-Cola's original 1886 recipe used extract of coca leaves, which contain cocaine. The amount was cut sharply in 1903 and removed entirely by 1929. Today the company uses coca leaf extract with the cocaine taken out.",
+"q": {
+"p": "Did early Coca-Cola contain cocaine?",
+"o": [
+"Yes, from coca leaves",
+"No, never",
+"Only in Europe"
+],
+"a": 0
+},
+"rq": {
+"p": "By when was cocaine fully removed from Coca-Cola?",
+"o": [
+"1929",
+"1986",
+"2001"
+],
+"a": 0
+},
+"why": "The 'Coca' in the name refers to the coca leaf.",
+"src": "Coca-Cola formula"
+},
+{
+"id": "h033",
+"t": "The Statue of Liberty used to be brown",
+"b": "The Statue of Liberty is covered in thin copper sheets and was originally a shiny copper-brown. Over about 30 years, weathering formed a green layer called patina, which now protects the copper beneath.",
+"q": {
+"p": "What colour was the Statue of Liberty originally?",
+"o": [
+"Copper-brown",
+"Green",
+"White"
+],
+"a": 0
+},
+"rq": {
+"p": "What turned it green?",
+"o": [
+"Weathering of copper",
+"Green paint",
+"Algae"
+],
+"a": 0
+},
+"why": "Copper reacts with air and water to form a green coating.",
+"src": "Statue of Liberty"
+},
+{
+"id": "h034",
+"t": "Big Ben is the bell",
+"b": "Big Ben is officially the nickname of the Great Bell inside the clock tower at Westminster, not the tower itself. The tower was renamed Elizabeth Tower in 2012 to mark Queen Elizabeth II's Diamond Jubilee.",
+"q": {
+"p": "What is 'Big Ben', strictly speaking?",
+"o": [
+"The bell",
+"The clock tower",
+"The clock face"
+],
+"a": 0
+},
+"rq": {
+"p": "What is the tower's official name?",
+"o": [
+"Elizabeth Tower",
+"Victoria Tower",
+"St Stephen's Spire"
+],
+"a": 0
+},
+"why": "The bell's nickname spread to the whole tower.",
+"src": "Big Ben"
+},
+{
+"id": "h035",
+"t": "Britain once skipped 11 days",
+"b": "To switch to the Gregorian calendar, Britain jumped from 2 September 1752 straight to 14 September. Much of Catholic Europe had already made the change in 1582, skipping 10 days.",
+"q": {
+"p": "What happened in Britain in September 1752?",
+"o": [
+"11 days were skipped",
+"An extra month was added",
+"The year restarted"
+],
+"a": 0
+},
+"rq": {
+"p": "Which calendar did Britain switch to?",
+"o": [
+"Gregorian",
+"Julian",
+"Lunar"
+],
+"a": 0
+},
+"why": "The old Julian calendar had slowly drifted from the seasons.",
+"src": "Calendar (New Style) Act 1750"
+},
+{
+"id": "h036",
+"t": "Royal purple came from sea snails",
+"b": "Tyrian purple, made from the glands of sea snails, took thousands of snails for a tiny amount of dye. It was so costly that in Rome, wearing it was a sign of the highest status, and some emperors restricted its use.",
+"q": {
+"p": "Where did the ancient world's royal purple dye come from?",
+"o": [
+"Sea snails",
+"Berries",
+"Purple rocks"
+],
+"a": 0
+},
+"rq": {
+"p": "Why was purple dye so valuable?",
+"o": [
+"It took thousands of snails",
+"It was magical",
+"It came from the Moon"
+],
+"a": 0
+},
+"why": "Rarity made purple the colour of emperors.",
+"src": "Tyrian purple"
+},
+{
+"id": "h037",
+"t": "A theft made the Mona Lisa famous",
+"b": "In 1911, Italian handyman Vincenzo Peruggia stole the Mona Lisa from the Louvre. It was missing for two years, and the headlines turned it into the world's most famous painting. Even Pablo Picasso was questioned by police.",
+"q": {
+"p": "What made the Mona Lisa world-famous in the 1910s?",
+"o": [
+"It was stolen",
+"It was restored",
+"It was sold"
+],
+"a": 0
+},
+"rq": {
+"p": "Which famous artist was questioned about the theft?",
+"o": [
+"Pablo Picasso",
+"Claude Monet",
+"Salvador Dalí"
+],
+"a": 0
+},
+"why": "Two years of headlines made the painting a household name.",
+"src": "Mona Lisa"
+},
+{
+"id": "h038",
+"t": "Einstein was offered Israel's presidency",
+"b": "In 1952, after Israel's first president died, the prime minister offered the largely ceremonial presidency to Albert Einstein. He declined, saying he lacked the aptitude and experience to deal with people and official duties.",
+"q": {
+"p": "What job was Einstein offered in 1952?",
+"o": [
+"President of Israel",
+"Head of NASA",
+"US Secretary of State"
+],
+"a": 0
+},
+"rq": {
+"p": "What did Einstein say to the offer?",
+"o": [
+"He declined",
+"He accepted for a year",
+"He asked for more money"
+],
+"a": 0
+},
+"why": "He felt he lacked the skills for politics.",
+"src": "Albert Einstein"
+},
+{
+"id": "h039",
+"t": "Isaac Newton hunted counterfeiters",
+"b": "Late in life, Isaac Newton ran England's Royal Mint. He took the job seriously, personally investigating forgers and gathering evidence, and some of the counterfeiters he pursued were executed.",
+"q": {
+"p": "What job did Isaac Newton hold later in life?",
+"o": [
+"Running the Royal Mint",
+"Lord Chancellor",
+"Archbishop"
+],
+"a": 0
+},
+"rq": {
+"p": "Who did Newton pursue at the Mint?",
+"o": [
+"Counterfeiters",
+"Tax dodgers",
+"Rival scientists"
+],
+"a": 0
+},
+"why": "Fake coins were a serious threat to the economy.",
+"src": "Isaac Newton"
+},
+{
+"id": "h040",
+"t": "Ada Lovelace wrote an early computer program",
+"b": "In 1843 Ada Lovelace published notes on Charles Babbage's planned Analytical Engine. They included a step-by-step method for calculating Bernoulli numbers, often called the first published computer program, a century before computers existed.",
+"q": {
+"p": "Who is often credited with the first published computer program?",
+"o": [
+"Ada Lovelace",
+"Alan Turing",
+"Bill Gates"
+],
+"a": 0
+},
+"rq": {
+"p": "For which machine did she write it?",
+"o": [
+"Babbage's Analytical Engine",
+"The first iPhone",
+"ENIAC"
+],
+"a": 0
+},
+"why": "She saw the machine could manipulate symbols, not just numbers.",
+"src": "Ada Lovelace"
+},
+{
+"id": "h041",
+"t": "The Rosetta Stone cracked hieroglyphs",
+"b": "The Rosetta Stone, carved in 196 BC, records the same decree in three scripts: hieroglyphs, Demotic and ancient Greek. Scholars could read the Greek, and in 1822 Jean-François Champollion used it to decode hieroglyphs.",
+"q": {
+"p": "Why was the Rosetta Stone so important?",
+"o": [
+"Same text in three scripts",
+"It was solid gold",
+"It held a treasure map"
+],
+"a": 0
+},
+"rq": {
+"p": "Who deciphered hieroglyphs in 1822?",
+"o": [
+"Jean-François Champollion",
+"Napoleon",
+"Howard Carter"
+],
+"a": 0
+},
+"why": "The known Greek text unlocked the unknown hieroglyphs.",
+"src": "Rosetta Stone"
+},
+{
+"id": "h042",
+"t": "Stonehenge's stones travelled far",
+"b": "Stonehenge's smaller bluestones came from the Preseli Hills in Wales, about 240 km away. In 2024, scientists showed its central Altar Stone came from northeast Scotland, over 700 km away. How they were moved is still debated.",
+"q": {
+"p": "Where did Stonehenge's Altar Stone come from?",
+"o": [
+"Northeast Scotland",
+"Next to the site",
+"France"
+],
+"a": 0
+},
+"rq": {
+"p": "Where are the bluestones from?",
+"o": [
+"Wales",
+"Cornwall",
+"Ireland"
+],
+"a": 0
+},
+"why": "Chemical fingerprints in the rock match their source.",
+"src": "Stonehenge"
+},
+{
+"id": "h043",
+"t": "Pompeii's walls are full of graffiti",
+"b": "When Vesuvius buried Pompeii in AD 79, it preserved thousands of graffiti scrawled on walls: election slogans, insults, jokes, love notes and adverts. They give a rare glimpse of everyday Roman life.",
+"q": {
+"p": "What did Vesuvius preserve on Pompeii's walls?",
+"o": [
+"Thousands of graffiti",
+"Nothing, it all melted",
+"Only royal paintings"
+],
+"a": 0
+},
+"rq": {
+"p": "When was Pompeii buried?",
+"o": [
+"AD 79",
+"AD 1066",
+"500 BC"
+],
+"a": 0
+},
+"why": "Ash sealed the city, protecting it for centuries.",
+"src": "Pompeii"
+},
+{
+"id": "h044",
+"t": "A Greek measured Earth with shadows",
+"b": "Around 240 BC, Eratosthenes compared the angle of shadows at noon in two Egyptian cities a known distance apart. Using simple geometry, he estimated Earth's circumference remarkably close to the real value of about 40,000 km.",
+"q": {
+"p": "How did Eratosthenes measure Earth?",
+"o": [
+"By comparing shadows",
+"By sailing around it",
+"By watching the Moon"
+],
+"a": 0
+},
+"rq": {
+"p": "About when did he do it?",
+"o": [
+"Around 240 BC",
+"Around AD 1500",
+"Around 1900"
+],
+"a": 0
+},
+"why": "Different shadow angles reveal Earth's curve.",
+"src": "Eratosthenes"
+},
+{
+"id": "h045",
+"t": "An ancient Greek 'computer' predicted eclipses",
+"b": "The Antikythera mechanism, found in a shipwreck in 1901, is a box of bronze gears made over 2,000 years ago. It modelled the movements of the Sun and Moon and predicted eclipses. Nothing as complex is known for another thousand years.",
+"q": {
+"p": "What could the Antikythera mechanism do?",
+"o": [
+"Predict eclipses",
+"Tell the weather",
+"Make music"
+],
+"a": 0
+},
+"rq": {
+"p": "Where was it found?",
+"o": [
+"In an ancient shipwreck",
+"In a pyramid",
+"In a cave"
+],
+"a": 0
+},
+"why": "Its interlocking gears mirrored the cycles of the sky.",
+"src": "Antikythera mechanism"
+},
+{
+"id": "h046",
+"t": "Hadrian's Wall crossed Britain",
+"b": "Started around AD 122 on Emperor Hadrian's orders, the wall ran about 118 km across northern England, from coast to coast. It had forts and milecastles along its length. Much of it is still standing.",
+"q": {
+"p": "Who ordered a wall across northern Britain in AD 122?",
+"o": [
+"Emperor Hadrian",
+"Julius Caesar",
+"King Arthur"
+],
+"a": 0
+},
+"rq": {
+"p": "About how long was Hadrian's Wall?",
+"o": [
+"About 118 km",
+"About 1,180 km",
+"About 11 km"
+],
+"a": 0
+},
+"why": "It marked and controlled the empire's northern frontier.",
+"src": "Hadrian's Wall"
+},
+{
+"id": "h047",
+"t": "The Black Death killed up to half of Europe",
+"b": "Between 1347 and 1351 the Black Death, caused by plague bacteria spread by fleas and people, killed an estimated 30 to 60% of Europe's population. It took centuries for the population to recover.",
+"q": {
+"p": "What share of Europe died in the Black Death?",
+"o": [
+"Roughly a third to a half",
+"About 1%",
+"About 90%"
+],
+"a": 0
+},
+"rq": {
+"p": "What caused the Black Death?",
+"o": [
+"Plague bacteria",
+"A virus from bats",
+"Bad air"
+],
+"a": 0
+},
+"why": "Crowded towns and trade routes helped it spread fast.",
+"src": "Black Death"
+},
+{
+"id": "h048",
+"t": "Tulip mania may be exaggerated",
+"b": "In 1630s Holland, rare tulip bulbs sold for huge sums before prices crashed in 1637. It's often called the first financial bubble. Some historians now argue the damage to the wider economy was much smaller than popular stories claim.",
+"q": {
+"p": "What crashed in Holland in 1637?",
+"o": [
+"Tulip bulb prices",
+"The stock of herring",
+"The value of gold"
+],
+"a": 0
+},
+"rq": {
+"p": "What do some modern historians say about tulip mania?",
+"o": [
+"Its damage was exaggerated",
+"It never happened",
+"It ruined Holland"
+],
+"a": 0
+},
+"why": "Later moralising writers spread the dramatic version.",
+"src": "Tulip mania"
+},
+{
+"id": "h049",
+"t": "London built the first underground railway",
+"b": "The Metropolitan Railway opened in London in 1863, the world's first underground railway. Its trains were pulled by steam engines, which filled the tunnels with smoke.",
+"q": {
+"p": "Which city had the world's first underground railway?",
+"o": [
+"London",
+"Paris",
+"New York"
+],
+"a": 0
+},
+"rq": {
+"p": "What powered the first Tube trains?",
+"o": [
+"Steam engines",
+"Electricity",
+"Horses"
+],
+"a": 0
+},
+"why": "Tunnels were dug just under streets using 'cut and cover'.",
+"src": "Metropolitan Railway"
+},
+{
+"id": "h050",
+"t": "Saint Patrick wasn't Irish",
+"b": "Saint Patrick was born in Roman Britain in the 5th century. At about 16 he was captured by raiders and taken to Ireland as a slave. He escaped, later returned as a missionary, and became Ireland's patron saint.",
+"q": {
+"p": "Where was Saint Patrick born?",
+"o": [
+"Roman Britain",
+"Ireland",
+"Italy"
+],
+"a": 0
+},
+"rq": {
+"p": "How did Patrick first come to Ireland?",
+"o": [
+"As a captured slave",
+"As a king",
+"On holiday"
+],
+"a": 0
+},
+"why": "His own writings describe his capture and escape.",
+"src": "Saint Patrick"
+}
+]

@@ -1,0 +1,694 @@
+[
+{
+"id": "h001",
+"t": "Oxford is older than the Aztec Empire",
+"b": "Teaching at Oxford was happening by about 1096, making it the oldest university in the English-speaking world. Tenochtitlan, the Aztec capital, wasn't founded until 1325, more than two centuries later.",
+"q": {
+"p": "Which is older?",
+"o": [
+"Oxford University",
+"The Aztec capital Tenochtitlan"
+],
+"a": 0
+},
+"rq": {
+"p": "Roughly when did teaching begin at Oxford?",
+"o": [
+"Around 1096",
+"Around 1450",
+"Around 1700"
+],
+"a": 0
+},
+"why": "Oxford's origins predate Tenochtitlan by over 200 years.",
+"src": "University of Oxford",
+"vis": {
+"type": "timeline",
+"points": [
+{
+"label": "Oxford teaching",
+"year": 1096
+},
+{
+"label": "Tenochtitlan founded",
+"year": 1325
+}
+]
+}
+},
+{
+"id": "h002",
+"t": "Cleopatra is closer to the Moon landing than the pyramids",
+"b": "The Great Pyramid of Giza was built around 2560 BC. Cleopatra died in 30 BC, about 2,500 years later. The Moon landing in 1969 was 'only' about 2,000 years after her.",
+"q": {
+"p": "Cleopatra lived closer in time to…",
+"o": [
+"The Moon landing",
+"The building of the Great Pyramid"
+],
+"a": 0
+},
+"rq": {
+"p": "About when was the Great Pyramid built?",
+"o": [
+"Around 2560 BC",
+"Around 30 BC",
+"Around AD 500"
+],
+"a": 0
+},
+"why": "Ancient Egypt lasted about 3,000 years; Cleopatra was near its end.",
+"src": "Cleopatra",
+"vis": {
+"type": "timeline",
+"points": [
+{
+"label": "Great Pyramid",
+"year": -2560
+},
+{
+"label": "Cleopatra dies",
+"year": -30
+},
+{
+"label": "Moon landing",
+"year": 1969
+}
+]
+}
+},
+{
+"id": "h003",
+"t": "Mammoths outlived the first pyramids",
+"b": "Most woolly mammoths died out around 10,000 years ago, but a small population survived on Wrangel Island in the Arctic until about 4,000 years ago. By then, Egypt's first pyramids had already been standing for centuries.",
+"q": {
+"p": "Were woolly mammoths still alive when Egypt's first pyramids were built?",
+"o": [
+"Yes, on a remote island",
+"No, they died out millions of years earlier",
+"Only frozen ones"
+],
+"a": 0
+},
+"rq": {
+"p": "Where did the last mammoths live?",
+"o": [
+"Wrangel Island in the Arctic",
+"Siberia's mainland",
+"Alaska"
+],
+"a": 0
+},
+"why": "Isolation on an island protected them from humans for longer.",
+"src": "Wrangel Island"
+},
+{
+"id": "h004",
+"t": "Napoleon wasn't short",
+"b": "Napoleon was about 1.69 m (5 ft 7 in), average or slightly above for a Frenchman of his time. The myth grew from confusion between French and English inches, British cartoons mocking him, and his nickname 'le petit caporal', a term of affection.",
+"q": {
+"p": "How tall was Napoleon for his time?",
+"o": [
+"About average",
+"Very short",
+"Very tall"
+],
+"a": 0
+},
+"rq": {
+"p": "What helped create the 'short Napoleon' myth?",
+"o": [
+"Different inch measurements and cartoons",
+"His own memoirs",
+"His tiny horse"
+],
+"a": 0
+},
+"why": "A French inch was longer than an English inch.",
+"src": "Napoleon complex"
+},
+{
+"id": "h005",
+"t": "Vikings didn't wear horned helmets",
+"b": "No Viking-age helmet with horns has ever been found. The image largely comes from 19th-century art and costume designs, especially for Wagner's opera cycle The Ring of the Nibelung in 1876.",
+"q": {
+"p": "Did Vikings wear horned helmets in battle?",
+"o": [
+"No",
+"Yes, always",
+"Only chieftains"
+],
+"a": 0
+},
+"rq": {
+"p": "Where did the horned-helmet image largely come from?",
+"o": [
+"19th-century opera costumes",
+"Viking carvings",
+"Roman reports"
+],
+"a": 0
+},
+"why": "The only near-complete Viking helmet found has no horns.",
+"src": "Horned helmet"
+},
+{
+"id": "h006",
+"t": "You can't see the Great Wall from space",
+"b": "The Great Wall is very long but only a few metres wide, about the same colour as the land around it. Astronauts say it's essentially impossible to see with the naked eye from orbit, and certainly not from the Moon.",
+"q": {
+"p": "Is the Great Wall of China visible from the Moon?",
+"o": [
+"No",
+"Yes, clearly",
+"Only at night"
+],
+"a": 0
+},
+"rq": {
+"p": "Why is the wall hard to see from orbit?",
+"o": [
+"It's narrow and blends with the land",
+"It's underground",
+"Clouds always cover it"
+],
+"a": 0
+},
+"why": "Width, not length, decides visibility from far away.",
+"src": "Great Wall of China"
+},
+{
+"id": "h007",
+"t": "Romans cleaned clothes with urine",
+"b": "Roman laundries, called fullonicae, used stale urine because its ammonia helps lift grease and dirt. Urine was so useful that Emperor Vespasian taxed its collection. When his son objected, he reportedly said 'money doesn't stink'.",
+"q": {
+"p": "What did Roman laundries use to clean clothes?",
+"o": [
+"Urine",
+"Olive oil",
+"Seawater"
+],
+"a": 0
+},
+"rq": {
+"p": "Which emperor taxed urine collection?",
+"o": [
+"Vespasian",
+"Nero",
+"Augustus"
+],
+"a": 0
+},
+"why": "Ammonia in stale urine works as a cleaner.",
+"src": "Pecunia non olet"
+},
+{
+"id": "h008",
+"t": "The shortest war lasted under an hour",
+"b": "The Anglo-Zanzibar War of 27 August 1896 lasted roughly 38 to 45 minutes. British ships bombarded the palace after the new sultan refused to step down, and he soon fled. It's often called the shortest war in recorded history.",
+"q": {
+"p": "How long did the shortest recorded war last?",
+"o": [
+"Under an hour",
+"About a week",
+"About a year"
+],
+"a": 0
+},
+"rq": {
+"p": "Which war is often called the shortest in history?",
+"o": [
+"The Anglo-Zanzibar War",
+"The Football War",
+"The Six-Day War"
+],
+"a": 0
+},
+"why": "Overwhelming naval firepower ended it almost immediately.",
+"src": "Anglo-Zanzibar War"
+},
+{
+"id": "h009",
+"t": "The Eiffel Tower was meant to be temporary",
+"b": "Built for the 1889 World's Fair, the Eiffel Tower had a 20-year permit and could have been dismantled in 1909. It was saved partly because it proved useful as a giant radio antenna.",
+"q": {
+"p": "What saved the Eiffel Tower from demolition?",
+"o": [
+"Its use as a radio antenna",
+"A public vote",
+"Napoleon III"
+],
+"a": 0
+},
+"rq": {
+"p": "How long was the tower's original permit?",
+"o": [
+"20 years",
+"100 years",
+"5 years"
+],
+"a": 0
+},
+"why": "Its height made it perfect for early radio transmitters.",
+"src": "Eiffel Tower"
+},
+{
+"id": "h010",
+"t": "The fax came before the telephone",
+"b": "Scottish inventor Alexander Bain patented an early fax-like machine in 1843, sending images over telegraph wires. Alexander Graham Bell's telephone patent came in 1876, over 30 years later.",
+"q": {
+"p": "Which was invented first?",
+"o": [
+"The fax machine",
+"The telephone"
+],
+"a": 0
+},
+"rq": {
+"p": "Who patented an early fax device in 1843?",
+"o": [
+"Alexander Bain",
+"Alexander Graham Bell",
+"Thomas Edison"
+],
+"a": 0
+},
+"why": "Fax built on the telegraph, which already existed.",
+"src": "Fax",
+"vis": {
+"type": "timeline",
+"points": [
+{
+"label": "Bain's fax",
+"year": 1843
+},
+{
+"label": "Telephone",
+"year": 1876
+}
+]
+}
+},
+{
+"id": "h011",
+"t": "Nintendo started with playing cards",
+"b": "Nintendo was founded in Kyoto in 1889 to make hanafuda, traditional Japanese playing cards. It later tried taxis, instant rice and 'love hotels' before finding success with toys and video games.",
+"q": {
+"p": "What did Nintendo first make?",
+"o": [
+"Playing cards",
+"Radios",
+"Bicycles"
+],
+"a": 0
+},
+"rq": {
+"p": "When was Nintendo founded?",
+"o": [
+"1889",
+"1977",
+"1950"
+],
+"a": 0
+},
+"why": "Hanafuda cards are still sold by Nintendo today.",
+"src": "Nintendo"
+},
+{
+"id": "h012",
+"t": "Pyramid builders weren't slaves",
+"b": "Archaeologists found the village and tombs of the Giza pyramid workers. Evidence suggests they were paid labourers, fed bread, beer and meat, given medical care, and honoured with burials near the pyramids.",
+"q": {
+"p": "Who built the Giza pyramids, according to archaeology?",
+"o": [
+"Paid workers",
+"Slaves",
+"Prisoners of war"
+],
+"a": 0
+},
+"rq": {
+"p": "What evidence shows the builders were respected?",
+"o": [
+"Their tombs near the pyramids",
+"Ancient Greek stories",
+"Statues of them"
+],
+"a": 0
+},
+"why": "Slaves wouldn't usually get honoured burials beside the king's tomb.",
+"src": "Giza pyramid complex"
+},
+{
+"id": "h013",
+"t": "Medieval people knew Earth was round",
+"b": "Educated people in medieval Europe knew Earth was a sphere, as ancient Greeks had shown. The myth that they believed in a flat Earth was spread in the 1800s, partly by Washington Irving's romantic biography of Columbus.",
+"q": {
+"p": "Did educated medieval Europeans think Earth was flat?",
+"o": [
+"No, they knew it was round",
+"Yes",
+"Only priests did"
+],
+"a": 0
+},
+"rq": {
+"p": "Who helped spread the flat-Earth myth in the 1800s?",
+"o": [
+"Washington Irving",
+"Galileo",
+"Christopher Columbus"
+],
+"a": 0
+},
+"why": "Ancient Greek scholars had shown Earth's roundness by about 330 BC.",
+"src": "Myth of the flat Earth"
+},
+{
+"id": "h014",
+"t": "The Great Fire of London recorded few deaths",
+"b": "The 1666 fire destroyed around 13,000 houses and 87 churches, including St Paul's Cathedral. Yet only a handful of deaths were officially recorded. Historians think the real toll was higher, as poorer people's deaths often went unrecorded.",
+"q": {
+"p": "How many deaths were officially recorded in the Great Fire of London?",
+"o": [
+"Only a handful",
+"Thousands",
+"About 100,000"
+],
+"a": 0
+},
+"rq": {
+"p": "Why might the true death toll be higher?",
+"o": [
+"Poorer people's deaths went unrecorded",
+"Bodies were hidden",
+"Records burned"
+],
+"a": 0
+},
+"why": "The fire spread slowly enough for many to flee.",
+"src": "Great Fire of London"
+},
+{
+"id": "h015",
+"t": "The oldest recorded beer recipe is a poem",
+"b": "The Hymn to Ninkasi, a Sumerian poem written down around 1800 BC, praises the goddess of beer and describes how to brew it. It's one of the oldest known recipes in the world.",
+"q": {
+"p": "One of the oldest known recipes is for…",
+"o": [
+"Beer",
+"Bread",
+"Soup"
+],
+"a": 0
+},
+"rq": {
+"p": "Who was Ninkasi?",
+"o": [
+"The Sumerian goddess of beer",
+"An Egyptian queen",
+"A Roman cook"
+],
+"a": 0
+},
+"why": "Writing it as a song helped people remember the steps.",
+"src": "Ninkasi"
+},
+{
+"id": "h016",
+"t": "The chess queen used to be weak",
+"b": "In early chess the queen, then called the vizier or counsellor, could move only one square diagonally. Around the late 1400s in Spain, the rules changed and she became the most powerful piece on the board.",
+"q": {
+"p": "How did the chess queen originally move?",
+"o": [
+"Just one square diagonally",
+"Any distance",
+"Like a knight"
+],
+"a": 0
+},
+"rq": {
+"p": "Where did the modern queen move first appear?",
+"o": [
+"Spain, in the late 1400s",
+"India, in 600 AD",
+"Russia, in 1900"
+],
+"a": 0
+},
+"why": "Faster games became popular, and the 'mad queen' rule spread.",
+"src": "Queen (chess)"
+},
+{
+"id": "h017",
+"t": "Carrots weren't always orange",
+"b": "Early cultivated carrots were mostly purple or yellow. Orange varieties became common in the Netherlands in the 1600s. The popular story that Dutch growers bred them to honour William of Orange is unproven.",
+"q": {
+"p": "What colour were early cultivated carrots?",
+"o": [
+"Mostly purple or yellow",
+"Always orange",
+"Blue"
+],
+"a": 0
+},
+"rq": {
+"p": "Is it proven orange carrots honoured William of Orange?",
+"o": [
+"No, it's unproven",
+"Yes",
+"It was a law"
+],
+"a": 0
+},
+"why": "Orange comes from beta-carotene, which growers selected for.",
+"src": "Carrot"
+},
+{
+"id": "h018",
+"t": "Marie Curie's notebooks are still radioactive",
+"b": "Marie Curie handled radium for years without knowing its dangers. Her notebooks are still contaminated more than a century later. They're kept in lead-lined boxes in Paris, and visitors sign a waiver and wear protective clothing.",
+"q": {
+"p": "How are Marie Curie's notebooks stored today?",
+"o": [
+"In lead-lined boxes",
+"On open shelves",
+"They were destroyed"
+],
+"a": 0
+},
+"rq": {
+"p": "Why are her notebooks still dangerous?",
+"o": [
+"Radium contamination",
+"Toxic ink",
+"Mould"
+],
+"a": 0
+},
+"why": "Radium-226 has a half-life of about 1,600 years.",
+"src": "Marie Curie"
+},
+{
+"id": "h019",
+"t": "Rome's Pantheon dome still holds a record",
+"b": "The Pantheon's dome in Rome was completed around AD 125. Nearly 1,900 years later it is still the largest unreinforced concrete dome in the world, with a 9-metre hole at the top open to the sky.",
+"q": {
+"p": "What record does Rome's Pantheon still hold?",
+"o": [
+"Largest unreinforced concrete dome",
+"Tallest building in Rome",
+"Oldest church"
+],
+"a": 0
+},
+"rq": {
+"p": "What's at the top of the Pantheon's dome?",
+"o": [
+"An open hole",
+"A golden statue",
+"A bell"
+],
+"a": 0
+},
+"why": "Romans used lighter concrete higher up the dome to reduce weight.",
+"src": "Pantheon, Rome"
+},
+{
+"id": "h020",
+"t": "Ancient Olympians competed naked",
+"b": "In the ancient Olympic Games, which began in 776 BC according to tradition, male athletes competed nude. The word gymnasium comes from the Greek gymnos, meaning naked.",
+"q": {
+"p": "What did ancient Olympic athletes wear?",
+"o": [
+"Nothing",
+"Linen tunics",
+"Bronze armour"
+],
+"a": 0
+},
+"rq": {
+"p": "What does the Greek root of 'gymnasium' mean?",
+"o": [
+"Naked",
+"Strong",
+"Running"
+],
+"a": 0
+},
+"why": "Nudity celebrated the human body and the gods.",
+"src": "Ancient Olympic Games"
+},
+{
+"id": "h021",
+"t": "Olympic gold medals are mostly silver",
+"b": "The last Olympic gold medals made of solid gold were awarded in 1912. Today's gold medals must be mostly silver, plated with at least 6 grams of gold.",
+"q": {
+"p": "What is a modern Olympic gold medal mostly made of?",
+"o": [
+"Silver",
+"Gold",
+"Bronze"
+],
+"a": 0
+},
+"rq": {
+"p": "When were solid gold Olympic medals last awarded?",
+"o": [
+"1912",
+"1984",
+"2000"
+],
+"a": 0
+},
+"why": "Solid gold medals would be very expensive.",
+"src": "Olympic medal"
+},
+{
+"id": "h022",
+"t": "Harvard is older than calculus",
+"b": "Harvard was founded in 1636. Isaac Newton and Gottfried Leibniz developed calculus independently in the 1660s and 1670s. So Harvard's first students studied without it.",
+"q": {
+"p": "Which came first?",
+"o": [
+"Harvard University",
+"Calculus"
+],
+"a": 0
+},
+"rq": {
+"p": "Who developed calculus?",
+"o": [
+"Newton and Leibniz",
+"Euclid and Pythagoras",
+"Einstein and Bohr"
+],
+"a": 0
+},
+"why": "Universities predate many fields of modern maths.",
+"src": "Harvard University",
+"vis": {
+"type": "timeline",
+"points": [
+{
+"label": "Harvard",
+"year": 1636
+},
+{
+"label": "Calculus",
+"year": 1666
+}
+]
+}
+},
+{
+"id": "h023",
+"t": "Titanic had lifeboats for about half",
+"b": "Titanic carried 20 lifeboats with room for about 1,178 people, but around 2,224 were on board. That met the outdated rules of the time. After the 1912 disaster, new laws required lifeboat space for everyone.",
+"q": {
+"p": "How many people could Titanic's lifeboats hold?",
+"o": [
+"About half of those aboard",
+"Everyone aboard",
+"About 10% of those aboard"
+],
+"a": 0
+},
+"rq": {
+"p": "What changed after Titanic sank?",
+"o": [
+"Laws required lifeboats for all",
+"Ships became smaller",
+"Icebergs were banned from shipping lanes"
+],
+"a": 0
+},
+"why": "Old rules based lifeboats on ship weight, not passengers.",
+"src": "Lifeboats of the Titanic"
+},
+{
+"id": "h024",
+"t": "Sliced bread arrived in 1928",
+"b": "The first commercial bread-slicing machine was used in Chillicothe, Missouri, in 1928, invented by Otto Rohwedder. Ads called it 'the greatest forward step in the baking industry since bread was wrapped'.",
+"q": {
+"p": "When was sliced bread first sold?",
+"o": [
+"1928",
+"1828",
+"1958"
+],
+"a": 0
+},
+"rq": {
+"p": "Who invented the bread-slicing machine?",
+"o": [
+"Otto Rohwedder",
+"Henry Ford",
+"Thomas Edison"
+],
+"a": 0
+},
+"why": "Hence 'the best thing since sliced bread'.",
+"src": "Sliced bread"
+},
+{
+"id": "h025",
+"t": "The first flight was shorter than a jumbo jet",
+"b": "The Wright brothers' first powered flight in 1903 covered about 37 metres in 12 seconds. A Boeing 747's wingspan is about 64 metres, so the whole flight would fit along one jumbo jet's wings.",
+"q": {
+"p": "How far did the Wright brothers' first flight go?",
+"o": [
+"About 37 metres",
+"About 3.7 km",
+"About 370 metres"
+],
+"a": 0
+},
+"rq": {
+"p": "How long did the first powered flight last?",
+"o": [
+"12 seconds",
+"12 minutes",
+"1 hour"
+],
+"a": 0
+},
+"why": "Short, but it was the first controlled, sustained powered flight.",
+"src": "Wright Flyer",
+"vis": {
+"type": "compare",
+"items": [
+{
+"label": "Boeing 747 wingspan",
+"value": 64,
+"unit": "m"
+},
+{
+"label": "First flight",
+"value": 37,
+"unit": "m"
+}
+]
+}
+}
+]
